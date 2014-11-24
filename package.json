@@ -1,0 +1,26 @@
+{
+  "name": "www.f2e.tw",
+  "version": "0.0.0",
+  "description": "the website of f2e Taiwan community",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f2etw/f2etw.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f2etw/f2etw.github.io/issues"
+  },
+  "dependencies": {
+    "metalsmith-markdown": "~0.2.1",
+    "swig": "~1.4.2",
+    "metalsmith": "~1.0.1",
+    "metalsmith-sass": "~0.5.0",
+    "metalsmith-templates": "~0.6.0",
+    "metalsmith-ignore": "~0.1.2"
+  }
+}

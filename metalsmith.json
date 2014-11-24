@@ -1,0 +1,15 @@
+{
+  "plugins": {
+    "metalsmith-ignore": "_layouts/*",
+    "metalsmith-markdown": {},
+    "metalsmith-sass": {
+      "outputStyle": "expanded"
+    },
+    "metalsmith-templates": {
+      "engine": "swig",
+      "directory": "src/_layouts",
+      "default": "default.html",
+      "pattern": ["!*.css"]
+    }
+  }
+}
