@@ -1,3 +1,4 @@
+exclude: [src, node_modules, Gruntfile.js, metalsmith.json, package.json]
 defaults:
   -
     scope:

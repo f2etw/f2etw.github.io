@@ -1,5 +1,4 @@
 {
-  "source": "./",
   "plugins": {
     "metalsmith-ignore": "node_modules/**/*",
     "metalsmith-markdown": {},
