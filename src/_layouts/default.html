@@ -4,13 +4,13 @@
 	<meta charset="utf-8"/>
 	<link href="style.css" rel="stylesheet"/>
 	<link rel="alternate" type="application/rss+xml" title="FEED" href="atom.xml">
-	<title>{{ page.title }}&mdash;F2ETW</title>
+	<title>{{ page.title }}{{ title }}&mdash;F2ETW</title>
 </head>
 <body>
 	<header>
 	</header>
 	<main id="content">
-{{ content }}
+{{ content }}{{ contents | safe }}
 	</main>
 	<footer>
 		F2E Taiwan Community
