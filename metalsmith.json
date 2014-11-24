@@ -1,6 +1,7 @@
 {
+  "source": "./",
   "plugins": {
-    "metalsmith-ignore": "_layouts/*",
+    "metalsmith-ignore": "node_modules/**/*",
     "metalsmith-markdown": {},
     "metalsmith-sass": {
       "outputStyle": "expanded"

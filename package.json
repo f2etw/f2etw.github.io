@@ -16,11 +16,11 @@
     "url": "https://github.com/f2etw/f2etw.github.io/issues"
   },
   "dependencies": {
-    "metalsmith-markdown": "~0.2.1",
-    "swig": "~1.4.2",
     "metalsmith": "~1.0.1",
+    "metalsmith-ignore": "^0.1.2",
+    "metalsmith-markdown": "~0.2.1",
     "metalsmith-sass": "~0.5.0",
     "metalsmith-templates": "~0.6.0",
-    "metalsmith-ignore": "~0.1.2"
+    "swig": "~1.4.2"
   }
 }

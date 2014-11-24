@@ -1,5 +1,3 @@
-source: src
-include: ['src/style.scss']
 defaults:
   -
     scope:
