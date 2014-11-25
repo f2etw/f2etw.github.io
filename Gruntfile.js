@@ -18,7 +18,6 @@ module.exports = function(grunt) {
 				}
 			}
 		},
-		clean: ['src'],
 		copy: {
 			main: {
 				files: [{
@@ -39,20 +38,7 @@ module.exports = function(grunt) {
 		},
 		metalsmith: {
 			main: {
-				options: {
-				  "plugins": {
-					"metalsmith-markdown": {},
-					"metalsmith-sass": {
-					  "outputStyle": "expanded"
-					},
-					"metalsmith-templates": {
-					  "engine": "swig",
-					  "directory": "_layouts",
-					  "default": "default.html",
-					  "pattern": ["!*.css"]
-					}
-				  }
-				},
+				options: grunt.file.readJSON('metalsmith.json'),
 				src: 'src',
 				dest: 'build'
 			}
@@ -61,9 +47,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-metalsmith');
 
-	grunt.registerTask('default', ['clean', 'copy', 'metalsmith', 'connect', 'watch']);
-	grunt.registerTask('build', ['clean', 'copy', 'metalsmith']);
+	grunt.registerTask('default', ['copy', 'metalsmith', 'connect', 'watch']);
+	grunt.registerTask('build', ['copy', 'metalsmith']);
 };
