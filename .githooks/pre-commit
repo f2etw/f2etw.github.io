@@ -1,0 +1,9 @@
+#!/bin/sh
+status="$(git ls-files -o --directory --exclude-standard | wc -l)"
+if [ $status -gt 0 ]; then
+  echo "You have untracked files, use --no-verify option to continue committing anyway."
+  git ls-files -o --directory --exclude-standard | while read line; do echo -e "  \e[01;31m$line\e[0m"; done
+  exit 1
+else
+  exit 0
+fi
