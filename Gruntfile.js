@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 			main: {
 				files: [{
 					expand: true,
-					src: ['**/*.md', '!node_modules/**/*', '!_sites/**/*', '!src/**/*'],
+					src: ['**/*.md', '!README.md', '!node_modules/**/*', '!_sites/**/*', '!src/**/*'],
 					dest: 'src/'
 				}]
 			},
