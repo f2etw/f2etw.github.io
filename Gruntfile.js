@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		watch: {
 			livereload: {
-				files: ['**/*.md', '**/*.html', '!node_modules/**/*', '!build/**/*', '!_site/**/*'],
+				files: ['**/*.md', '**/*.html', '**/*.scss', '!node_modules/**/*', '!build/**/*', '!_site/**/*'],
 				tasks: ['copy', 'metalsmith'],
 				options: {
 					livereload: true
@@ -34,6 +34,10 @@ module.exports = function(grunt) {
 						return content.replace(/---\s.*\s---\s/, '');
 					}
 				}
+			},
+			sass: {
+				src: '_sass/*',
+				dest: 'src/',
 			}
 		},
 		metalsmith: {

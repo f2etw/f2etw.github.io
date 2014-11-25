@@ -1,7 +1,12 @@
 ---
 # enable jekyll to process, please do not remove these lines.
 ---
+@import 'color';
 
 h1 {
 	text-align: center;
+}
+
+#navigation {
+	background-color: $main-color;
 }

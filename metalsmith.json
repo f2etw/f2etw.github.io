@@ -2,7 +2,8 @@
   "plugins": {
     "metalsmith-markdown": {},
     "metalsmith-sass": {
-      "outputStyle": "expanded"
+      "outputStyle": "expanded",
+      "includePaths": ["src/_sass"]
     },
     "metalsmith-templates": {
       "engine": "swig",
