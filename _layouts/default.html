@@ -8,6 +8,11 @@
 </head>
 <body>
 	<header>
+		{% if contents %}
+		{% include '../_includes/nav.html' %}
+		{% else %}
+		{% include nav.html %}
+		{% endif %}
 	</header>
 	<main id="content">
 {{ content }}{{ contents | safe }}
