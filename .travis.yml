@@ -1,6 +1,7 @@
 language: ruby
 before_install: npm install -g grunt-cli
 install: gem install github-pages
+before_script: npm install
 script:
   - jekyll build
   - grunt build
