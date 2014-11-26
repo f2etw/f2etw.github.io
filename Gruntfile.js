@@ -3,7 +3,7 @@ module.exports = function(grunt) {
 		watch: {
 			livereload: {
 				files: ['**/*.md', '**/*.html', '**/*.scss', '!node_modules/**/*', '!build/**/*', '!_site/**/*'],
-				tasks: ['copy', 'metalsmith'],
+				tasks: ['copy', 'matter', 'metalsmith'],
 				options: {
 					livereload: true
 				}
@@ -26,15 +26,6 @@ module.exports = function(grunt) {
 					dest: 'src/'
 				}]
 			},
-			style: {
-				src: 'style.scss',
-				dest: 'src/style.scss',
-				options: {
-					process: function (content, srcpath) {
-						return content.replace(/---\s.*\s---\s/, '');
-					}
-				}
-			},
 			sass: {
 				src: '_sass/*',
 				dest: 'src/',
@@ -46,13 +37,25 @@ module.exports = function(grunt) {
 				src: 'src',
 				dest: 'build'
 			}
+		},
+		matter: {
+			style: {
+				options: {
+					strip: true
+				},
+				files: [{
+					src: ['style.scss'],
+					dest: 'src/style.scss'
+				}]
+			}
 		}
 	});
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-metalsmith');
+	grunt.loadNpmTasks('grunt-matter');
 
-	grunt.registerTask('default', ['copy', 'metalsmith', 'connect', 'watch']);
-	grunt.registerTask('build', ['copy', 'metalsmith']);
+	grunt.registerTask('default', ['copy', 'matter', 'metalsmith', 'connect', 'watch']);
+	grunt.registerTask('build', ['copy', 'matter', 'metalsmith']);
 };
