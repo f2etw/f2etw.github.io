@@ -1,4 +1,7 @@
 exclude: [src, build, node_modules, Gruntfile.js, metalsmith.json, package.json, .travis.yml, README.md, gulpfile.js, export]
+collections:
+  activities:
+    output: true
 defaults:
   -
     scope:

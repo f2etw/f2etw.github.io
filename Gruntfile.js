@@ -22,13 +22,19 @@ module.exports = function(grunt) {
 			main: {
 				files: [{
 					expand: true,
-					src: ['**/*.md', '!README.md', '!node_modules/**/*', '!_sites/**/*', '!src/**/*'],
+					src: ['**/*.md', '!README.md', '!node_modules/**/*', '!_*/**/*', '!src/**/*'],
 					dest: 'src/'
 				}]
 			},
 			sass: {
 				src: '_sass/*',
 				dest: 'src/',
+			},
+			activities: {
+				expand: true,
+				cwd: '_activities/',
+				src: '**',
+				dest: 'src/activities/'
 			}
 		},
 		metalsmith: {
@@ -48,6 +54,21 @@ module.exports = function(grunt) {
 					dest: 'src/style.scss'
 				}]
 			}
+		},
+		'string-replace': {
+			dist: {
+				files: [{
+					expand: true,
+					src: 'build/**/*.html',
+					dest: './',
+				}],
+				options: {
+					replacements: [{
+						pattern: / id="-"/g,
+						replacement: ' id="section"'
+					}]
+				}
+			}
 		}
 	});
 	grunt.loadNpmTasks('grunt-contrib-connect');
@@ -55,7 +76,8 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-metalsmith');
 	grunt.loadNpmTasks('grunt-matter');
+	grunt.loadNpmTasks('grunt-string-replace');
 
-	grunt.registerTask('default', ['copy', 'matter', 'metalsmith', 'connect', 'watch']);
-	grunt.registerTask('build', ['copy', 'matter', 'metalsmith']);
+	grunt.registerTask('default', ['copy', 'matter', 'metalsmith', 'string-replace', 'connect', 'watch']);
+	grunt.registerTask('build', ['copy', 'matter', 'metalsmith', 'string-replace']);
 };
