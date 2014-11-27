@@ -4,18 +4,18 @@
 	<meta charset="utf-8"/>
 	<link href="style.css" rel="stylesheet"/>
 	<link rel="alternate" type="application/rss+xml" title="FEED" href="atom.xml">
-	<title>{{ page.title }}{{ title }}&mdash;F2ETW</title>
+	<title>{{ page.title }}{{ title or file.page.title}}&mdash;F2ETW</title>
 </head>
 <body>
 	<header>
-		{% if contents %}
+		{% if contents or file %}
 		{% include '../_includes/nav.html' %}
 		{% else %}
 		{% include nav.html %}
 		{% endif %}
 	</header>
 	<main id="content">
-{{ content }}{{ contents | safe }}
+{{ content | safe }}{{ contents | safe }}
 	</main>
 	<footer>
 		F2E Taiwan Community

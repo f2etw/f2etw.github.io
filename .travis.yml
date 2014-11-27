@@ -5,4 +5,6 @@ before_script: npm install
 script:
   - jekyll build
   - grunt build
+  - gulp build
   - diff -r _site build
+  - diff -r _site export

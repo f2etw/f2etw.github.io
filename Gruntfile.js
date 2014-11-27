@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		watch: {
 			livereload: {
-				files: ['**/*.md', '**/*.html', '**/*.scss', '!node_modules/**/*', '!build/**/*', '!_site/**/*'],
+				files: ['**/*.md', '**/*.html', '**/*.scss', '!node_modules/**/*', '!build/**/*', '!_site/**/*', '!export/**/*'],
 				tasks: ['copy', 'matter', 'metalsmith'],
 				options: {
 					livereload: true
