@@ -1,0 +1,14 @@
+---
+title: 關於我們
+---
+
+{% if site.members != empty %}
+<ul>
+	{% for member in site.members %}
+		<li>
+			<img src="{{ member.avatar }}" alt="{{ member.title }}" />
+			<a href="{{ member.url}}">{{ member.title }}</a>
+		</li>
+	{% endfor %}
+</ul>
+{% endif %}

@@ -2,6 +2,8 @@ exclude: [src, build, node_modules, Gruntfile.js, metalsmith.json, package.json,
 collections:
   activities:
     output: true
+  members:
+    output: true
 defaults:
   -
     scope:
