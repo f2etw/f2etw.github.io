@@ -6,5 +6,5 @@ script:
   - jekyll build
   - grunt build
   - gulp build
-  - diff -r _site build
-  - diff -r _site export
+#  - diff -r _site build
+#  - diff -r _site export

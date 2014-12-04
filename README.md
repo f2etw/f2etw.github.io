@@ -2,4 +2,4 @@
 
 [![Build Status](https://travis-ci.org/f2etw/f2etw.github.io.svg?branch=master)](https://travis-ci.org/f2etw/f2etw.github.io)
 
-Build with [Jekyll](http://jekyllrb.com/) or [Grunt](http://gruntjs.com/) or [gulp](http://gulpjs.com/).
+Build with [Jekyll](http://jekyllrb.com/).
