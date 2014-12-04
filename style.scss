@@ -53,7 +53,16 @@ h1 {
 	}
 }
 
+#content {
+	& > ul li {
+		margin: .5em 0;
+	}
+}
+
 #post {
 	max-width: 800px;
 	margin: 0 auto;
+	img {
+		max-width: 100%;
+	}
 }
