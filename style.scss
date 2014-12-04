@@ -3,10 +3,50 @@
 ---
 @import 'color';
 
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+	> header {
+		background-image: url('/images/banner.jpg');
+		background-color: #ddd;
+		padding-top: 150px;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	> main {
+		flex: 1;
+		background-color: #d4f1a6;
+	}
+	> footer {
+		text-align: center;
+		padding: 2em;
+		color: #fff;
+		background-color: #127158;
+	}
+}
+
 h1 {
 	text-align: center;
 }
 
 #navigation {
 	background-color: $main-color;
+	margin: 0;
+	color: #fff;
+	font-size: 1.2em;
+	& > li {
+		list-style-type: none;
+		display: inline-block;
+		margin: 0 1em;
+		padding: .2em .5em;
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
 }
