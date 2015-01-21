@@ -2,7 +2,7 @@
 title: "2014/2/16 Front-End Developers Taiwan Party - 5 聚會紀錄"
 ---
 
-各位好，這次我們聚會得主題是: DSL時代！把程式寫給人看。DSL亦即 [Domain-Specific Language](http://en.wikipedia.org/wiki/Domain-specific_language)，相對於 General-Purpose Language (GPL)，DSL主要設計針對特定領域而設計並使用。例如在MATLAB，SQL都可以視為是特定領域而設計的語言。我們這次針對前端相關議題準備了幾個相關的語言介紹，以下是本次聚會幾位講師所帶來的講題:
+各位好，這次我們聚會得主題是: DSL時代！把程式寫給人看。DSL亦即 [Domain-Specific Language](//en.wikipedia.org/wiki/Domain-specific_language)，相對於 General-Purpose Language (GPL)，DSL主要設計針對特定領域而設計並使用。例如在MATLAB，SQL都可以視為是特定領域而設計的語言。我們這次針對前端相關議題準備了幾個相關的語言介紹，以下是本次聚會幾位講師所帶來的講題:
 
 * 廖洧杰
   * SASS
@@ -38,7 +38,7 @@ title: "2014/2/16 Front-End Developers Taiwan Party - 5 聚會紀錄"
 <p>
 <script async class="speakerdeck-embed" data-id="5e01ebb07914013188c36efb74ab2287" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 </p>
-CLKao所提供的額外LiveScript資訊: [D3.js with LiveScript](http://blog.safaribooksonline.com/2014/02/14/d3-js-livescript/)
+CLKao所提供的額外LiveScript資訊: [D3.js with LiveScript](//blog.safaribooksonline.com/2014/02/14/d3-js-livescript/)
 
 **gulp.js by 劉宇庭**
 <p>
