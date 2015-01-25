@@ -3,11 +3,17 @@ title: 關於我們
 ---
 
 {% if site.members != empty %}
-<ul>
+<ul class="member">
 	{% for member in site.members %}
 		<li>
-			<img src="{{ member.avatar }}" alt="{{ member.title }}" />
-			<a href="{{ member.url}}">{{ member.title }}</a>
+			<a href="{{ member.url}}">
+				<img src="{{ member.avatar }}" alt="{{ member.title }}" />
+				<div>
+					<h3>{{ member.title }}</h3>
+					<hr />
+					{{ member.content }}
+				</div>
+			</a>
 		</li>
 	{% endfor %}
 </ul>
