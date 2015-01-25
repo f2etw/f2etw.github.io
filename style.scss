@@ -45,7 +45,7 @@ a {
 	color: #fff;
 	font-size: 1.2em;
 	text-align: center;
-	& > li {
+	> li {
 		list-style-type: none;
 		display: inline-block;
 		margin: 0 1em;
@@ -58,7 +58,7 @@ a {
 }
 
 #content {
-	& > ul li {
+	> ul li {
 		margin: .5em 0;
 	}
 }
@@ -74,7 +74,7 @@ a {
 ul.member{
 	max-width:34%;
 	margin:0 auto;
-	& li {
+	li {
 		padding-top:10px;
 		padding-left:25px;
 		text-align:left;
@@ -82,13 +82,13 @@ ul.member{
 		border-radius:20px 20px;
 		background: rgba(255,255,255,0.6);
 		transition-duration: 0.5s;
-		& img {
+		img {
 			width:25%;
 			display:inline-block;
 			opacity:0.85;
 			border-radius:25px;
 		}
-		& div {
+		div {
 			display:inline-block;
 			width: 55%;
 			padding: .5em 1em;
@@ -97,10 +97,10 @@ ul.member{
 			vertical-align:top;
 			color: $main-color;
 			border-radius: 25px;
-			& h3{
+			h3{
 				margin:0;
 			}
-			& hr{
+			hr{
 				margin-top:0;
 			}
 		}
