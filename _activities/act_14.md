@@ -2,7 +2,7 @@
 title: "[2014/11/27]『FED Party 14』持續進展的專案！"
 ---
 
-![持續進展的專案](/images/ContinuousIntegration.png)
+![持續進展的專案](/images/act-14.png)
 
 本次的主題為Continuous Integration，在持續運轉的專案中，如何確保專案的品質？前端的開發者，也需要知道這些技術，讓系統更加穩固。
 
