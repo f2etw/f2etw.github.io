@@ -3,7 +3,7 @@ title: 活動紀錄
 ---
 
 {% if site.activities != empty %}
-<ul>
+<ul class="activity">
 	{% for activity in site.activities reversed %}
 		<li>
 			<a href="{{ activity.url}}">{{ activity.title }}</a>
