@@ -57,11 +57,38 @@ a {
 	}
 }
 
-#content {
-	> ul li {
-		margin: .5em 0;
+ul.activity {
+	height: 110%;
+	width: 55%;
+	padding: 0 20px;
+	margin: -8px auto 0;
+	list-style-type: none;
+	text-align: center;
+	background: rgba(244,255,222,0.9);
+	li {
+		text-align: left;
+		border-bottom: 1px solid #adadad;
+		font-weight: 600;
+		&:first-child a{
+			font-size: 1.4em;
+			padding: 40px;
+			color: #565656;
+			&:hover {
+				color: black;
+			}
+		}
+		a {
+			display: block;
+			padding: 20px;
+			color: #787878;
+			transition: 0.4s;
+			&:hover {
+				color: #343434;
+			}
+		}
 	}
 }
+
 
 #post {
 	max-width: 800px;
