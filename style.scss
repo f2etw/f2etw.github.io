@@ -36,7 +36,7 @@ h1 {
 }
 
 a {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 #navigation {
@@ -71,40 +71,40 @@ a {
 	}
 }
 
-ul.member{
-	max-width:34%;
-	margin:0 auto;
+ul.member {
+	max-width: 34%;
+	margin: 0 auto;
 	li {
-		padding-top:10px;
-		padding-left:25px;
-		text-align:left;
-		list-style-type:none;
-		border-radius:20px 20px;
+		padding-top: 10px;
+		padding-left: 25px;
+		text-align: left;
+		list-style-type: none;
+		border-radius: 20px 20px;
 		background: rgba(255,255,255,0.6);
 		transition-duration: 0.5s;
 		img {
-			width:25%;
-			display:inline-block;
-			opacity:0.85;
-			border-radius:25px;
+			width: 25%;
+			display: inline-block;
+			opacity: 0.85;
+			border-radius: 25px;
 		}
 		div {
-			display:inline-block;
+			display: inline-block;
 			width: 55%;
 			padding: .5em 1em;
 			margin-down: 1em;
 			margin-left: .5em;
-			vertical-align:top;
+			vertical-align: top;
 			color: $main-color;
 			border-radius: 25px;
-			h3{
-				margin:0;
+			h3 {
+				margin: 0;
 			}
-			hr{
-				margin-top:0;
+			hr {
+				margin-top: 0;
 			}
 		}
-		&:hover{
+		&:hover {
 			background: rgba(255,255,255,0.9);
 		}
 	}
