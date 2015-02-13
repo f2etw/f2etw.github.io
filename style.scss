@@ -99,43 +99,54 @@ ul.activity {
 	}
 }
 
+div.intro {
+	height: 250px;
+	margin: 0px -0.5em;
+	background-color: rgba( 255, 255, 255, 0.6);
+	p {
+		display: inline-block;
+		height: 80%;
+		margin-top: 0;
+		padding: 2%;
+		vertical-align: top;
+		width: 45%;
+		line-height: 2em;
+		&:first-child {text-indent:2em;}
+	}
+}
+
 ul.member {
-	max-width: 34%;
-	margin: 0 auto;
+	margin: 0 -.5em;
+	text-align: center;
+	background-color: $main-color;
 	li {
-		margin: 1em 0;
-		text-align: left;
-		list-style-type: none;
-		border-radius: 20px;
-		background: rgba(255,255,255,0.6);
+		display: inline-block;
+		width: 20%;
+		margin: 2em;
+		background-color: #D4F1A6;
+		color: #fff;
+		line-height: 2em;
+		//border-radius: 2em;
 		transition-duration: 0.5s;
-		&:hover{
-			background: rgba(255,255,255,0.9);
+		&:hover {
+			background-color: darken(#D4F1A6, 10%);
 		}
-		a{
-			padding: 10px 25px 5px;
+		a {
 			display: block;
-			img {
-				width: 25%;
-				display: inline-block;
-				opacity: 0.85;
-				border-radius: 22%;
+			padding: 1em 2em 2em;
+			color: #343434;
+			strong {
+				display: block;
+				width: 65%;
+				font-size: 1.25em;
+				padding-bottom: .25em;
+				margin: .25em auto;
+				border-bottom: 1px solid #343;
 			}
-			div {
-				display: inline-block;
-				width: 55%;
-				padding: .5em 1em;
-				margin-down: 1em;
-				margin-left: .5em;
-				vertical-align: top;
-				color: $main-color;
-				border-radius: 25px;
-				h3 {
-					margin: 0;
-					padding-bottom: 5px;
-					border-bottom: 1px solid #676767;
-					box-shadow: 0 1px #9a9a9a;
-				}
+			img {
+				margin: 1em auto;
+				display: block;
+				border-radius: 1.5em;
 			}
 		}
 	}
