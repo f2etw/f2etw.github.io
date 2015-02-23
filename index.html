@@ -2,44 +2,30 @@
 title: Home
 ---
 
-{% if site.posts != empty %}
-<ul>
-	{% for post in site.posts %}
+<div class="home">
+	<ul>
 		<li>
-			<time>{{ post.date | date: "%Y-%m-%d" }}</time>
-			<a href="{{ post.url}}">{{ post.title }}</a>
+			<a href="https://www.facebook.com/groups/f2e.tw">
+				<img src="/images/facebook.png" alt="facebook icon">Front-End Developers Taiwan
+				<p>這是 f2etw 的 facebook 社團，歡迎加入社群！可以在這徵才、詢問問題，讓前端在臺灣更加成熟！</p>
+			</a>
 		</li>
-	{% endfor %}
-</ul>
-{% endif %}
+		<li>
+			<a href="https://github.com/f2etw/f2etw.github.io">
+				<img src="/images/github.png" alt="github icon">f2etw/f2etw.github.io
+				<p>這是本網站的 Github，若你對這個網站有任何意見、想法，我們隨時歡迎你的貢獻 & PR！</p>
+			</a>
+		</li>
+	</ul>
 
-<p>
-希望前端能夠成為台灣一個成熟的產業!
-
-主要討論: 前端網頁技術，使用者介面探討，網頁設計。
-
-HTML，CSS，JavaScript等語言技術討論，瀏覽器開發工具。
-
-iOS, Android 等 Mobile App 使用者介面相關議題討論。
-
-也歡迎前端經驗分享，以及企業徵才。
-
-若您對 Front-End Developers Taiwan 有興趣，歡迎與我們聯繫。
-</p>
-
-<p>
-Founder: <a href="http://kvzhuang.net/">Kevin Zhuang - 莊為任</a>
-Curator: <a href="http://utin.tw/">Justin Liu - 劉宇庭</a>
-</p>
-
-<p>
-We dedicate ourselves in promoting front-end technology in Taiwan.
-
-Focusing on web technology, user interface, and web design.
-
-Programming language discussion - HTML, CSS and JavaScript, or browser development tools.
-
-View source discussion of mobile app such as iOS, Android .
-
-We also welcome you to share front-end experience and recruiting information with us.
-</p>
+	{% if site.posts != empty %}
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<time>{{ post.date | date: "%Y-%m-%d" }}</time>
+				<a href="{{ post.url}}">{{ post.title }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+	{% endif %}
+</div>
