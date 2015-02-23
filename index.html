@@ -22,8 +22,10 @@ title: Home
 	<ul>
 		{% for post in site.posts %}
 			<li>
-				<time>{{ post.date | date: "%Y-%m-%d" }}</time>
-				<a href="{{ post.url}}">{{ post.title }}</a>
+				<a href="{{ post.url}}">
+					<time>{{ post.date | date: "%Y-%m-%d" }}</time>
+					{{ post.title }}
+				</a>
 			</li>
 		{% endfor %}
 	</ul>
