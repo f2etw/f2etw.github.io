@@ -2,6 +2,34 @@
 title: 關於我們
 ---
 
+<div class="intro">
+	<p>
+		希望前端能夠成為台灣一個成熟的產業!
+
+		主要討論: 前端網頁技術，使用者介面探討，網頁設計。
+
+		HTML，CSS，JavaScript等語言技術討論，瀏覽器開發工具。
+
+		iOS, Android 等 Mobile App 使用者介面相關議題討論。
+
+		也歡迎前端經驗分享，以及企業徵才。
+
+		若您對 Front-End Developers Taiwan 有興趣，歡迎與我們聯繫。
+	</p>
+
+	<p>
+		We dedicate ourselves in promoting front-end technology in Taiwan.
+
+		Focusing on web technology, user interface, and web design.
+
+		Programming language discussion - HTML, CSS and JavaScript, or browser development tools.
+
+		View source discussion of mobile app such as iOS, Android .
+
+		We also welcome you to share front-end experience and recruiting information with us.
+	</p>
+</div>
+
 {% if site.members != empty %}
 <ul class="member">
 	{% for member in site.members %}
@@ -9,8 +37,8 @@ title: 關於我們
 			<a href="{{ member.url}}">
 				<img src="{{ member.avatar }}" alt="{{ member.title }}" />
 				<div>
-					<h3>{{ member.title }}</h3>
-					{{ member.content }}
+					<strong>{{ member.content }}</strong>
+					{{ member.title }}
 				</div>
 			</a>
 		</li>
