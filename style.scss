@@ -58,6 +58,57 @@ a {
 	}
 }
 
+div.home {
+	text-align: center;
+	ul {
+		display: inline-block;
+		width: 45%;
+		padding: 0 1%;
+		margin: 20px auto;
+		vertical-align: top;
+		background-color: darken(#D4F1A6, 10%);
+		text-align: left;
+		border: 1px solid #fff;
+		list-style-type: none;
+		&:first-child {margin-right: 1em;}
+		li {
+			display: block;
+			margin: 1em;
+			border-bottom: 1px solid #fff;
+			a {
+				display: block;
+				color: #127158;
+				transition-duration: .5s;
+				p {
+					color: #343434;
+					text-shadow: none;
+					transition-duration: 1s;
+				}
+				&:hover {
+					color: darken(#127158, 5%);
+					text-shadow: 1px 1px 1px lighten(#127158, 20%);
+					p {
+						color: #121212;
+						text-shadow: none;
+					}
+				}
+				time {
+					display: inline-block;
+					padding: .5em;
+					margin-right: 1em;
+					background-color: $main-color;
+					color: #fff;
+				}
+				img {
+					height: 25px;
+					margin-right: .5em;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}
+
 ul.activity {
 	height: 110%;
 	width: 55%;
