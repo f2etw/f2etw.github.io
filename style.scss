@@ -21,7 +21,7 @@ body {
 	}
 	> main {
 		flex: 1;
-		background-color: #d4f1a6;
+		background-color: $member__tile-bgc;
 		padding: .5em;
 	}
 	> footer {
@@ -67,7 +67,7 @@ div.home {
 		padding: 0 1%;
 		margin: 20px auto;
 		vertical-align: top;
-		background-color: darken(#D4F1A6, 10%);
+		background-color: darken($member__tile-bgc, 10%);
 		text-align: left;
 		border: 1px solid $white;
 		list-style-type: none;
@@ -175,13 +175,13 @@ ul.member {
 		display: inline-block;
 		width: 20%;
 		margin: 2em;
-		background-color: #D4F1A6;
+		background-color: $member__tile-bgc;
 		color: $white;
 		line-height: 2em;
 		//border-radius: 2em;
 		transition-duration: 0.5s;
 		&:hover {
-			background-color: darken(#D4F1A6, 10%);
+			background-color: darken($member__tile-bgc, 10%);
 		}
 		a {
 			display: block;
@@ -229,7 +229,7 @@ ul.community {
 			div.title {
 				padding: 30px 0;
 				margin-bottom: 15px;
-				background: darken(#D4F1A6, 5%);
+				background: darken($member__tile-bgc, 5%);
 				font-size: 1.2em;
 				color: #127158;
 				border-radius: inherit;
