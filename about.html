@@ -31,17 +31,19 @@ title: 關於我們
 </div>
 
 {% if site.members != empty %}
-<ul class="member">
+<div class="member">
+	<ul>
 	{% for member in site.members %}
 		<li>
 			<a href="{{ member.url}}">
-				<img src="{{ member.avatar }}" alt="{{ member.title }}" />
-				<div>
+				<img src="{{ member.avatar }}" alt="{{ member.title }}" width="100" height="100" />
+				<div class="info">
 					<strong>{{ member.content }}</strong>
 					{{ member.title }}
 				</div>
 			</a>
 		</li>
 	{% endfor %}
-</ul>
+	</ul>
+</div>
 {% endif %}
