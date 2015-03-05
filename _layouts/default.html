@@ -1,24 +1,29 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8"/>
-	<link href="/style.css" rel="stylesheet"/>
-	<link rel="alternate" type="application/rss+xml" title="FEED" href="atom.xml">
-	<title>{{ page.title }}{{ title or file.page.title}}&mdash;F2ETW</title>
+    <meta charset="utf-8"/>
+    <link href="/style.css" rel="stylesheet"/>
+    <link rel="alternate" type="application/rss+xml" title="FEED" href="atom.xml">
+    <title>{{ page.title }}{{ title or file.page.title}}&mdash;F2ETW</title>
+    <meta property="og:url" content="http://www2.f2e.tw/"/>
+    <meta property="og:title" content="Front-End Developers, Web Technology. You are cordially invited to join!"/>
+    <meta property="og:image" content="http://www2.f2e.tw/images/banner.jpg"/>
+    <meta property="og:site_name" content="f2e.tw"/>
+    <meta property="og:description" content="希望前端能夠成為台灣一個成熟的產業!主要討論: 前端網頁技術，使用者介面探討，網頁設計。HTML，CSS，JavaScript等語言技術討論，瀏覽器開發工具。iOS, Android 等 Mobile App 使用者介面相關議題討論。也歡迎前端經驗分享，以及企業徵才。"/>
 </head>
 <body>
-	<header>
-		{% if contents or file %}
-		{% include '../_includes/nav.html' %}
-		{% else %}
-		{% include nav.html %}
-		{% endif %}
-	</header>
-	<main id="content">
+    <header>
+        {% if contents or file %}
+        {% include '../_includes/nav.html' %}
+        {% else %}
+        {% include nav.html %}
+        {% endif %}
+    </header>
+    <main id="content">
 {{ content | safe }}{{ contents | safe }}
-	</main>
-	<footer>
-		F2E Taiwan Community
-	</footer>
+    </main>
+    <footer>
+        F2E Taiwan Community
+    </footer>
 </body>
 </html>
