@@ -171,12 +171,13 @@ ul.member {
 	background-color: $main-color;
 	li {
 		display: inline-block;
+		vertical-align: top;
 		width: 20%;
-		margin: 2em;
+		min-width: 150px;
+		margin: 3%;
 		background-color: $member__tile-bgc;
 		color: $white;
 		line-height: 2em;
-		//border-radius: 2em;
 		transition-duration: 0.5s;
 		&:hover {
 			background-color: darken($member__tile-bgc, 10%);
@@ -194,9 +195,10 @@ ul.member {
 				border-bottom: 1px solid #343;
 			}
 			img {
-				margin: 1em auto;
 				display: block;
-				border-radius: 1.5em;
+				width: 100%;
+				margin: 1em auto;
+				border-radius: 15%;
 			}
 		}
 	}
