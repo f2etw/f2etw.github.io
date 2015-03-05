@@ -58,6 +58,7 @@ a {
 
 .home {
 	text-align: center;
+	min-height: 400px;
 	ul {
 		display: inline-block;
 		width: 45%;
@@ -72,15 +73,22 @@ a {
 		li {
 			display: block;
 			margin: 1em;
+			padding-bottom: 1em;
 			border-bottom: 1px solid $white;
+			&:last-child{
+				border:none;
+				padding-bottom: 0;
+			}
 			a {
 				display: block;
 				color: #127158;
 				transition-duration: .5s;
+				line-height: 2em;
 				p {
 					color: #343434;
 					text-shadow: none;
 					transition-duration: 1s;
+					line-height: 1.5em;
 				}
 				&:hover {
 					color: darken(#127158, 5%);
@@ -127,6 +135,9 @@ a {
 				color: black;
 			}
 		}
+		&:last-child{
+			border: none;
+		}
 		a {
 			display: block;
 			padding: 20px;
@@ -136,6 +147,7 @@ a {
 				color: #343434;
 			}
 		}
+
 	}
 }
 
@@ -151,10 +163,10 @@ a {
 .intro {
 	background-color: rgba( 255, 255, 255, 0.6);
 	p {
-		display: inline-block;
 		height: 80%;
-		margin-top: 0;
 		padding: 1em;
+		max-width: 960px;
+		margin: 0 auto;
 		vertical-align: top;
 		line-height: 2em;
 		&:first-child {text-indent:2em;}
