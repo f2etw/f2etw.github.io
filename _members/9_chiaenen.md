@@ -1,7 +1,8 @@
 ---
-title: 李嘉恩
+title: 攝影師
+name: 李嘉恩
 site:
 avatar: //graph.facebook.com/chiaenen/picture?width=100&height=100
 ---
 
-攝影師
+<!-- 這邊應該放介紹 -->
