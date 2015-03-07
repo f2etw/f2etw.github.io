@@ -33,17 +33,17 @@ title: 關於我們
 {% if site.members != empty %}
 <div class="member">
 	<ul>
-	{% for member in site.members %}
+		{% for member in site.members %}
 		<li>
 			<a href="{{ member.url}}">
-				<img src="{{ member.avatar }}" alt="{{ member.title }}" width="100" height="100" />
+				<img src="{{ member.avatar }}" alt="{{ member.name }}" width="100" height="100" />
 				<div class="info">
-					<strong>{{ member.content }}</strong>
+					<strong>{{ member.name }}</strong>
 					{{ member.title }}
 				</div>
 			</a>
 		</li>
-	{% endfor %}
+		{% endfor %}
 	</ul>
 </div>
 {% endif %}
