@@ -33,7 +33,8 @@ title: 關於我們
 {% if site.members != empty %}
 <div class="member">
 	<ul>
-		{% for member in site.members %}
+		{% assign members = site.members | sort:"order"  %}
+		{% for member in members %}
 		<li>
 			<a href="{{ member.url}}">
 				<img src="{{ member.avatar }}" alt="{{ member.name }}" width="100" height="100" />
