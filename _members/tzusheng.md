@@ -1,4 +1,5 @@
 ---
+order: 3
 title: 策展人
 name: 吳自勝
 site:
