@@ -59,6 +59,17 @@ a {
 .home {
 	text-align: center;
 	min-height: 400px;
+
+	h2 {
+		padding: 1em 7.5%;
+		margin: 1em auto 0;
+		width: 45%;
+		background: $main-color;
+		color: #fff;
+		font-size: 1.3em;
+		border: 1px solid #fff;
+	}
+
 	ul {
 		display: inline-block;
 		width: 45%;
@@ -109,6 +120,39 @@ a {
 					height: 25px;
 					margin-right: .5em;
 					vertical-align: middle;
+				}
+			}
+		}
+
+
+		&#fb_posts {
+			margin: 0 auto;
+			padding: 1em 7.5%;
+			background: rgba(255,255,255,0.5);
+
+			li {
+				min-height: 90px;
+				border-bottom: 1px solid #777;
+
+				&:last-child{
+					border:none;
+				}
+
+				img {
+					float:left;
+					margin: 0 .5em;
+					padding: 9px;
+					border-radius: 50%;
+				}
+
+				p a {
+					color: #343434;
+					text-shadow: none;
+
+					&:hover {
+						color: #121212;
+						text-shadow: none;
+					}
 				}
 			}
 		}

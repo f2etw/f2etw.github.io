@@ -41,8 +41,8 @@ title: Home
 		posts.data.forEach(function(post, index, array) {
 			$('#fb_posts').append(`
 				<li>
-				<img style="float:left;margin: 0 1em;" src="https://graph.facebook.com/${post.from.id}/picture" alt="${post.from.name}" />
-				<p><a href="https://facebook.com/${post.id} ">${post.message}</a></p>
+				<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
+				<p><a href="https://facebook.com/${post.id} " target="_blank">${post.message}</a></p>
 				</li>
 				`);
 			});
