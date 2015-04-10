@@ -1,0 +1,28 @@
+---
+title: 徵才職缺
+---
+
+<ul id="jobs"></ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$.getJSON('https://api.github.com/repos/f2etw/jobs/issues', function(jobs) {
+    jobs.forEach(function(job, index, array) {
+        $('#jobs').append(`
+            <li>
+                <a href="${job.html_url}">
+                    <h3>${job.title}</h3>
+                    <p>from ${job.created_at}</p>
+                    <ul id="labels${job.number}"></ul>
+                    </a></li>
+        `);
+
+        job.labels.forEach(function(label, index, array){
+            $('#labels'+job.number).append(`
+                <label style="background:#${label.color};">${label.name}</label>
+                `);
+        });
+
+    });
+});
+</script>

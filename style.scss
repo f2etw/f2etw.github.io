@@ -319,3 +319,23 @@ a {
 		}
 	}
 }
+
+#jobs {
+	@extend .activity;
+	line-height: 1.5em;
+
+	p {
+		font-size: .5em;
+		font-weight: 100;
+	}
+
+	label {
+		display: inline-block;
+		padding: 2px;
+		color: $white;
+		text-shadow: 1px 1px 0 #aaa;
+		border-radius: 3px;
+		box-shadow: 0 1px 1px #ccc;
+		cursor: pointer;
+	}
+}
