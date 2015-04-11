@@ -329,11 +329,10 @@ a {
 		font-weight: 100;
 	}
 
-	label {
+	span {
 		display: inline-block;
 		padding: 2px;
 		color: $white;
-		text-shadow: 1px 1px 0 #aaa;
 		border-radius: 3px;
 		box-shadow: 0 1px 1px #ccc;
 		cursor: pointer;
