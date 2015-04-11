@@ -200,10 +200,54 @@ a {
 
 
 #post {
-	max-width: 800px;
+	padding: 0 15% 5%;
 	margin: 0 auto;
+	max-width: 800px;
+	background: rgba(244,255,222,0.9);
+	line-height: 1.5em;
+	text-align: center;
+
+	h1 {
+		padding: 1.3em 0;
+		margin: 0 auto 1em;
+		font-size: 1.6em;
+		font-weight: 600;
+		border-bottom: 1px solid #777;
+	}
+
+	p {
+		margin: 0 10% 30px;
+		text-align: left;
+	}
+
+	a {
+		color: $main-color;
+		transition-duration: .4s;
+
+		&:hover {
+			color: darken($main-color,20%);
+		}
+	}
+
+	ul {
+		@extend p;
+
+		ul {
+			margin-bottom: 0;
+		}
+	}
+
 	img {
-		max-width: 100%;
+		display: block;
+		margin: 0 auto 30px;
+		max-width: 85%;
+
+	}
+
+	iframe {
+		margin: 10px 0 30px;
+		width: 100%;
+		min-height: 400px;
 	}
 }
 
