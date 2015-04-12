@@ -3,20 +3,6 @@ title: Home
 ---
 
 <div class="home">
-	<ul>
-		<li>
-			<a href="https://www.facebook.com/groups/f2e.tw">
-				<img src="/images/facebook.svg" alt="facebook icon">Front-End Developers Taiwan
-				<p>這是 f2etw 的 facebook 社團，歡迎加入社群！可以在這徵才、詢問問題，讓前端在臺灣更加成熟！</p>
-			</a>
-		</li>
-		<li>
-			<a href="https://github.com/f2etw/f2etw.github.io">
-				<img src="/images/github.svg" alt="github icon">f2etw/f2etw.github.io
-				<p>這是本網站的 Github，若你對這個網站有任何意見、想法，我們隨時歡迎你的貢獻 & PR！</p>
-			</a>
-		</li>
-	</ul>
 
 	{% if site.posts != empty %}
 	<ul>
@@ -31,8 +17,14 @@ title: Home
 	</ul>
 	{% endif %}
 
-	<h2>社群動態</h2>
-	<ul id="fb_posts"></ul>
+	<h2><a href="https://www.facebook.com/groups/f2e.tw"><img src="/images/facebook.svg" alt="facebook icon">Front-End Developers Taiwan 社群動態</a></h2>
+	<ul id="fb_posts">
+		<li>
+			<a href="https://www.facebook.com/groups/f2e.tw">
+				<p>這是 f2etw 的 facebook 社團，歡迎加入社群！可以在這徵才、詢問問題，讓前端在臺灣更加成熟！</p>
+			</a>
+		</li>
+	</ul>
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>
@@ -48,5 +40,14 @@ title: Home
 			});
 		});
 	</script>
+
+	<ul>
+		<li>
+			<a href="https://github.com/f2etw/f2etw.github.io">
+				<img src="/images/github.svg" alt="github icon">f2etw/f2etw.github.io
+				<p>這是本網站的 Github，若你對這個網站有任何意見、想法，我們隨時歡迎你的貢獻 & PR！</p>
+			</a>
+		</li>
+	</ul>
 
 </div>
