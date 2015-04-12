@@ -395,7 +395,7 @@ a {
 
 			a {
 				color: #232323;
-				
+
 				div.title {
 					background: $main-color;
 					color: $white;
@@ -414,12 +414,16 @@ a {
 		font-weight: 100;
 	}
 
-	span {
-		display: inline-block;
-		padding: 2px;
-		color: $white;
-		border-radius: 3px;
-		box-shadow: 0 1px 1px #ccc;
-		cursor: pointer;
+	.labels {
+		padding: 0;
+
+		li {
+			display: inline-block;
+			padding: 2px;
+			color: $white;
+			border-radius: 3px;
+			box-shadow: 0 1px 1px #ccc;
+			cursor: pointer;
+		}
 	}
 }

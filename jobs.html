@@ -18,7 +18,7 @@ $.getJSON('https://api.github.com/repos/f2etw/jobs/issues', function(jobs) {
                     <h3>${job.title}</h3>
                     <p>from ${job.created_at}</p>
                     <ul class="labels">
-                        ${job.labels.map((label) => `<span style="background:#${label.color};">${label.name}</span>`).join("\n")}
+                        ${job.labels.map((label) => `<li style="background:#${label.color};">${label.name}</li>`).join("\n")}
                     </ul>
                 </a>
             </li>
