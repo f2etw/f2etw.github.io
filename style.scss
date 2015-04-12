@@ -69,29 +69,42 @@ a {
 	min-height: 400px;
 
 	h2 {
-		padding: 1em 7.5%;
+		padding: 1em 6%;
 		margin: 1em auto 0;
-		width: 45%;
+		width: 50%;
 		background: $main-color;
 		color: #fff;
 		font-size: 1.3em;
+		font-weight: 400;
 		border: 1px solid #fff;
+		border-bottom: 0;
+
+		a {
+			color: $white;
+			transition-duration: .5s;
+
+			&:hover {
+				text-shadow: 0 0 1px #fff;
+			}
+		}
+
+		img {
+			height: 25px;
+			margin-right: .5em;
+			vertical-align: middle;
+		}
 	}
 
 	ul {
-		display: inline-block;
-		width: 45%;
+		display: block;
+		width: 60%;
 		padding: 0 1%;
 		margin: 20px auto;
-		vertical-align: top;
 		background-color: darken($member__tile-bgc, 10%);
 		text-align: left;
 		border: 1px solid $white;
-		list-style-type: none;
 
-		&:first-child {
-			margin-right: 1em;
-		}
+		list-style-type: none;
 
 		li {
 			display: block;
@@ -146,14 +159,27 @@ a {
 
 		&#fb_posts {
 			margin: 0 auto;
-			padding: 1em 7.5%;
+			padding: 0 0 1em;
+			width: 62%;
 			background: rgba(255,255,255,0.5);
 
 			li {
+				display: block;
+				margin: 2.5% 7.5%;
 				min-height: 90px;
 				border-bottom: 1px solid #777;
+				word-wrap: break-word;
+				overflow:hidden;
 
-				&:last-child {
+				&:first-child {
+					margin: 0;
+					padding: 0 20%;
+					min-height: 0;
+					background-color: darken($member__tile-bgc, 10%);
+					border-bottom: 1px solid #fff;
+				}
+
+				&:last-child{
 					border:none;
 				}
 
@@ -395,7 +421,7 @@ a {
 
 			a {
 				color: #232323;
-				
+
 				div.title {
 					background: $main-color;
 					color: $white;
