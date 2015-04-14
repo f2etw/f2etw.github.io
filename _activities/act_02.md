@@ -1,5 +1,5 @@
 ---
-title: "[Meetup] 2013/10/29 Front-End Developers Taiwan Party-2 聚會錄影"
+title: "[2013/10/29] Front-End Developers Taiwan Party-2 聚會錄影"
 ---
 這次主題是由兩位講者所帶來的
 
