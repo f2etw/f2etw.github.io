@@ -1,5 +1,5 @@
 ---
-title: "2014/01/09 Front-End Developers Taiwan Party-4 聚會紀錄"
+title: "[2014/01/09] Front-End Developers Taiwan Party-4 聚會紀錄"
 ---
 
 親愛的前端開發者，**本次聚會的主題：人本設計！探索使用者的初心。**
