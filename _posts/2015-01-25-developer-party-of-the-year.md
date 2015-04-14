@@ -63,6 +63,8 @@ STM32F4DISCOVERY+Ethernet 自組板, SK-FM3-48PMC-USBSTICK, MediaTek Linkit, Tes
 
 ![Android TV 體驗](https://s3-ap-northeast-1.amazonaws.com/kktix/organization_resource_files/776/1568/Player-purchaseflow-1600.jpg)
 
+*****
+
 活動也有gitbook，歡迎參閱:
 
 * [2015開發者忘年會gitbook](https://github.com/f2etw/book)
