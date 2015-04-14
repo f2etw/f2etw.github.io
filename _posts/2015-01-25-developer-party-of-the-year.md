@@ -20,7 +20,7 @@ Docker Taipei, 摩茲工寮 Moztw.org, React.js Taiwan.
 * fullstack 好棒棒 - node.js (孫豪佑)
 * Android 開發經驗談（好用 Library、一個對於網路穩定的架構、開發小細節） - Android (Ting)
 * 雲端部署好無痛 - Docker (Willy, Carl Su)
-* Git - (保哥)
+* Git (保哥, git.tw)
 
 * 體驗虛擬實境
 
