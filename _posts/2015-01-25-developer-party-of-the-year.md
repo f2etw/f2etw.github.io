@@ -8,10 +8,9 @@ title: "2015/01/25 開發者忘年會"
 ![F2E.tw logo](http://www.f2e.tw/images/banner.jpg)
 
 協辦單位有
-**Docker Taipei**
-![Docker Taipei](https://s3-ap-northeast-1.amazonaws.com/kktix/organization_resource_files/776/1574/highres_332980982.jpeg)
-**React.js Taiwan**.
-**摩茲工寮 Moztw.org**
+* **Docker Taipei**
+* **React.js Taiwan**
+* **摩茲工寮 Moztw.org**
 (根據名字順序排列)
 
 活動有提供貼紙自取
