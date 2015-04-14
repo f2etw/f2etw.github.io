@@ -4,7 +4,7 @@ title: "2015/01/25 開發者忘年會"
 
 ![2015 開發者忘年會](https://t.kfs.io/upload_images/37952/10912618_10203569096017188_51249980_o_large.jpg)
 
-這次活動由我們F2E.tw主辦
+這次活動由我們 Front-End Developers Taiwan 主辦
 
 協辦單位有
 Docker Taipei, 摩茲工寮 Moztw.org, React.js Taiwan.
@@ -63,4 +63,4 @@ STM32F4DISCOVERY+Ethernet 自組板, SK-FM3-48PMC-USBSTICK, MediaTek Linkit, Tes
 
 活動也有gitbook，歡迎參閱:
 
-* https://github.com/f2etw/book
+* [https://github.com/f2etw/book](2015開發者忘年會gitbook)
