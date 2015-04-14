@@ -4,10 +4,10 @@ title: "2015/01/25 開發者忘年會"
 
 ![2015 開發者忘年會](https://t.kfs.io/upload_images/37952/10912618_10203569096017188_51249980_o_large.jpg)
 
-這次活動由我們 Front-End Developers Taiwan 主辦
+這次活動由我們 Front-End Developers Taiwan 主辦.
 
 協辦單位有
-Docker Taipei, 摩茲工寮 Moztw.org, React.js Taiwan.
+**Docker Taipei**, **摩茲工寮 Moztw.org**, **React.js Taiwan**.
 
 活動內容有講者桌
 
