@@ -1,5 +1,5 @@
 ---
-title: "[Meetup] 2013/7/4 Front-End Developers Taiwan 聚會錄影"
+title: "[2013/7/4] Front-End Developers Taiwan 聚會錄影"
 ---
 我們在 2013/7/4號慶隆商務俱樂部有舉辦了一個小型的聚會，主題是 josephj 所帶來的 **F2E, keystone of industry** ，以及三個 lighten talk。
 
