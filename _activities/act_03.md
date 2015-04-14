@@ -1,5 +1,5 @@
 ---
-title: "2013/12/05 Front-End Developers Taiwan Party-3 聚會紀錄"
+title: "[2013/12/05] Front-End Developers Taiwan Party-3 聚會紀錄"
 ---
 
 各位好，這是我們第三次聚會的紀錄，主題主要在視差捲動(parallax scrolling)，幾位主講人的主題如下:
