@@ -63,4 +63,4 @@ STM32F4DISCOVERY+Ethernet 自組板, SK-FM3-48PMC-USBSTICK, MediaTek Linkit, Tes
 
 活動也有gitbook，歡迎參閱:
 
-* [https://github.com/f2etw/book](2015開發者忘年會gitbook)
+* [2015開發者忘年會gitbook](https://github.com/f2etw/book)
