@@ -1,4 +1,6 @@
 language: ruby
+rvm:
+  - 2.1
 before_install: npm install -g grunt-cli
 install: gem install github-pages
 before_script: npm install
