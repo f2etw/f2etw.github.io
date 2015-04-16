@@ -6,4 +6,13 @@ site: http://kvzhuang.net/
 avatar: //graph.facebook.com/kevinzhuang72/picture?width=100&height=100
 ---
 
-<!-- 這邊應該放介紹 -->
+## 簡介
+
+歡迎大家加入我們!
+不管您是對前端有興趣的學生，或是初學者，亦或是對前端開發的設計師，都很歡迎。
+
+## 聯絡資訊
+
++ Email: kvzhuang at gmail.com
++ LinkedIn: https://tw.linkedin.com/in/kevinzhuang
++ Blog: [https://kvzhuang.net](https://kvzhuang.net)
