@@ -350,8 +350,8 @@ a {
 
 				img {
 					display: block;
-					width: 100%;
-					height: auto;
+					width: 100px;
+					height: 100px;
 					max-width: 100px;
 					margin: 1em auto;
 					border-radius: 50%;
@@ -425,7 +425,11 @@ a {
 		}
 
 		p {
+			margin: 0 auto;
 			padding-bottom: 2em;
+			width: 75%;
+			line-height: 1.5em;
+
 		}
 	}
 }
