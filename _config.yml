@@ -21,3 +21,8 @@ defaults:
       path: "activities"
     values:
       layout: "post"
+  -
+    scope:
+      path: "members"
+    values:
+      layout: "member"
