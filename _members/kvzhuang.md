@@ -14,5 +14,5 @@ avatar: //graph.facebook.com/kevinzhuang72/picture?width=100&height=100
 ## 聯絡資訊
 
 + Email: kvzhuang at gmail.com
-+ LinkedIn: https://tw.linkedin.com/in/kevinzhuang
++ LinkedIn: [kevinzhuang](https://tw.linkedin.com/in/kevinzhuang)
 + Blog: [https://kvzhuang.net](https://kvzhuang.net)
