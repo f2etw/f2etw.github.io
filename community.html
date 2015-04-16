@@ -2,40 +2,146 @@
 title: 社群串連
 ---
 
+<!-- 因為 facebook 神奇的 api，所以 React.js, Javascript.tw, Nodejs.tw
+    這三個社團的面照片抓不到，如果社團封面照片換了，就必須手動更新 -->
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+var groups = {anjs: 609637942379913, rajs: 1439747729634154,
+                    d3js: 255712054571781, jstw: 186298388138174,
+                            ndjs: 262800543746083};
+
+
+$.getJSON('https://graph.facebook.com/609637942379913', function(posts) {
+
+        if(posts.name !== "")
+        {
+            $('#anjs > div > div').html(posts.name);
+        }
+        if(posts.description !== "")
+        {
+            $('#anjs > p').html(posts.description);
+        }
+});
+
+$.getJSON('https://graph.facebook.com/1439747729634154', function(posts) {
+
+    if(posts.name !== "")
+    {
+        $('#rajs > div > div').html(posts.name);
+    }
+    if(posts.description !== "")
+    {
+        $('#rajs > p').html(posts.description);
+    }
+});
+
+$.getJSON('https://graph.facebook.com/255712054571781', function(posts) {
+
+    if(posts.name !== "")
+    {
+        $('#d3js > div > div').html(posts.name);
+    }
+    if(posts.description !== "")
+    {
+        $('#d3js > p').html(posts.description);
+    }
+});
+
+$.getJSON('https://graph.facebook.com/186298388138174', function(posts) {
+
+    if(posts.name !== "")
+    {
+        $('#jstw > div > div').html(posts.name);
+    }
+    if(posts.description !== "")
+    {
+        $('#jstw > p').html(posts.description);
+    }
+});
+
+$.getJSON('https://graph.facebook.com/262800543746083', function(posts) {
+
+
+    if(posts.name !== "")
+    {
+        $('#ndjs > div > div').html(posts.name);
+    }
+    if(posts.description !== "")
+    {
+        $('#ndjs > p').html(posts.description);
+    }
+});
+
+</script>
+
+
+
 <ul class="community">
   <li>
-    <a href="https://www.facebook.com/groups/augularjs.tw/">
-      <div class="title">Angular.js</div>
+    <a id="anjs" href="https://www.facebook.com/groups/augularjs.tw/"><!--609637942379913-->
+      <div style="background-image:url('https://graph.facebook.com/679643745385943/picture');">
+          <div>Angular.js</div>
+      </div>
       <p>分享 Angular.js 技術的台灣社群</p>
-      <div class="btn">Join!</div>
     </a>
   </li>
   <li>
-    <a href="https://www.facebook.com/groups/reactjs.tw/">
-      <div class="title">React.js</div>
+    <a id="rajs" href="https://www.facebook.com/groups/reactjs.tw/"><!--1439747729634154-->
+      <div style="background-image:url('https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10305407_10152252211712883_6768794646241507590_n.jpg?oh=cf04e5122f66cc1a5a8c39edb4b5660d&oe=55A7AE95&__gda__=1436091882_6391785819e9ba8ba80c7d4d6feb3392');">
+          <div>React.js</div>
+      </div>
       <p>這是一個以中文交流 React.js/Flux 技術的台灣社群。</p>
-      <div class="btn">Join!</div>
     </a>
   </li>
   <li>
-    <a href="https://www.facebook.com/groups/d3js.tw/">
-      <div class="title">D3.js</div>
+    <a id="d3js" href="https://www.facebook.com/groups/d3js.tw/">
+      <div style="background: url('https://graph.facebook.com/10152162171942168/picture');">
+          <div>D3.js</div>
+      </div>
       <p>分享 d3.js 技術的台灣社群</p>
-      <div class="btn">Join!</div>
     </a>
   </li>
   <li>
-    <a href="https://www.facebook.com/groups/javascript.tw/">
-      <div class="title">Javascript.tw</div>
+    <a id="jstw" href="https://www.facebook.com/groups/javascript.tw/">
+      <div style="background-image:url('https://scontent-tpe.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/935174_10201317330921611_1214969275_n.jpg?oh=30fc0349b38b5e181009b9d421116512&oe=55DB62A0');">
+          <div>Javascript.tw</div>
+      </div>
       <p>Here's a community for javascript developers in Taiwan</p>
-      <div class="btn">Join!</div>
     </a>
   </li>
   <li>
-    <a href="https://www.facebook.com/groups/node.js.tw/">
-      <div class="title">nodejs.tw</div>
-      <p>這是一個專門討論node.js的台灣社群</p>
-      <div class="btn">Join!</div>
+    <a id="ndjs" href="https://www.facebook.com/groups/node.js.tw/">
+      <div style="background-image:url('https://scontent-tpe.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1488279_10152452556479838_1459774426_n.jpg?oh=42e590beff5fd7556ae0bb22f98d7d5d&oe=55E4320E');">
+          <div>Nodejs.tw</div>
+      </div>
+      <p>這是一個專門討論 node.js 的台灣社群</p>
     </a>
   </li>
 </ul>
+
+<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+var groups = {
+    anjs:609637942379913,
+    rajs:1439747729634154,
+    d3js:255712054571781,
+    jstw:186298388138174,
+    ndjs:262800543746083
+};
+
+for ( c in groups) {
+
+    $.getJSON('https://graph.facebook.com/' + groups[c], function(posts) {
+
+        $('#'+ c +'> div > div').append(`
+            ${posts.name}
+        `);
+
+    });
+}
+
+</script-->
