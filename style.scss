@@ -363,6 +363,73 @@ a {
 	}
 }
 
+#member_intro {
+	padding: 20px;
+	width: 50vw;
+	min-height: 100%;
+	background: rgba(255, 255, 255, .7);
+	text-align: center;
+
+	header {
+		width: 80%;
+		padding: 0 5% 1em;
+		margin: 0 auto 1em;
+		border-bottom: 1px solid #127158;
+
+		img {
+			padding: 5px;
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+		}
+
+		div {
+			display: inline-block;
+			vertical-align: top;
+			text-align: left;
+
+			h1 {
+				margin: .3em 30px 0;
+				font-size: 2em;
+			}
+
+			p {
+				margin-left: 30px;
+				font-size: 1.2em;
+			}
+		}
+	}
+
+	> div {
+
+		a {
+			color: $main-color;
+			font-weight: 600;
+			transition-duration: .5s;
+
+			&:hover {
+				color: #127158;
+			}
+		}
+
+		ul {
+			display: inline-block;
+			margin: 0 auto 1em;
+			padding: 0;
+			text-align: left;
+			list-style-type: none;
+
+			li {
+				line-height: 2em;
+			}
+		}
+
+		p {
+			padding-bottom: 2em;
+		}
+	}
+}
+
 .community {
 	padding: 0;
 	margin: 0 auto;
