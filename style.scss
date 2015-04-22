@@ -2,6 +2,7 @@
 # enable jekyll to process, please do not remove these lines.
 ---
 @import 'color';
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
 
 body {
 	display: flex;
@@ -9,7 +10,7 @@ body {
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	margin: 0 auto;
-	font-family:  "Arial", "微軟正黑體", "Microsoft Jhenghei" ;
+	font-family:  'cwTeXHei', "Arial", "微軟正黑體", "Microsoft Jhenghei" ;
 	min-height: 100vh;
 	width: 100%;
 	background-color: $member__tile-bgc;
@@ -87,7 +88,7 @@ a {
 			transition-duration: .5s;
 
 			&:hover {
-				text-shadow: 0 0 1px #fff;
+				text-shadow: 0 0 .25px #fff;
 			}
 		}
 
