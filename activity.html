@@ -6,7 +6,7 @@ title: 活動紀錄
 <ul class="activity">
 	{% for activity in site.activities reversed %}
 		<li>
-			<a href="{{ activity.url}}">{{ activity.title }}</a>
+			<a href="{{ activity.url}}">[{{ activity.date }}] {{ activity.title }}</a>
 		</li>
 	{% endfor %}
 </ul>
