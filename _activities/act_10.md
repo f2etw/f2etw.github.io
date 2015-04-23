@@ -1,5 +1,6 @@
 ---
-title: "[2014/7/16]『FED Party 10』GIT的develop與master"
+title: "『FED Party 10』GIT的develop與master"
+date: 2014/7/16
 ---
 
 ![GIT的develop與master](/images/act-10.png)

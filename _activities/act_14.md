@@ -1,5 +1,6 @@
 ---
-title: "[2014/11/27]『FED Party 14』持續進展的專案！"
+title: "『FED Party 14』持續進展的專案！"
+date: 2014/11/27
 ---
 
 ![持續進展的專案](/images/act-14.png)

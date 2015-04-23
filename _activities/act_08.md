@@ -1,5 +1,6 @@
 ---
-title: "[2014/5/26]『FED Party 8』CSS 我們的共同時代！"
+title: "『FED Party 8』CSS 我們的共同時代！"
+date: 2014/5/26
 ---
 
 ![CSS 我們的共同時代！](/images/act-8.png)

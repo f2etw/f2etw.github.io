@@ -1,5 +1,6 @@
 ---
-title: "[2014.03.19] Front-End Developers Taiwan Party 6 - 告訴你的事！ICON與用戶的對話"
+title: "Front-End Developers Taiwan Party 6 - 告訴你的事！ICON與用戶的對話"
+date: 2014.03.19
 ---
 
 ![告訴你的事！ICON與用戶的對話](/images/act-6.png)
