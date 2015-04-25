@@ -1,5 +1,6 @@
 ---
-title: "[2014/09/25]『FED Party 12』一直玩！一直玩！一直玩！RWD Icon"
+title: "『FED Party 12』一直玩！一直玩！一直玩！RWD Icon"
+date: 2014/09/25
 ---
 
 各位好，我們這次的活動是RWD Icon，主要探討內容如下。

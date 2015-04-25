@@ -1,5 +1,6 @@
 ---
-title: "[2015/03/28]『FED Workshop』設計師撈過界"
+title: "『FED Workshop』設計師撈過界"
+date: 2015/03/28
 ---
 
 ![『FED Workshop』設計師撈過界](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/603854_808756245839479_2264249059528231390_n.jpg?oh=40d63a964f329811a93064dbabdc35e3&oe=55D9827C&__gda__=1440259582_a08388365423fddc53c51dc49ad7b62f)
@@ -40,7 +41,7 @@ title: "[2015/03/28]『FED Workshop』設計師撈過界"
 + 簡報
 [http://d.pr/n/1233l](http://d.pr/n/1233l)
 
-+ 客製化主題文件 
++ 客製化主題文件
 [https://www.tumblr.com/docs/en/custom_themes](https://www.tumblr.com/docs/en/custom_themes)
 
 #### Mark Wu (吳自勝)

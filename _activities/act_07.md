@@ -1,5 +1,6 @@
 ---
-title: "[2014.04.23] RESTful！開發者共同的默契"
+title: "RESTful！開發者共同的默契"
+date: 2014.04.23
 ---
 
 ![RESTful！開發者共同的默契](/images/act-7.png)

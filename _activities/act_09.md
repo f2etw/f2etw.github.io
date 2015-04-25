@@ -1,5 +1,6 @@
 ---
-title: "[2014/6/17]『FED Party 9』Analytics！不見其人願見其聲"
+title: "『FED Party 9』Analytics！不見其人願見其聲"
+date: 2014/6/17
 ---
 
 ![Analytics！不見其人願見其聲](/images/act-9.png)

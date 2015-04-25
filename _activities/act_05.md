@@ -1,5 +1,6 @@
 ---
-title: "[2014/2/16] Front-End Developers Taiwan Party - 5 聚會紀錄"
+title: "Front-End Developers Taiwan Party - 5 聚會紀錄"
+date: 2014/2/16
 ---
 
 各位好，這次我們聚會得主題是: DSL時代！把程式寫給人看。DSL亦即 [Domain-Specific Language](http://en.wikipedia.org/wiki/Domain-specific_language)，相對於 General-Purpose Language (GPL)，DSL主要設計針對特定領域而設計並使用。例如在MATLAB，SQL都可以視為是特定領域而設計的語言。我們這次針對前端相關議題準備了幾個相關的語言介紹，以下是本次聚會幾位講師所帶來的講題:

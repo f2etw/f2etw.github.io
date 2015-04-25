@@ -1,5 +1,6 @@
 ---
-title: "[2014/10/21]『FED Party 13』世界奇觀！Agile的農民"
+title: "『FED Party 13』世界奇觀！Agile的農民"
+date: 2014/10/21
 ---
 
 本次活動的主題是Agile開發，我們邀請到下面講者。
