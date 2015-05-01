@@ -30,14 +30,20 @@ title: Home
 	<script>
 	$.getJSON('https://graph.facebook.com/521085554595481/feed?access_token=1385521591772831|lMcuWxJls6aEK-IwR0Z-_AQVMV4', function(posts) {
 
+		var content = '';
+
 		posts.data.forEach(function(post, index, array) {
-			$('#fb_posts').append(`
+
+			content += `
 				<li>
 				<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
 				<p><a href="https://facebook.com/${post.id} " target="_blank">${post.message}</a></p>
 				</li>
-				`);
+				`;
 			});
+
+		$('#fb_posts').append(content);
+
 		});
 	</script>
 
