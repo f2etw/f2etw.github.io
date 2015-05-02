@@ -468,13 +468,13 @@ a {
 
 		a {
 			display: block;
+			width: 900px;
 			color: #565656;
 			transition-duration: inherit;
 
 			> div {
 				display: inline-block;
-				width: 600px;
-				//background: darken($member__tile-bgc, 5%);
+				width: 500px;
 				background-position: center center;
 				text-align: center;
 				font-size: 1.2em;
@@ -496,7 +496,7 @@ a {
 				padding-top: 10px;
 				margin: 0 1%;
 				height: 20%;
-				width: 45%;
+				width: 300px;
 				vertical-align: top;
 				text-align: left;
 			}
