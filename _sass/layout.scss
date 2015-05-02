@@ -1,8 +1,54 @@
-@media screen and (max-width: 640px) {
+#nav-trigger {display: none;}
+
+@media screen and (min-width: 827px) {
+    nav > label  {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 827px) {
 
     body > header {
-        padding-top: 125px;
         background-position: top center;
+            padding-top: 175px;
+
+        #navigation {display: none;}
+
+        nav {
+            min-height: 2.5em;
+            height:auto;
+            width: 100%;
+            background: $main-color;
+
+            label {
+                display: block;
+                text-align: right;
+
+                img {margin: .5em 1em;}
+            }
+
+            input:checked ~ ul#navigation {
+                display: block;
+                background-color: #BFEA7A;
+                line-height: 1.5em;
+                box-shadow: 0 2px 2px rgba(0,0,0,.2);
+
+                li {
+                    display: inline-block;
+                    margin: 0;
+                    width: 300px;
+
+                    a {
+                        padding: .5em 1em;
+                        color: #127158;
+
+                        &:hover {
+                            color: #0E5B47;
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .home {
@@ -29,7 +75,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     body > header {
         padding-top: 100px;
     }
