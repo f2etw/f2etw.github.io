@@ -1,0 +1,36 @@
+@media screen and (max-width: 640px) {
+
+    body > header {
+        padding-top: 125px;
+        background-position: top center;
+    }
+
+    .home {
+
+        h2 {
+            width: 90%;
+            padding: 1em 0;
+        }
+
+        ul {
+            width: 90%;
+            padding: 0;
+
+            &#fb_posts {
+                width: 90%;
+                padding: 0;
+
+                li:first-child {
+                    width: 90%;
+                    padding: 0 5%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body > header {
+        padding-top: 100px;
+    }
+}
