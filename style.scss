@@ -516,10 +516,19 @@ a {
 
 #jobs {
 	@extend .activity;
+	width: 671px;
+	padding: 0 20px;
 	line-height: 1.5em;
 
+	> li {
+		width: 100%;
+
+		h3 { margin: 0;}
+	}
+
 	p {
-		font-size: .5em;
+		margin: 0 0 1em;
+		font-size: .7em;
 		font-weight: 100;
 	}
 
