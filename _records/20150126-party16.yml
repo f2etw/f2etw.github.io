@@ -1,0 +1,41 @@
+---
+title: party 16
+data:
+    - name: 實收購票金額
+      category: 票務
+      unitPrice: 68,724
+      number: 1
+      total: 68,724
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -12,600
+      number: 1
+      total: -12,600
+      note:
+
+    - name: 便當
+      category: 雜項
+      unitPrice: -9,300
+      number: 1
+      total: -9,300
+      note:
+
+    - name: 吊牌
+      category: 雜項
+      unitPrice: -868
+      number: 1
+      total: -868
+      note:
+
+    - name: 講師費
+      category: 雜項
+      unitPrice: -23,000
+      number: 1
+      total: -23,000
+      note:
+
+totle: 22,956
+property: 11,424
+balance: 34,380
