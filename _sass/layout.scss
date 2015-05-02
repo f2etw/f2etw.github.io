@@ -10,7 +10,8 @@
 
     body > header {
         background-position: top center;
-            padding-top: 175px;
+        padding-top: 175px;
+        z-index: 1;
 
         #navigation {display: none;}
 
@@ -39,7 +40,8 @@
                     width: 300px;
 
                     a {
-                        padding: .5em 1em;
+                        display: block;
+                        padding: .25em 1em;
                         color: #127158;
 
                         &:hover {
@@ -73,6 +75,99 @@
             }
         }
     }
+
+    .activity {
+        width: 80%;
+        z-index: -1;
+
+        li:first-child a {
+            padding: 1em 1em;
+        }
+    }
+
+    #post {
+        padding: 0 0 5%;
+
+        header p, p {
+            margin: 0 5% 30px;
+            width: 90%;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        img, iframe {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .intro {
+        width: 100%;
+
+        p {
+            display: block;
+            padding: 0 5% 1.5em;
+            width: 90%;
+            min-width: 0;
+
+            &:first-child {
+                text-indent: 0;
+            }
+        }
+    }
+
+    .member {
+        width: 100%;
+
+        ul {
+            padding: 0;
+
+            li {
+                padding: 5% 0;
+                width: 250px;
+
+                a {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    #member_intro {
+        padding: 5%;
+        width: 80%;
+
+        header div p {
+            margin: 1em auto;
+            text-align: center;
+        }
+    }
+
+    .community {
+        width: 90%;
+
+        li {
+            a {
+                display: block;
+                width: 100%;
+
+                >div, .title {
+                    width: 100%;
+                }
+
+                p {
+                    display: block;
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    footer .fb-like, footer .fb_iframe_widget {display: none;}
+
 }
 
 @media screen and (max-width: 550px) {
