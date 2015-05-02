@@ -34,6 +34,8 @@ title: Home
 
 		posts.data.forEach(function(post, index, array) {
 
+			if(post.message==undefined) { return; }
+
 			content += `
 				<li>
 				<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
