@@ -1,0 +1,188 @@
+#nav-trigger {display: none;}
+
+@media screen and (min-width: 827px) {
+    nav > label  {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 827px) {
+
+    body {
+        max-width: 100%;
+
+        > header {
+            background-position: top center;
+            padding-top: 175px;
+            z-index: 1;
+
+            #navigation {display: none;}
+
+            nav {
+                min-height: 2.5em;
+                height:auto;
+                width: 100%;
+                background: $main-color;
+
+                label {
+                    display: block;
+                    text-align: right;
+
+                    img {margin: .5em 1em;}
+                }
+
+                input:checked ~ ul#navigation {
+                    display: block;
+                    background-color: #BFEA7A;
+                    line-height: 1.5em;
+                    box-shadow: 0 2px 2px rgba(0,0,0,.2);
+
+                    li {
+                        display: inline-block;
+                        margin: 0;
+                        width: 300px;
+
+                        a {
+                            display: block;
+                            padding: .25em 1em;
+                            color: #127158;
+
+                            &:hover {
+                                color: #0E5B47;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .home {
+        width: 100%;
+
+        h2 {
+            width: 90%;
+            padding: 1em 0;
+        }
+
+        ul {
+            padding: 0;
+            width: 90%;
+
+            &#fb_posts {
+                width: 90%;
+                padding: 0;
+
+                li:first-child {
+                    width: 90%;
+                    padding: 0 5%;
+                }
+            }
+        }
+    }
+
+    .activity {
+        width: 80%;
+        z-index: -1;
+
+        li:first-child a {
+            padding: 1em 1em;
+        }
+    }
+
+    #post {
+        padding: 0 0 5%;
+
+        header p, p {
+            margin: 0 5% 30px;
+            width: 90%;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        img, iframe {
+            display: block;
+            width: 100%;
+        }
+    }
+
+    .intro {
+        width: 100%;
+
+        p {
+            display: block;
+            padding: 0 5% 1.5em;
+            width: 90%;
+            min-width: 0;
+
+            &:first-child {
+                text-indent: 0;
+            }
+        }
+    }
+
+    .member {
+        width: 100%;
+
+        ul {
+            padding: 0;
+
+            li {
+                padding: 5% 0;
+                width: 250px;
+
+                a {
+                    padding: 0;
+                }
+            }
+        }
+    }
+
+    #member_intro {
+        padding: 5%;
+        width: 80%;
+
+        header div p {
+            margin: 1em auto;
+            text-align: center;
+        }
+    }
+
+    .community {
+        width: 90%;
+
+        li {
+            a {
+                display: block;
+                width: 100%;
+
+                >div, .title {
+                    width: 100%;
+                }
+
+                p {
+                    display: block;
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+    footer .fb-like, footer .fb_iframe_widget {display: none;}
+
+}
+
+@media screen and (max-width: 340px) {
+    .home ul#fb_posts li {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    body > header {
+        padding-top: 100px;
+    }
+}
