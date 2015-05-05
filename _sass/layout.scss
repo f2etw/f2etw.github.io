@@ -8,44 +8,48 @@
 
 @media screen and (max-width: 827px) {
 
-    body > header {
-        background-position: top center;
-        padding-top: 175px;
-        z-index: 1;
+    body {
+        max-width: 100%;
 
-        #navigation {display: none;}
+        > header {
+            background-position: top center;
+            padding-top: 175px;
+            z-index: 1;
 
-        nav {
-            min-height: 2.5em;
-            height:auto;
-            width: 100%;
-            background: $main-color;
+            #navigation {display: none;}
 
-            label {
-                display: block;
-                text-align: right;
+            nav {
+                min-height: 2.5em;
+                height:auto;
+                width: 100%;
+                background: $main-color;
 
-                img {margin: .5em 1em;}
-            }
+                label {
+                    display: block;
+                    text-align: right;
 
-            input:checked ~ ul#navigation {
-                display: block;
-                background-color: #BFEA7A;
-                line-height: 1.5em;
-                box-shadow: 0 2px 2px rgba(0,0,0,.2);
+                    img {margin: .5em 1em;}
+                }
 
-                li {
-                    display: inline-block;
-                    margin: 0;
-                    width: 300px;
+                input:checked ~ ul#navigation {
+                    display: block;
+                    background-color: #BFEA7A;
+                    line-height: 1.5em;
+                    box-shadow: 0 2px 2px rgba(0,0,0,.2);
 
-                    a {
-                        display: block;
-                        padding: .25em 1em;
-                        color: #127158;
+                    li {
+                        display: inline-block;
+                        margin: 0;
+                        width: 300px;
 
-                        &:hover {
-                            color: #0E5B47;
+                        a {
+                            display: block;
+                            padding: .25em 1em;
+                            color: #127158;
+
+                            &:hover {
+                                color: #0E5B47;
+                            }
                         }
                     }
                 }
@@ -54,6 +58,7 @@
     }
 
     .home {
+        width: 100%;
 
         h2 {
             width: 90%;
@@ -61,8 +66,8 @@
         }
 
         ul {
-            width: 90%;
             padding: 0;
+            width: 90%;
 
             &#fb_posts {
                 width: 90%;
@@ -168,6 +173,12 @@
 
     footer .fb-like, footer .fb_iframe_widget {display: none;}
 
+}
+
+@media screen and (max-width: 340px) {
+    .home ul#fb_posts li {
+        max-width: 300px;
+    }
 }
 
 @media screen and (max-width: 550px) {
