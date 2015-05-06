@@ -1,0 +1,55 @@
+---
+title: party 9
+data:
+    - name: 現場購票
+      category: 票務
+      unitPrice: 200
+      number: 1
+      total: 200
+      note:
+
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 12976
+      number: 1
+      total: 12976
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -4200
+      number: 1
+      total: -4200
+      note:
+
+    - name: 錄影設備租金
+      category: 雜項
+      unitPrice: -600
+      number: 1
+      total: -600
+      note:
+
+    - name: 餐點
+      category: 雜項
+      unitPrice: -5000
+      number: 1
+      total: -5000
+      note:
+
+    - name: 飲料
+      category: 雜項
+      unitPrice: -420
+      number: 1
+      total: -420
+      note:
+
+    - name: 交通費
+      category: 雜項
+      unitPrice: -170
+      number: 1
+      total: -170
+      note:
+
+total: 2586
+property: 19352
+balance: 21938

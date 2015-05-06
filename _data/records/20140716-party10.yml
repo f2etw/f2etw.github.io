@@ -1,0 +1,104 @@
+---
+title: party 10
+data:
+    - name: 現場購票
+      category: 票務
+      unitPrice: 190
+      number: 1
+      total: 190
+      note:
+
+    - name: 紙膠帶1入
+      category: 票務
+      unitPrice: 100
+      number: 7
+      total: 700
+      note:
+
+    - name: 紙膠帶2入
+      category: 票務
+      unitPrice: 180
+      number: 1
+      total: 180
+      note:
+
+    - name: 紙膠帶7入
+      category: 票務
+      unitPrice: 560
+      number: 1
+      total: 560
+      note:
+
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 22034
+      number: 1
+      total: 22034
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -9000
+      number: 1
+      total: -9000
+      note:
+
+    - name: 錄影設備租金
+      category: 雜項
+      unitPrice: -300
+      number: 1
+      total: -300
+      note:
+
+    - name: 餐點
+      category: 雜項
+      unitPrice: -6000
+      number: 1
+      total: -6000
+      note:
+
+    - name: 桶裝飲料
+      category: 雜項
+      unitPrice: -2100
+      number: 1
+      total: -2100
+      note:
+
+    - name: 可樂
+      category: 雜項
+      unitPrice: -143
+      number: 1
+      total: -143
+      note:
+
+    - name: 紙杯
+      category: 雜項
+      unitPrice: -81
+      number: 1
+      total: -81
+      note:
+
+    - name: 圖章
+      category: 雜項
+      unitPrice: -63
+      number: 1
+      total: -63
+      note:
+
+    - name: 打孔機
+      category: 雜項
+      unitPrice: -59
+      number: 1
+      total: -59
+      note:
+
+    - name: 紙膠帶稅務金
+      category: 雜項
+      unitPrice: -1,245
+      number: 1
+      total: -1,245
+      note:
+
+total: 4673
+property: 21938
+balance: 26611

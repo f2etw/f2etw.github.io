@@ -1,0 +1,48 @@
+---
+title: party 7
+data:
+    - name: 現場購票
+      category: 票務
+      unitPrice: 280
+      number: 1
+      total: 280
+      note:
+
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 17430
+      number: 1
+      total: 17430
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -4200
+      number: 1
+      total: -4200
+      note:
+
+    - name: 錄影設備租金
+      category: 雜項
+      unitPrice: -600
+      number: 1
+      total: -600
+      note:
+
+    - name: 啤酒
+      category: 雜項
+      unitPrice: -1081
+      number: 1
+      total: -1081
+      note:
+
+    - name: 手搖杯
+      category: 雜項
+      unitPrice: -27
+      number: 60
+      total: -1620
+      note:
+
+total: 10209
+property: 4469
+balance: 14678

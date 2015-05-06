@@ -1,0 +1,162 @@
+---
+title: party 6
+data:
+    - name: 熱血前端魂
+      category: 票務
+      unitPrice: 230
+      number: 61
+      total: 14030
+      note:
+
+    - name: 倔強開發者
+      category: 票務
+      unitPrice: 280
+      number: 14
+      total: 3920
+      note:
+
+    - name: 學生限定
+      category: 票務
+      unitPrice: 230
+      number: 9
+      total: 2070
+      note:
+
+    - name: 講者/貢獻者
+      category: 票務
+      unitPrice: 0
+      number: 7
+      total: 0
+      note:
+
+    - name: 前端傳教士（團報用）
+      category: 票務
+      unitPrice: 240
+      number: 10
+      total: 2400
+      note: 代收款項 22420
+
+    - name: 陳韋屏退費
+      category: 票務
+      unitPrice: -230
+      number: 1
+      total: -230
+      note: 撥款代收金額 22190
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -22
+      number: 55
+      total: -1210
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -24
+      number: 14
+      total: -336
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -25
+      number: 14
+      total: -350
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -34
+      number: 1
+      total: -34
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -58
+      number: 2
+      total: -116
+      note: 代收手續費 -2046
+
+    - name: KKTIX撥款手續費
+      category: 票務
+      unitPrice: -30
+      number: 1
+      total: -30
+      note: 撥款入帳金額 20114
+
+    - name: 立案公司營業稅
+      category: 票務
+      unitPrice: -1610
+      number: 1
+      total: -1610
+      note:
+
+    - name: 北科大場地費
+      category: 雜項
+      unitPrice: -10000
+      number: 1
+      total: -10000
+      note:
+
+    - name: 北科大清潔費
+      category: 雜項
+      unitPrice: -500
+      number: 1
+      total: -500
+      note:
+
+    - name: 北科大服務人員費
+      category: 雜項
+      unitPrice: -800
+      number: 1
+      total: -800
+      note:
+
+    - name: 傳真
+      category: 雜項
+      unitPrice: -45
+      number: 1
+      total: -45
+      note:
+
+    - name: 場地與清潔轉帳手續費
+      category: 雜項
+      unitPrice: -30
+      number: 1
+      total: -30
+      note:
+
+    - name: DV租金
+      category: 雜項
+      unitPrice: -2,000
+      number: 1
+      total: -2,000
+      note:
+
+    - name: GoPro租金
+      category: 雜項
+      unitPrice: -300
+      number: 1
+      total: -300
+      note:
+
+    - name: KKTIX系統方案
+      category: 雜項
+      unitPrice: -500
+      number: 1
+      total: -500
+      note:
+
+    - name: 礦泉水
+      category: 雜項
+      unitPrice: -98
+      number: 1
+      total: -98
+      note:
+
+
+
+total: 4,231
+property: 238
+balance: 4,469

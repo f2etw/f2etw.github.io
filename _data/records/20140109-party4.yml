@@ -1,0 +1,41 @@
+---
+title: party 4
+data:
+    - name: 入場費（熱血前端魂、學生）
+      category: 票務
+      unitPrice: 200
+      number: 52
+      total: 10400
+      note: 折扣 1
+
+    - name: 入場費（倔強開發者）
+      category: 票務
+      unitPrice: 250
+      number: 6
+      total: 1500
+      note: 折扣 1
+
+    - name: CLBC場地費
+      category: 雜項
+      unitPrice: -6400
+      number: 1
+      total: -6400
+      note: 折扣 1
+
+    - name: 鮮芋仙湯圓
+      category: 雜項
+      unitPrice: -50
+      number: 80
+      total: -3650
+      note: 折扣 350
+
+    - name: 錄影設備費用
+      category: 雜項
+      unitPrice: -400
+      number: 1
+      total: -400
+      note: 折扣 1
+
+total: 1450
+property: 2600
+balance: 4050

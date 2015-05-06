@@ -1,0 +1,27 @@
+---
+title: party 8
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 14674
+      number: 1
+      total: 14674
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -4200
+      number: 1
+      total: -4200
+      note:
+
+    - name: 餐點
+      category: 雜項
+      unitPrice: -5800
+      number: 1
+      total: -5800
+      note:
+
+total: 4674
+property: 14678
+balance: 19352

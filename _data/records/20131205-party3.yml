@@ -1,0 +1,48 @@
+---
+title: party 3
+data:
+    - name: Lighting Talk
+      category: 票務
+      unitPrice: 100
+      number: 2
+      total: 200
+      note: https://goo.gl/JOxmhb
+
+    - name: 早鳥票
+      category: 票務
+      unitPrice: 200
+      number: 25
+      total: 5000
+      note:
+
+    - name: 學生票
+      category: 票務
+      unitPrice: 200
+      number: 5
+      total: 1000
+      note:
+
+    - name: 入場卷
+      category: 票務
+      unitPrice: 250
+      number: 34
+      total: 8500
+      note:
+
+    - name: 場地費用
+      category: 雜項
+      unitPrice: -10000
+      number: 1
+      total: -10000
+      note:
+
+    - name: 飲料費用
+      category: 雜項
+      unitPrice: -2100
+      number: 1
+      total: -2100
+      note:
+
+total: 2600
+property: 0
+balance: 2600

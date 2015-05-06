@@ -1,0 +1,62 @@
+---
+title: party 11
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 21888
+      number: 1
+      total: 21888
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -6500
+      number: 1
+      total: -6500
+      note:
+
+    - name: 錄影設備租金
+      category: 雜項
+      unitPrice: -300
+      number: 1
+      total: -300
+      note:
+
+    - name: 餐點
+      category: 雜項
+      unitPrice: -3500
+      number: 1
+      total: -3500
+      note:
+
+    - name: 郵資
+      category: 雜項
+      unitPrice: -225
+      number: 1
+      total: -225
+      note:
+
+    - name: 車資
+      category: 雜項
+      unitPrice: -210
+      number: 1
+      total: -210
+      note:
+
+    - name: 文具
+      category: 雜項
+      unitPrice: -189
+      number: 1
+      total: -189
+      note:
+
+    - name: 紙膠帶設計費
+      category: 雜項
+      unitPrice: -2000
+      number: 1
+      total: -2000
+      note:
+
+total: 8964
+property: 26611
+balance: 35575

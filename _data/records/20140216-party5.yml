@@ -1,0 +1,190 @@
+---
+title: party 5
+data:
+    - name: 現場繳費
+      category: 票務
+      unitPrice: 280
+      number: 1
+      total: 280
+      note:
+
+    - name: 現場繳費
+      category: 票務
+      unitPrice: 360
+      number: 1
+      total: 360
+      note:
+
+    - name: 熱血前端魂
+      category: 票務
+      unitPrice: 280
+      number: 57
+      total: 15960
+      note:
+
+    - name: 倔強開發者
+      category: 票務
+      unitPrice: 360
+      number: 24
+      total: 8640
+      note:
+
+    - name: 學生限定
+      category: 票務
+      unitPrice: 280
+      number: 6
+      total: 1680
+      note:
+
+    - name: 講者/貢獻者
+      category: 票務
+      unitPrice: 0
+      number: 3
+      total: 0
+      note:
+
+    - name: 前端傳教士（團報用）
+      category: 票務
+      unitPrice: 280
+      number: 11
+      total: 3080
+      note: 代收款項 29360
+
+    - name: 張勝鈞退費
+      category: 票務
+      unitPrice: -280
+      number: 1
+      total: -280
+      note:
+
+    - name: 莊軻齊退費
+      category: 票務
+      unitPrice: -280
+      number: 1
+      total: -280
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -24
+      number: 53
+      total: -1272
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -25
+      number: 13
+      total: -325
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -28
+      number: 19
+      total: -532
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -38
+      number: 4
+      total: -152
+      note:
+
+    - name: 代收手續費
+      category: 票務
+      unitPrice: -52
+      number: 1
+      total: -52
+      note: 代收手續費 -2333
+
+    - name: KKTIX撥款手續費
+      category: 票務
+      unitPrice: -30
+      number: 1
+      total: -30
+      note: 撥款入帳金額 26437
+
+    - name: 立案公司營業稅
+      category: 票務
+      unitPrice: -2304
+      number: 1
+      total: -2304
+      note:
+
+    - name: CLBC場地費
+      category: 雜項
+      unitPrice: -18000
+      number: 1
+      total: -18000
+      note:
+
+    - name: DV租借費
+      category: 雜項
+      unitPrice: -400
+      number: 1
+      total: -400
+      note:
+
+    - name: 講師交通費
+      category: 雜項
+      unitPrice: -1700
+      number: 1
+      total: -1700
+      note:
+
+    - name: KKTIX系統方案
+      category: 雜項
+      unitPrice: -500
+      number: 1
+      total: -500
+      note:
+
+    - name: 紙杯
+      category: 雜項
+      unitPrice: -39
+      number: 4
+      total: -156
+      note:
+
+    - name: 礦泉水
+      category: 雜項
+      unitPrice: -28
+      number: 2
+      total: -56
+      note:
+
+    - name: 封箱膠
+      category: 雜項
+      unitPrice: -40
+      number: 1
+      total: -40
+      note:
+
+    - name: 紅豆餅
+      category: 雜項
+      unitPrice: -10
+      number: 120
+      total: -1200
+      note:
+
+    - name: 必勝客比薩
+      category: 雜項
+      unitPrice: -1196
+      number: 4
+      total: -4784
+      note:
+
+    - name: 錄影記憶卡
+      category: 雜項
+      unitPrice: -629
+      number: 1
+      total: -629
+      note:
+
+
+
+total: -3332
+property: 3570
+balance: 238
