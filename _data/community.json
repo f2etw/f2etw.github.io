@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Angular.js",
+        "id": 609637942379913,
+        "url": "https://www.facebook.com/groups/augularjs.tw/",
+        "img": "https://graph.facebook.com/679643745385943/picture",
+        "description": "分享 Angular.js 技術的台灣社群"
+    },
+    {
+        "name": "React.js",
+        "id": 1439747729634154,
+        "url": "https://www.facebook.com/groups/reactjs.tw/",
+        "img": "https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10305407_10152252211712883_6768794646241507590_n.jpg?oh=cf04e5122f66cc1a5a8c39edb4b5660d&oe=55A7AE95&__gda__=1436091882_6391785819e9ba8ba80c7d4d6feb3392",
+        "description": "這是一個以中文交流 React.js/Flux 技術的台灣社群。"
+    },
+    {
+        "name": "D3.js",
+        "id": 255712054571781,
+        "url": "https://www.facebook.com/groups/d3js.tw/",
+        "img": "https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/s720x720/10847948_10152162171942168_3089009825839811044_n.jpg?oh=0937ab1829db0f27e631148cabbe4a20&oe=55C1755F",
+        "description": "分享 d3.js 技術的台灣社群"
+    },
+    {
+        "name": "Javascript.tw",
+        "id": 186298388138174,
+        "url": "https://www.facebook.com/groups/javascript.tw/",
+        "img": "https://scontent-tpe.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/935174_10201317330921611_1214969275_n.jpg?oh=30fc0349b38b5e181009b9d421116512&oe=55DB62A0",
+        "description": "Here's a community for javascript developers in Taiwan"
+    },
+    {
+        "name": "Nodejs.tw",
+        "id": 262800543746083,
+        "url": "https://www.facebook.com/groups/node.js.tw/",
+        "img": "https://scontent-tpe.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1488279_10152452556479838_1459774426_n.jpg?oh=42e590beff5fd7556ae0bb22f98d7d5d&oe=55E4320E",
+        "description": "這是一個專門討論 node.js 的台灣社群"
+    },
+]
