@@ -1,0 +1,43 @@
+---
+layout: default
+title: 收支記錄
+---
+
+
+<div id="record">
+    <h1>{{ page.title }}</h1>
+
+{% assign sorted_record = (site.data.records | sort: {{record_hash[0]}}) %}
+{% for record_hash in sorted_record reversed %}
+    {% assign record = record_hash[1] %}
+    <table>
+        <caption>{{ record.title }}</caption>
+        <tr>
+            <th>名稱</th>
+            <th>分類</th>
+            <th>單價</th>
+            <th>數量</th>
+            <th>總額</th>
+            <th>備註</th>
+        </tr>
+        {% for item in record.data %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ item.category }}</td>
+            <td>{{ item.unitPrice }}</td>
+            <td>{{ item.number }}</td>
+            <td>{{ item.total }}</td>
+            <td>{{ item.note }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <table class="sum">
+        <tr>
+            <td><span>本次總額</span>：{{ record.totle }}</td>
+            <td><span>前次餘額</span>：{{ record.property }}</td>
+            <td><span>收支現況</span>：{{ record.balance }}</td>
+        </tr>
+    </table>
+    {% endfor %}
+</div>
