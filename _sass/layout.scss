@@ -171,6 +171,29 @@
         }
     }
 
+    #record {
+      padding: 20px 1%;
+      width: 98%;
+
+    	table {
+        min-width: 0px;
+
+    		&.sum {
+          width: 100%;
+    		}
+
+    		tr td {
+            padding: 1em 0;
+            vertical-align: center;
+            overflow: hidden;
+        }
+
+        .name {
+          width: 28%;
+        }
+    	}
+    }
+
     footer .fb-like, footer .fb_iframe_widget {display: none;}
 
 }

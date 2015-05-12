@@ -13,7 +13,7 @@ title: 收支記錄
     <table>
         <caption>{{ record.title }}</caption>
         <tr>
-            <th>名稱</th>
+            <th class="name">名稱</th>
             <th>分類</th>
             <th>單價</th>
             <th>數量</th>
@@ -22,7 +22,7 @@ title: 收支記錄
         </tr>
         {% for item in record.data %}
         <tr>
-            <td>{{ item.name }}</td>
+            <td class="name">{{ item.name }}</td>
             <td>{{ item.category }}</td>
             <td>{{ item.unitPrice }}</td>
             <td>{{ item.number }}</td>
