@@ -15,14 +15,6 @@
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-  		var js, fjs = d.getElementsByTagName(s)[0];
-  		if (d.getElementById(id)) return;
-  		js = d.createElement(s); js.id = id;
-  		js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3&appId=764801763582382";
-  		fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
 		<header>
 			{% if contents or file %}
 			{% include '../_includes/nav.html' %}
@@ -34,7 +26,7 @@
 			{{ content | safe }}{{ contents | safe }}
 		</main>
 		<footer>
-			F2E Taiwan Community. <div class="fb-like" data-href="http://www.f2e.tw{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+			F2E Taiwan Community.
 		</footer>
 	</body>
 </html>

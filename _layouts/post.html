@@ -1,10 +1,23 @@
 ---
 layout: default
 ---
+
+<div id="fb-root"></div>
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3&appId=764801763582382";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
 <article id="post">
 	<header>
 		<h1>{{ page.title }}</h1>
-		<p>[ {{ page.date | date: "%Y / %m / %d" }} ]</p>
+		<time>[ {{ page.date | date: "%Y / %m / %d" }} ]</time>
+		<div class="fb-like" data-href="http://www.f2e.tw{{ page.url }}" data-width="100%" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="height: 40px;overflow: hidden;"></div>
 	</header>
 	<div>
 		{{ content }}
