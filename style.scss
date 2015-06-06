@@ -10,15 +10,15 @@ body {
 	-webkit-flex-direction: column;
 	flex-direction: column;
 	margin: 0 auto;
-	font-family:  'cwTeXHei', "Arial", "微軟正黑體", "Microsoft Jhenghei" ;
 	min-height: 100vh;
 	width: 100%;
-	background-color: $member__tile-bgc;
+	background-color: $main-bgc;
+	font-family:  'cwTeXHei', "Arial", "微軟正黑體", "Microsoft Jhenghei";
 
 	> header {
+		padding-top: 150px;
 		background-image: url('/images/banner.jpg');
 		background-color: #ddd;
-		padding-top: 150px;
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -27,16 +27,16 @@ body {
 	> main {
 		-webkit-flex: 1;
 		flex: 1;
+		margin: 0 auto;
 		max-width: 1280px;
 		min-height: 500px;
-		margin: 0 auto;
 	}
 
 	> footer {
-		text-align: center;
 		padding: 2em;
+		background-color: $footer-color;
 		color: $white;
-		background-color: #127158;
+		text-align: center;
 	}
 }
 
@@ -49,29 +49,29 @@ a {
 }
 
 #navigation {
-	background-color: $main-color;
 	margin: 0;
 	padding: 0;
+	background-color: $main-color;
 	color: $white;
 	font-size: 1.2em;
 	text-align: center;
 
 	> li {
-		list-style-type: none;
 		display: inline-block;
 		margin: 0 1em;
 		padding: .2em .5em;
+		list-style-type: none;
 	}
 
 	a {
-		text-decoration: none;
 		color: inherit;
+		text-decoration: none;
 	}
 }
 
 .home {
-	text-align: center;
 	min-height: 400px;
+	text-align: center;
 
 	h2 {
 		padding: 1em 6%;
@@ -94,7 +94,6 @@ a {
 		}
 
 		img {
-			height: 25px;
 			margin-right: .5em;
 			vertical-align: middle;
 		}
@@ -102,13 +101,12 @@ a {
 
 	ul {
 		display: block;
-		width: 60%;
-		padding: 0 1%;
 		margin: 20px auto;
-		background-color: darken($member__tile-bgc, 10%);
+		padding: 0 1%;
+		width: 60%;
+		background-color: $main-bgc-dark;
 		text-align: left;
 		border: 1px solid $white;
-
 		list-style-type: none;
 
 		li {
@@ -118,29 +116,29 @@ a {
 			border-bottom: 1px solid $white;
 
 			&:last-child {
-				border:none;
 				padding-bottom: 0;
+				border:none;
 			}
 
 			a {
 				display: block;
-				color: #127158;
-				transition-duration: .5s;
+				color: $footer-color;
 				line-height: 2em;
-
-				p {
-					color: #343434;
-					text-shadow: none;
-					transition-duration: 1s;
-					line-height: 1.5em;
-				}
+				transition-duration: .5s;
 
 				&:hover {
-					color: darken(#127158, 5%);
-					text-shadow: 1px 1px 1px lighten(#127158, 20%);
+					color: darken($footer-color, 5%);
+					text-shadow: 0px 0px .25px lighten($footer-color, 10%);
+				}
 
-					p {
-						color: #121212;
+				p {
+					color: $font-color;
+					line-height: 1.5em;
+					text-shadow: none;
+					transition-duration: 1s;
+
+					&:hover {
+						color: $font-color-hover;
 						text-shadow: none;
 					}
 				}
@@ -164,29 +162,30 @@ a {
 
 		&#fb_posts {
 			margin: 0 auto;
-			padding: 0 0 1em;
+			padding: 0;
 			width: 62%;
-			background: rgba(255,255,255,0.5);
+			background: $white-bgc;
 
 			li {
 				display: block;
 				margin: 2.5% 7.5%;
 				min-height: 90px;
 				max-width: 700px;
+				overflow: hidden;
 				border-bottom: 1px solid #777;
 				word-wrap: break-word;
-				overflow:hidden;
 
 				&:first-child {
 					margin: 0;
 					padding: 0 20%;
 					min-height: 0;
-					background-color: darken($member__tile-bgc, 10%);
+					background-color: $main-bgc-dark;
 					border-bottom: 1px solid #fff;
 				}
 
 				&:last-child{
-					border:none;
+					padding-bottom: 1em;
+					border: none;
 				}
 
 				img {
@@ -197,11 +196,11 @@ a {
 				}
 
 				p a {
-					color: #343434;
+					color: $font-color;
 					text-shadow: none;
 
 					&:hover {
-						color: #121212;
+						color: $font-color-hover;
 						text-shadow: none;
 					}
 				}
@@ -211,23 +210,23 @@ a {
 }
 
 .activity {
+	margin: 0 auto;
+	padding: 0 20px;
 	height: 100%;
 	width: 100%;
-	padding: 0 20px;
-	margin: 0 auto;
-	list-style-type: none;
+	background: $white-bgc;
 	text-align: center;
-	background: rgba(244,255,222,0.9);
+	list-style-type: none;
 
 	li {
+		font-weight: 600;
 		text-align: left;
 		border-bottom: 1px solid #adadad;
-		font-weight: 600;
 
 		&:first-child a {
-			font-size: 1.4em;
 			padding: 40px;
 			color: #565656;
+			font-size: 1.4em;
 
 			&:hover {
 				color: black;
@@ -245,7 +244,7 @@ a {
 			transition: 0.4s;
 
 			&:hover {
-				color: #343434;
+				color: $font-color-hover;
 			}
 		}
 
@@ -257,29 +256,29 @@ a {
 	margin: 0 auto;
 	min-height: 100%;
 	max-width: 800px;
-	background: rgba(244,255,222,0.9);
+	background: $white-bgc;
 	line-height: 1.5em;
 	text-align: center;
 
 	header {
-		height: 135px;
 		margin: 0 auto 30px;
+		height: 135px;
 		border-bottom: 1px solid #777;
 
 		h1 {
-			padding: 1.2em 0 .6em;
 			margin: 0 auto;
+			padding: 1.2em 0 .6em;
 			font-size: 1.6em;
 			font-weight: 600;
 		}
 
 		time {
 			display: block;
-			padding: 0;
 			margin: 0 10%;
-			text-align: center;
+			padding: 0;
 			color: #777;
 			font-size: .8em;
+			text-align: center;
 		}
 	}
 
@@ -314,8 +313,8 @@ a {
 
 	#fb_root iframe {
 		margin: 10px 0 30px;
-		width: 100%;
 		min-height: 400px;
+		width: 100%;
 	}
 
 	#disqus_thread {
@@ -326,63 +325,63 @@ a {
 }
 
 .intro {
-	background-color: rgba( 255, 255, 255, 0.6);
+	background-color: $white-bgc;
 
 	p {
-		height: 80%;
-		padding: 1em;
-		max-width: 960px;
 		margin: 0 auto;
-		vertical-align: top;
+		padding: 1em;
+		height: 80%;
+		max-width: 960px;
 		line-height: 2em;
+		vertical-align: top;
 
 		&:first-child {
-			text-indent:2em;
+			text-indent: 2em;
 		}
 	}
 }
 
 .member {
-	margin-top: 0;
-	margin-bottom: 0;
-	text-align: center;
+	margin: 0 auto 0;
 	background-color: $main-color;
+	text-align: center;
 
 	ul {
 		margin: 0;
 
 		li {
 			display: inline-block;
-			vertical-align: top;
+			margin: 1em;
 			width: 300px;
 			min-width: 150px;
-			margin: 1em;
 			color: $white;
 			line-height: 2em;
+			vertical-align: top;
 			transition-duration: 0.5s;
+
 			a {
 				display: block;
 				padding: 1em 2em 2em;
-				color: $member__tile-bgc;
+				color: $main-bgc;
 
 				strong {
 					display: block;
+					margin: .25em auto;
+					padding-bottom: .25em;
 					width: 65%;
 					font-size: 1.25em;
-					padding-bottom: .25em;
-					margin: .25em auto;
-					border-bottom: 1px solid $member__tile-bgc;
+					border-bottom: 1px solid $main-bgc;
 				}
 
 				img {
 					display: block;
-					width: 100px;
-					height: 100px;
-					max-width: 100px;
 					margin: 1em auto;
-					border-radius: 50%;
-					border: 2px solid $member__tile-bgc;
 					padding: 5px;
+					height: 100px;
+					width: 100px;
+					max-width: 100px;
+					border: 2px solid $main-bgc;
+					border-radius: 50%;
 				}
 			}
 		}
@@ -390,30 +389,30 @@ a {
 }
 
 #member_intro {
-	padding: 20px;
 	margin: 0 auto;
-	width: 50vw;
+	padding: 20px;
 	min-height: 100%;
-	background: rgba(255, 255, 255, .7);
+	width: 50vw;
+	background: $white-bgc;
 	text-align: center;
 
 	header {
-		width: 80%;
-		padding: 0 5% 1em;
 		margin: 0 auto 1em;
-		border-bottom: 1px solid #127158;
+		padding: 0 5% 1em;
+		width: 80%;
+		border-bottom: 1px solid $footer-color;
 
 		img {
 			padding: 5px;
-			width: 100px;
 			height: 100px;
+			width: 100px;
 			border-radius: 50%;
 		}
 
 		div {
 			display: inline-block;
-			vertical-align: top;
 			text-align: left;
+			vertical-align: top;
 
 			h1 {
 				margin: .3em 30px 0;
@@ -435,7 +434,7 @@ a {
 			transition-duration: .5s;
 
 			&:hover {
-				color: #127158;
+				color: $footer-color;
 			}
 		}
 
@@ -462,18 +461,18 @@ a {
 }
 
 .community {
-	padding: 0;
 	margin: 0 auto;
+	padding: 0;
 	text-align: center;
 
 	li {
 		display: block;
-		width: 90%;
-		margin: 20px auto;
 		padding: 10px;
-		text-align: left;
+		margin: 20px auto;
+		width: 90%;
+		background: $white-bgc;
 		line-height: 1.5em;
-		background: rgba(255,255,255,0.6);
+		text-align: left;
 		border-radius: 10px;
 		transition-duration: 0.5s;
 
@@ -487,35 +486,36 @@ a {
 				display: inline-block;
 				width: 500px;
 				background-position: center center;
+				color: $footer-color;
 				text-align: center;
 				font-size: 1.2em;
-				color: #127158;
 				border-radius: 10px;
 				transition-duration: inherit;
+
 				div {
 					color: #fff;
 					padding: 120px 0 30px;
 					background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)),;
 					background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5)),;
-					border-radius: 9px;
 					font-weight: 600;
+					border-radius: 9px;
 				}
 			}
 
 			p {
 				display: inline-block;
-				padding-top: 10px;
 				margin: 0 1%;
+				padding-top: 10px;
 				height: 20%;
 				width: 300px;
-				vertical-align: top;
 				text-align: left;
+				vertical-align: top;
 			}
 
 		}
 
 		&:hover {
-			background: rgba(255,255,255,0.8);
+			background: $white-bgc-hover;
 
 			a {
 				color: #232323;
@@ -526,14 +526,16 @@ a {
 
 #jobs {
 	@extend .activity;
-	width: 671px;
 	padding: 0 20px;
+	width: 671px;
 	line-height: 1.5em;
 
 	> li {
 		width: 100%;
 
-		h3 { margin: 0;}
+		h3 {
+			margin: 0;
+		}
 	}
 
 	p {
@@ -549,8 +551,8 @@ a {
 			display: inline-block;
 			padding: 2px;
 			color: $white;
-			border-radius: 3px;
 			box-shadow: 0 1px 1px #ccc;
+			border-radius: 3px;
 			cursor: pointer;
 		}
 	}
@@ -561,9 +563,9 @@ a {
 	padding: 20px;
 	height: 100%;
 	width: 100%;
-	list-style-type: none;
+	background: $white-bgc;
 	text-align: center;
-	background: rgba(244,255,222,0.9);
+	list-style-type: none;
 
 	h1 {
 		padding: 0 0 1em;
@@ -576,15 +578,15 @@ a {
 		width: 100%;
 		min-width: 750px;
 		border-bottom: 1px solid #777;
-  		border-collapse:collapse;
+  		border-collapse: collapse;
 
 		&:first-child {
 			margin-top: 0;
 		}
 
 		&.sum {
-			width: 75%;
 			margin: 0 0 60px auto;
+			width: 75%;
 			border-bottom: 0;
 
 			span {
@@ -603,7 +605,7 @@ a {
 			transition-duration: .5s;
 
 			&:hover, &:active {
-				color: #121212;
+				color: $font-color-hover;
 			}
 
 			th {

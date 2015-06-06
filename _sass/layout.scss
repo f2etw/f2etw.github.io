@@ -1,4 +1,6 @@
-#nav-trigger {display: none;}
+#nav-trigger {
+    display: none;
+}
 
 @media screen and (min-width: 827px) {
     nav > label  {
@@ -12,15 +14,17 @@
         max-width: 100%;
 
         > header {
-            background-position: top center;
             padding-top: 175px;
+            background-position: top center;
             z-index: 1;
 
-            #navigation {display: none;}
+            #navigation {
+                display: none;
+            }
 
             nav {
-                min-height: 2.5em;
                 height:auto;
+                min-height: 2.5em;
                 width: 100%;
                 background: $main-color;
 
@@ -28,7 +32,9 @@
                     display: block;
                     text-align: right;
 
-                    img {margin: .5em 1em;}
+                    img {
+                        margin: .5em 1em;
+                    }
                 }
 
                 input:checked ~ ul#navigation {
@@ -61,8 +67,8 @@
         width: 100%;
 
         h2 {
-            width: 90%;
             padding: 1em 0;
+            width: 90%;
         }
 
         ul {
@@ -70,12 +76,12 @@
             width: 90%;
 
             &#fb_posts {
-                width: 90%;
                 padding: 0;
+                width: 90%;
 
                 li:first-child {
-                    width: 90%;
                     padding: 0 5%;
+                    width: 90%;
                 }
             }
         }
@@ -99,8 +105,8 @@
         }
 
         ul {
-            list-style-type: none;
             padding: 0;
+            list-style-type: none;
         }
 
         img, iframe {
