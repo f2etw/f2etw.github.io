@@ -5,11 +5,23 @@
 	</label>
 
 	<ul id="navigation">
-		<li><a href="/">最新消息</a></li>
-		<li><a href="/activity.html">活動紀錄</a></li>
-		<li><a href="/about.html">關於我們</a></li>
-		<li><a href="/community.html">社群串連</a></li>
-		<li><a href="/jobs.html">徵才職缺</a></li>
-		<li><a href="/records.html">收支報告</a></li>
+		<li class="{% if page.title == "Home" %}current{% endif %}">
+			<a href="/">最新消息</a>
+		</li>
+		<li class="{% if page.title == "活動紀錄" %}current{% endif %}">
+			<a href="/activity.html">活動紀錄</a>
+		</li>
+		<li class="{% if page.title == "關於我們" %}current{% endif %}">
+			<a href="/about.html">關於我們</a>
+		</li>
+		<li class="{% if page.title == "社群串連" %}current{% endif %}">
+			<a href="/community.html">社群串連</a>
+		</li>
+		<li class="{% if page.title == "徵才職缺" %}current{% endif %}">
+			<a href="/jobs.html">徵才職缺</a>
+		</li>
+		<li class="{% if page.title == "收支記錄" %}current{% endif %}">
+			<a href="/records.html">收支報告</a>
+		</li>
 	</ul>
 </nav>
