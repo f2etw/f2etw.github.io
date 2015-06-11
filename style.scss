@@ -57,10 +57,26 @@ a {
 	text-align: center;
 
 	> li {
+		position: relative;
+		list-style-type: none;
 		display: inline-block;
 		margin: 0 1em;
 		padding: .2em .5em;
-		list-style-type: none;
+		line-height: 1.2em;
+
+		&.current::before {
+			display: block;
+			content: '';
+			position: absolute;
+			width: 0;
+			height: 0;
+			border: 9px solid transparent;
+			border-left-color: darken($main-color, 10%);
+			bottom: 0;
+			top: 20%;
+			left: 2.5%;
+			margin-left: -8px;
+		}
 	}
 
 	a {
