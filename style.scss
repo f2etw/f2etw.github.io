@@ -182,6 +182,12 @@ a {
 			width: 62%;
 			background: $white-bgc;
 
+			> p {
+				margin: 2.5% 7.5%;
+				text-align: center;
+				letter-spacing: .15em;
+			}
+
 			li {
 				display: block;
 				margin: 2.5% 7.5%;
