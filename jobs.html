@@ -23,29 +23,33 @@ title: 徵才職缺
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
-$.getJSON('https://api.github.com/repos/f2etw/jobs/issues', function(jobs) {
+    $.getJSON('https://api.github.com/repos/f2etw/jobs/issues')
+    .then(function (jobs) {
+        var content = '';
 
-    var content = '';
+        jobs.forEach(function(job, index, array) {
+            if (job.pull_request !== undefined){return;}
+            content += `
+                <li>
+                    <a href="${job.html_url}">
+                        <h3>${job.title}</h3>
+                        <p>from ${job.created_at}</p>
+                        <ul class="labels">
+                        ${job.labels.map(
+                            function(label){
+                                return `<li style="background:#${label.color};">${label.name}</li>`
+                            }).join("\n")}
+                        </ul>
+                    </a>
+                </li>
+            `;
+        });
 
-    jobs.forEach(function(job, index, array) {
-        if (job.pull_request !== undefined){return;}
+        return content;
 
-        content += `
-            <li>
-                <a href="${job.html_url}">
-                    <h3>${job.title}</h3>
-                    <p>from ${job.created_at}</p>
-                    <ul class="labels">
-                    ${job.labels.map(
-                        function(label){
-                            return `<li style="background:#${label.color};">${label.name}</li>`
-                        }).join("\n")}
-                    </ul>
-                </a>
-            </li>
-        `;
+    }, function (error) {
+        return "<p>請點選上方社團連結以觀看徵才訊息！</p>";
+    }).always(function (content) {
+        $('#jobs').append(content);
     });
-
-    $('#jobs').append(content);
-});
 </script>
