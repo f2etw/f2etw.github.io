@@ -15,7 +15,7 @@
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<header>
+		<header onclick="javascript:goHome();">
 			{% if contents or file %}
 			{% include '../_includes/nav.html' %}
 			{% else %}
@@ -28,5 +28,10 @@
 		<footer>
 			F2E Taiwan Community.
 		</footer>
+		<script>
+		function goHome() { 
+			location.href = "/";	
+		}
+</script>
 	</body>
 </html>
