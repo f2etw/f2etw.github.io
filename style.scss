@@ -183,6 +183,12 @@ a {
 			width: 62%;
 			background: $white-bgc;
 
+			> p {
+				margin: 2.5% 7.5%;
+				text-align: center;
+				letter-spacing: .15em;
+			}
+
 			li {
 				display: block;
 				margin: 2.5% 7.5%;
@@ -559,6 +565,13 @@ a {
 		margin: 0 0 1em;
 		font-size: .7em;
 		font-weight: 100;
+	}
+
+	> p {
+		margin: 1.5em 40px;
+		font-size: 1em;
+		text-align: left;
+		letter-spacing: .15em;
 	}
 
 	.labels {
