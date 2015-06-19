@@ -47,11 +47,11 @@ title: Home
 
 			if (post.message) {
 				msg = post.message;
-				msg.replace(/&/g, "&amp;")
-		         .replace(/</g, "&lt;")
-		         .replace(/>/g, "&gt;")
-		         .replace(/"/g, "&quot;")
-		         .replace(/'/g, "&#039;");
+				msg = msg.replace(/&/g, "&amp;")
+						.replace(/</g, "&lt;")
+						.replace(/>/g, "&gt;")
+						.replace(/"/g, "&quot;")
+						.replace(/'/g, "&#039;");
 				content += `
 					<li>
 						<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
