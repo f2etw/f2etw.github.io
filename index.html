@@ -41,17 +41,25 @@ title: Home
 	<script>
 	$.getJSON('https://graph.facebook.com/521085554595481/feed?access_token=1385521591772831|lMcuWxJls6aEK-IwR0Z-_AQVMV4')
 	.then(function (posts) {
-		var content = '';
+		var content = '', msg;
 
 		posts.data.forEach(function(post, index, array) {
 
-			if (post.message) content += `
-				<li>
-					<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
-					<p><a href="https://facebook.com/${post.id} " target="_blank">${post.message | xml_escape}</a></p>
-				</li>
-				`;
-			});
+			if (post.message) {
+				msg = post.message;
+				msg.replace(/&/g, "&amp;")
+		         .replace(/</g, "&lt;")
+		         .replace(/>/g, "&gt;")
+		         .replace(/"/g, "&quot;")
+		         .replace(/'/g, "&#039;");
+				content += `
+					<li>
+						<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
+						<p><a href="https://facebook.com/${post.id} " target="_blank">${msg}</a></p>
+					</li>
+					`;
+				});
+			}
 
 			return content;
 			
