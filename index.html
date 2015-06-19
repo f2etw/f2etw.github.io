@@ -48,7 +48,7 @@ title: Home
 			if (post.message) content += `
 				<li>
 					<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
-					<p><a href="https://facebook.com/${post.id} " target="_blank">${post.message}</a></p>
+					<p><a href="https://facebook.com/${post.id} " target="_blank">${post.message | xml_escape}</a></p>
 				</li>
 				`;
 			});
