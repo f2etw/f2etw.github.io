@@ -53,11 +53,7 @@ title: Home
 				`;
 			});
 
-			return content.replace(/&/g, '&amp;')
-                      .replace(/>/g, '&gt;')
-                      .replace(/</g, '&lt;')
-                      .replace(/"/g, '&quot;')
-                      .replace(/'/g, '&apos;');
+			return content;
 			
 	}, function (error) {
 		return "<p>請點選上方社團連結以觀看社團貼文！</p>";
