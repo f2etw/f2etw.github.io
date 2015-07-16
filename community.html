@@ -27,19 +27,23 @@ var groups=[
 var content = [];
 
 for(var a in groups) {
-  fetch('https://graph.facebook.com/' + groups[a]).then(function(response) {
+  fetch('https://graph.facebook.com/' + groups[a] + '?access_token=1385521591772831|lMcuWxJls6aEK-IwR0Z-_AQVMV4').then(function(response) {
     return response.json();
   })
   .then(function(posts){
     content.push(posts);
+    if(content.length === groups.length)
+    return content
   })
   .then(function(posts) {
+
+        if(content.length !== groups.length)
+          return
 
         if(content.length == 5) {
             for(var c in content) {
 
                 if(content[c].name !== "")
-                    console.log(content[c].name+"-title");
                     document.getElementById(content[c].name+"-title").innerHTML = content[c].name;
 
                 if(content[c].description !== undefined) {
