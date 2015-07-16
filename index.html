@@ -37,36 +37,38 @@ title: Home
 		</li>
 	</ul>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>
-	$.getJSON('https://graph.facebook.com/521085554595481/feed?access_token=1385521591772831|lMcuWxJls6aEK-IwR0Z-_AQVMV4')
-	.then(function (posts) {
+	fetch('https://graph.facebook.com/521085554595481/feed?access_token=1385521591772831|lMcuWxJls6aEK-IwR0Z-_AQVMV4').then(function(response) {
+		return response.json();
+	})
+	.then(function(posts) {
+
 		var content = '', msg;
 
 		posts.data.forEach(function(post, index, array) {
 
-			if (post.message) {
-				msg = post.message;
-				msg = msg.replace(/&/g, "&amp;")
-						.replace(/</g, "&lt;")
-						.replace(/>/g, "&gt;")
-						.replace(/"/g, "&quot;")
-						.replace(/'/g, "&#039;");
-				content += `
-					<li>
-						<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
-						<p><a href="https://facebook.com/${post.id} " target="_blank">${msg}</a></p>
-					</li>
-					`;
-				}
-			});
-			
-			return content;
-			
-	}, function (error) {
+		if (post.message) {
+			msg = post.message;
+			msg = msg.replace(/&/g, "&amp;")
+					.replace(/</g, "&lt;")
+					.replace(/>/g, "&gt;")
+					.replace(/"/g, "&quot;")
+					.replace(/'/g, "&#039;");
+			content += `
+				<li>
+					<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
+					<p><a href="https://facebook.com/${post.id} " target="_blank">${msg}</a></p>
+				</li>
+				`;
+			}
+		});
+
+		return content;
+	})
+	.catch(function(err) {
 		return "<p>請點選上方社團連結以觀看社團貼文！</p>";
-	}).always(function (content) {
-		$('#fb_posts').append(content);
+	}).then(function (content) {
+		document.getElementById('fb_posts').innerHTML += content;
 	});
 	</script>
 
