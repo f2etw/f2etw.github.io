@@ -3,7 +3,7 @@ order: 1
 title: 發起人
 name: Kevin Zhuang - 莊為任
 site: http://kvzhuang.net/
-avatar: //graph.facebook.com/kevinzhuang72/picture?width=100&height=100
+avatar: //zh-tw.gravatar.com/userimage/38692526/197bf4464c6c6b7c20c12be8d373fddb.png?size=200
 ---
 
 ## 簡介
