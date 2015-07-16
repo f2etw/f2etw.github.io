@@ -21,9 +21,10 @@ title: 徵才職缺
     </noscript>
 </ul>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
-    $.getJSON('https://api.github.com/repos/f2etw/jobs/issues')
+    fetch('https://api.github.com/repos/f2etw/jobs/issues').then(function(response) {
+      return response.json();
+    })
     .then(function (jobs) {
         var content = '';
 
@@ -47,9 +48,11 @@ title: 徵才職缺
 
         return content;
 
-    }, function (error) {
-        return "<p>請點選上方連結以觀看徵才訊息！</p>";
-    }).always(function (content) {
-        $('#jobs').append(content);
+    })
+    .catch(function (content) {
+      return "<p>請點選上方連結以觀看徵才訊息！</p>";
+    })
+    .then(function (content) {
+        document.getElementById('jobs').innerHTML += content;
     });
 </script>
