@@ -3,7 +3,7 @@ order: 6
 title: 活動幹部
 name: Laura Chu
 site:
-avatar: //graph.facebook.com/lalamon/picture?width=100&height=100
+avatar: //images.plurk.com/3yJ8vgkLuijIfbiFCuvGax.jpg
 ---
 
 <!-- 這邊應該放介紹 -->
