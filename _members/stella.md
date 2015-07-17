@@ -3,7 +3,7 @@ order: 11
 title: 活動幹部兼聯絡人
 name: Stella Chen
 site:
-avatar: //graph.facebook.com/ChenStellar/picture?width=100&height=100
+avatar: https://images.plurk.com/2xCePufWiIGtT6CoYLTdG1.jpg
 ---
 
 <!-- 這邊應該放介紹 -->
