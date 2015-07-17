@@ -3,7 +3,7 @@ order: 3
 title: 策展人
 name: 吳自勝
 site:
-avatar: //graph.facebook.com/tzusheng/picture?width=100&height=100
+avatar: //graph.facebook.com/1521106495/picture?width=100&height=100
 ---
 
 <!-- 這邊應該放介紹 -->
