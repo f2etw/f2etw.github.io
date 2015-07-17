@@ -15,7 +15,7 @@
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<header onclick="javascript:goHome();">
+		<header>
 			{% if contents or file %}
 			{% include '../_includes/nav.html' %}
 			{% else %}
@@ -28,11 +28,6 @@
 		<footer>
 			F2E Taiwan Community.
 		</footer>
-		<script>
-		function goHome() { 
-			location.href = "/";	
-		}
-		</script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
