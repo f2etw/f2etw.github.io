@@ -3,7 +3,7 @@ order: 8
 title: 活動幹部
 name: Alice Wei
 site:
-avatar: //graph.facebook.com/F0F8FF/picture?width=100&height=100
+avatar: https://images.plurk.com/2xCePufWiIGtT6CoYLTdG1.jpg
 ---
 
 <!-- 這邊應該放介紹 -->

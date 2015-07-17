@@ -3,7 +3,7 @@ order: 12
 title: 網站維護者
 name: Wildsky
 site: http://wildsky.cc
-avatar: //graph.facebook.com/wi1d5ky/picture?width=100&height=100
+avatar: //graph.facebook.com/100000157150997/picture?width=100&height=100
 ---
 
 ## 簡介
