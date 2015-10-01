@@ -47,20 +47,40 @@ title: Home
 
 		posts.data.forEach(function(post, index, array) {
 
-		if (post.message) {
-			msg = post.message;
-			msg = msg.replace(/&/g, "&amp;")
-					.replace(/</g, "&lt;")
-					.replace(/>/g, "&gt;")
-					.replace(/"/g, "&quot;")
-					.replace(/'/g, "&#039;");
-			content += `
-				<li>
-					<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" />
-					<p><a href="https://facebook.com/${post.id} " target="_blank">${msg}</a></p>
-				</li>
-				`;
-			}
+			if (post.message) {
+				msg = post.message;
+				msg = msg.replace(/&/g, "&amp;")
+						.replace(/</g, "&lt;")
+						.replace(/>/g, "&gt;")
+						.replace(/"/g, "&quot;")
+						.replace(/'/g, "&#039;");
+
+				content += `
+					<li>
+						<img src="https://graph.facebook.com/${post.from.id}/picture?width=60&height=60" alt="${post.from.name}" class="avatar" />
+						<p>`
+				var before = false;
+
+				if(msg) {
+					content += `<a href="https://facebook.com/${post.id} ">${msg}</a>`
+					before = true;
+				}
+
+				if(post.link) {
+					content += before?"<br>":"[Share]";
+					content += `<a href="${post.link}" class="link">${post.name?post.name:""}</a>`
+					before = true;
+				}
+
+				if(post.picture) {
+					content += before?"<br>":"";
+					content += `<img src="${post.picture}" alt=""/>`
+				}
+
+				content += `</p>
+					</li>
+					`;
+				}
 		});
 
 		return content;
