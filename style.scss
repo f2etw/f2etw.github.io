@@ -178,7 +178,7 @@ a {
 
 
 		&#fb_posts {
-			margin: 0 auto;
+			margin: 0 auto 2rem;
 			padding: 0;
 			width: 62%;
 			background: $white-bgc;
@@ -211,7 +211,16 @@ a {
 					border: none;
 				}
 
-				img {
+				.link {
+					display: inline;
+					color: $main-color;
+
+					&:hover {
+						color: darken($main-color, 10%);
+					}
+				}
+
+				.avatar {
 					float:left;
 					margin: 0 .5em;
 					padding: 9px;
