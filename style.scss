@@ -16,13 +16,12 @@ body {
 	font-family:  "Arial", "微軟正黑體", "Microsoft Jhenghei";
 
 	> header {
-		padding-top: 150px;
+		padding-top: 140px;
 		background-image: url('/images/banner.jpg');
 		background-color: #ddd;
 		background-size: contain;
 		background-position: center;
 		background-repeat: no-repeat;
-		cursor: pointer;
 	}
 
 	> main {
@@ -61,22 +60,15 @@ a {
 		position: relative;
 		list-style-type: none;
 		display: inline-block;
-		margin: 0 1em;
-		padding: .2em .5em;
 		line-height: 1.2em;
 
-		&.current::before {
+		a {
 			display: block;
-			content: '';
-			position: absolute;
-			width: 0;
-			height: 0;
-			border: 9px solid transparent;
-			border-left-color: darken($main-color, 10%);
-			bottom: 0;
-			top: 20%;
-			left: 2.5%;
-			margin-left: -8px;
+			padding: .4em 1.5em;
+		}
+
+		&.current {
+			background-color: darken($main-color, 5%);
 		}
 	}
 

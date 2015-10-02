@@ -46,7 +46,21 @@
                     li {
                         display: inline-block;
                         margin: 0;
-                        width: 300px;
+                        width: 100%;
+
+                        &.current {
+                            background-color: #BFEA7A;
+
+                            a::before  {
+                                position: absolute;
+                                top: .75rem;
+                                left: 6.5rem;
+                                display: inline;
+                                content: "";
+                                border: 3.5px solid $footer-color;
+                                border-radius: 50%;
+                            }
+                        }
 
                         a {
                             display: block;
@@ -210,6 +224,6 @@
 
 @media screen and (max-width: 550px) {
     body > header {
-        padding-top: 100px;
+        padding-top: 90px;
     }
 }
