@@ -1,14 +1,14 @@
 ---
 title: "『FED Party 9』Analytics！不見其人願見其聲"
-date: 2014/6/17
+date: 2014/06/17
 ---
 
 ![Analytics！不見其人願見其聲](/images/act-9.png)
 
 親愛的與會者您好，很高興跟您分享這次『FED Party 9』Analytics！不見其人願見其聲
-的活動內容，主持人為吳自勝。講者Hans Shih的演講內容因為有公司的保密問題，影片無法公開，請各位見諒。
+的活動內容，主持人為吳自勝。講者 Hans Shih 的演講內容因為有公司的保密問題，影片無法公開，請各位見諒。
 
-Keynote 講者：
+## Keynote 講者
 
   * Google Analytics 使用者行為分析 by [Hans Shih](http://goo.gl/gcbQIg)
   * Google Analytics 網站分析: 學習心得分享 by [趙柏強](http://goo.gl/tZpRSO)

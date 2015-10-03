@@ -3,7 +3,7 @@ title: "『FED Workshop』設計師撈過界"
 date: 2015/03/28
 ---
 
-![『FED Workshop』設計師撈過界](https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/603854_808756245839479_2264249059528231390_n.jpg?oh=40d63a964f329811a93064dbabdc35e3&oe=55D9827C&__gda__=1440259582_a08388365423fddc53c51dc49ad7b62f)
+![『FED Workshop』設計師撈過界](https://scontent-tpe1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/603854_808756245839479_2264249059528231390_n.jpg?oh=05c3d72db31c1f6acd4656f4b3c5ba21&oe=569F437C)
 
 從零開始學習撰寫網頁是很困難的，一方面是找不到正確的資源學習，另一方面還要解決開發環境、雲端主機等等的問題，才能擁有一個自己的網站，這些門檻讓許多初學者得不到成就感半途而廢，透過初階工作坊，讓初學者能夠透過系統化的學習 HTML 與 CSS，透過修改 Tumblr 主題，迅速打造一個自己滿意的部落格或作品集網站。
 

@@ -253,7 +253,7 @@ a {
 			font-size: 1.4em;
 
 			&:hover {
-				color: black;
+				color: $font-color-hover;
 			}
 		}
 
@@ -283,10 +283,11 @@ a {
 	background: $white-bgc;
 	line-height: 1.5em;
 	text-align: center;
+	color: #343434;
 
 	header {
 		margin: 0 auto 30px;
-		height: 135px;
+		height: 175px;
 		border-bottom: 1px solid #777;
 
 		h1 {
@@ -294,6 +295,7 @@ a {
 			padding: 1.2em 0 .6em;
 			font-size: 1.6em;
 			font-weight: 600;
+			color: #555;
 		}
 
 		time {
@@ -304,6 +306,25 @@ a {
 			font-size: .8em;
 			text-align: center;
 		}
+	}
+
+	h2 {
+		margin: 0px 10% 30px;
+		color: #555;
+		text-align: left;
+		font-size: 1.65rem;
+		letter-spacing: .1rem;
+	}
+
+	h3 {
+		@extend h2;
+		font-size: 1.25rem;
+	}
+
+	h4 {
+		@extend h2;
+		font-size: 1rem;
+		letter-spacing: 0rem;
 	}
 
 	p {
@@ -326,6 +347,10 @@ a {
 		ul {
 			margin-bottom: 0;
 		}
+
+		p {
+			margin-left: 0;
+		}
 	}
 
 	img {
@@ -335,7 +360,7 @@ a {
 
 	}
 
-	#fb_root iframe {
+	iframe {
 		margin: 10px 0 30px;
 		min-height: 400px;
 		width: 100%;
@@ -350,6 +375,7 @@ a {
 
 .intro {
 	background-color: $white-bgc;
+	color: #343434;
 
 	p {
 		margin: 0 auto;
@@ -358,10 +384,6 @@ a {
 		max-width: 960px;
 		line-height: 2em;
 		vertical-align: top;
-
-		&:first-child {
-			text-indent: 2em;
-		}
 	}
 }
 
@@ -418,6 +440,7 @@ a {
 	min-height: 100%;
 	width: 50vw;
 	background: $white-bgc;
+	color: #343434;
 	text-align: center;
 
 	header {
@@ -597,6 +620,7 @@ a {
 	background: $white-bgc;
 	text-align: center;
 	list-style-type: none;
+	color: #444;
 
 	h1 {
 		padding: 0 0 1em;
@@ -606,7 +630,7 @@ a {
 
 	table {
 		margin: 30px auto 0;
-		width: 100%;
+		width: 90%;
 		min-width: 750px;
 		border-bottom: 1px solid #777;
   		border-collapse: collapse;
