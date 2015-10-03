@@ -1,0 +1,54 @@
+[
+    {
+        "name": "f2e.tw",
+        "url": "https://github.com/f2etw/f2etw.github.io",
+        "img": "/f2e_logo_2.png",
+        "img-alt": "f2e Taiwan logo",
+        "description": "本站也需要協助！"
+    },
+    {
+        "name": "fedora.linux.org.tw",
+        "url": "https://github.com/linux-taiwan/fedora.linux.org.tw",
+        "img": "http://fedora.linux.org.tw/images/logo.svg",
+        "img-alt": "fedora logo",
+        "description": "地方的 Fedora 社群需要協助！"
+    },
+    {
+        "name": "chewing.im",
+        "url": "https://github.com/chewing/chewing.github.com",
+        "img": "https://raw.githubusercontent.com/chewing/chewing.github.com/master/logo.png",
+        "img-alt": "chewing logo",
+        "description": "地方的新酷音社群需要協助！"
+    },
+    {
+        "name": "pcman.ptt.cc",
+        "url": "https://github.com/pcman-bbs/pcman-bbs.github.io",
+        "img": "http://pcman.ptt.cc/images/pcmanx.svg",
+        "img-alt": "pcmanx logo",
+        "description": "地方的 Pcman 需要協助！（咦"
+    },
+    {
+        "name": "linux.org.tw",
+        "url": "https://github.com/linux-taiwan/linux-taiwan.github.io",
+        "img": "http://planet.linux.org.tw/images/logo.png",
+        "img-alt": "Planet Linux of Taiwan logo",
+        "description": "地方的 Linux 社群需要協助！"
+    },
+    {
+        "name": "gnome.linux.org.tw",
+        "url": "https://github.com/linux-taiwan/gnome.linux.org.tw",
+        "img": "",
+        "img-alt": "",
+        "description": "我們需要 logo!!"
+    },
+    {
+        "name": "l10n.tw",
+        "url": "https://github.com/l10n-tw/l10n-tw.github.io",
+        "img": "",
+        "img-alt": "",
+        "description": "我們需要 logo!!"
+    }
+
+
+
+]

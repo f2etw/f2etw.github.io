@@ -1,0 +1,20 @@
+---
+title: 待解任務
+---
+
+<div id="messions">
+	<h2>任務列表</h2>
+	<ul>
+		{% for project in site.data.project %}
+	    <li>
+			<a href="{{ project.url }}">
+				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
+				<div class="info">
+					<strong>{{ project.name }}</strong>
+					{{ project.description }}
+				</div>
+			</a>
+	    </li>
+	    {% endfor %}
+	</ul>
+</div>

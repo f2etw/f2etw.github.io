@@ -394,6 +394,7 @@ a {
 
 	ul {
 		margin: 0;
+		padding: 0;
 
 		li {
 			display: inline-block;
@@ -672,6 +673,41 @@ a {
 				padding: 1em;
 				vertical-align: center;
 				overflow: hidden;
+			}
+		}
+	}
+}
+
+#messions {
+	padding: 1rem 5%;
+	background-color: $white-bgc;
+	@extend .member;
+
+	h2 {
+		padding-bottom: .5rem;
+		color: $main-color;
+		text-align: left;
+		border-bottom: 1px solid $main-color;
+	}
+
+	ul {
+
+		li {
+			color: $main-color;
+
+			a {
+				color: $footer-color;
+
+				strong {
+					width: 80%;
+					color: $footer-color;
+					border-bottom: 1px solid $footer-color;
+				}
+
+				img {
+					border: 0;
+					border-radius: 0;
+				}
 			}
 		}
 	}
