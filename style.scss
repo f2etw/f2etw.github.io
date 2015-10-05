@@ -686,8 +686,17 @@ a {
 	h2 {
 		padding-bottom: .5rem;
 		color: $main-color;
+		font-size: 1.75rem;
 		text-align: left;
 		border-bottom: 1px solid $main-color;
+	}
+
+	h3 {
+		@extend h2;
+		color: darken($main-color, 10%);
+		border-color: darken($main-color, 10%);
+		margin-left: 3rem;
+		font-size: 1.5rem;
 	}
 
 	ul {

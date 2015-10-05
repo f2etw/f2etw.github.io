@@ -1,11 +1,13 @@
 ---
-title: 待解任務
+title: 熱情貢獻
 ---
 
 <div id="messions">
-	<h2>任務列表</h2>
+
+	{% if site.data.project.general != empty %}
+	<h2>網站列表</h2>
 	<ul>
-		{% for project in site.data.project %}
+		{% for project in site.data.project.general %}
 	    <li>
 			<a href="{{ project.url }}">
 				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
@@ -17,4 +19,57 @@ title: 待解任務
 	    </li>
 	    {% endfor %}
 	</ul>
+	{% endif %}
+
+	{% if site.data.project.linux != empty %}
+	<h3>Linux 相關網站</h3>
+	<ul>
+		{% for project in site.data.project.linux %}
+	    <li>
+			<a href="{{ project.url }}">
+				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
+				<div class="info">
+					<strong>{{ project.name }}</strong>
+					{{ project.description }}
+				</div>
+			</a>
+	    </li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+	{% if site.data.project.addon != empty %}
+	<h2>擴充套件</h2>
+	<ul>
+		{% for project in site.data.project.addon %}
+	    <li>
+			<a href="{{ project.url }}">
+				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
+				<div class="info">
+					<strong>{{ project.name }}</strong>
+					{{ project.description }}
+				</div>
+			</a>
+	    </li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
+	{% if site.data.project.js != empty %}
+	<h2>其他 js 相關專案</h2>
+	<ul>
+		{% for project in site.data.project.js %}
+	    <li>
+			<a href="{{ project.url }}">
+				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
+				<div class="info">
+					<strong>{{ project.name }}</strong>
+					{{ project.description }}
+				</div>
+			</a>
+	    </li>
+	    {% endfor %}
+	</ul>
+	{% endif %}
+
 </div>
