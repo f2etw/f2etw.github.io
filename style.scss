@@ -719,6 +719,30 @@ a {
 				}
 			}
 		}
+
+		&.project-list {
+
+			li {
+				width: 40%;
+
+				color: $main-color;
+
+				a {
+					color: $footer-color;
+
+					.info {
+						padding: 1rem 0;
+					}
+
+					strong {
+						width: 80%;
+						color: $footer-color;
+						border-bottom: 0;
+						padding: .25rem;
+					}
+				}
+			}
+		}
 	}
 }
 

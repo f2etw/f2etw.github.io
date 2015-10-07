@@ -31,53 +31,40 @@
     ],
     "linux": [
         {
-            "name": "linux.org.tw",
-            "url": "https://github.com/linux-taiwan/linux-taiwan.github.io",
-            "img": "http://planet.linux.org.tw/images/logo.png",
-            "img-alt": "Planet Linux of Taiwan logo",
-            "description": "地方的 Linux 社群需要協助！"
+            "name": "www.linux.org.tw",
+            "url": "https://github.com/linux-taiwan/www.linux.org.tw",
+            "bgcolor": "#5B707C",
+            "text-color": "#fff"
         },
         {
             "name": "fedora.linux.org.tw",
             "url": "https://github.com/linux-taiwan/fedora.linux.org.tw",
-            "img": "http://fedora.linux.org.tw/images/logo.svg",
-            "img-alt": "fedora logo",
-            "description": "地方的 Fedora 社群需要協助！"
+            "bgcolor": "#4870BC",
+            "text-color": "#fff"
         },
         {
             "name": "ubuntu.linux.org.tw",
             "url": "https://github.com/linux-taiwan/ubuntu.linux.org.tw",
-            "img": "",
-            "img-alt": "",
-            "description": "地方的 Ubuntu 社群需要協助！"
+            "bgcolor": "#DD4814",
+            "text-color": "#fff"
         },
         {
             "name": "opensuse.linux.org.tw",
             "url": "https://github.com/linux-taiwan/opensuse.linux.org.tw",
-            "img": "",
-            "img-alt": "",
-            "description": "地方的 Opensuse 社群需要協助！"
+            "bgcolor": "#73BA25",
+            "text-color": "#fff"
         },
         {
             "name": "arch.linux.org.tw",
             "url": "https://github.com/linux-taiwan/arch.linux.org.tw",
-            "img": "",
-            "img-alt": "",
-            "description": "地方的 Arch Linux 社群需要協助！"
-        },
-        {
-            "name": "planet.linux.org.tw",
-            "url": "https://github.com/linux-taiwan/planet.linux.org.tw",
-            "img": "",
-            "img-alt": "",
-            "description": "Linux 星球需要協助！"
+            "bgcolor": "#1793D1",
+            "text-color": "#fff"
         },
         {
             "name": "l10n.linux.org.tw",
             "url": "https://github.com/linux-taiwan/l10n.linux.org.tw",
-            "img": "",
-            "img-alt": "",
-            "description": "我們需要 logo!!"
+            "bgcolor": "#EDB14E",
+            "text-color": "#fff"
         }
     ],
     "addon": [],

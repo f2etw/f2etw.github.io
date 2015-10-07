@@ -22,15 +22,16 @@ title: 熱情貢獻
 	{% endif %}
 
 	{% if site.data.project.linux != empty %}
-	<h3>Linux 相關網站</h3>
-	<ul>
+	<h3>
+		<img src="https://avatars3.githubusercontent.com/u/4004919?v=3&s=50" alt="Linux Taiwan logo">
+		Linux 相關網站
+	</h3>
+	<ul class="project-list">
 		{% for project in site.data.project.linux %}
 	    <li>
 			<a href="{{ project.url }}">
-				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
-				<div class="info">
-					<strong>{{ project.name }}</strong>
-					{{ project.description }}
+				<div class="info" style="background:{{ project.bgcolor }};">
+					<strong style="color: {{ project.text-color }};">{{ project.name }}</strong>
 				</div>
 			</a>
 	    </li>
