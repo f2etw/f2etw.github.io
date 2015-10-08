@@ -67,6 +67,21 @@
             "text-color": "#fff"
         }
     ],
-    "addon": [],
+    "addon": [
+        {
+            "name": "新同文堂",
+            "url": "https://github.com/softcup",
+            "img": "https://addons.cdn.mozilla.net/user-media/addon_icons/6/6113-64.png?modified=1353733754",
+            "img-alt": "新同文堂 logo",
+            "description": "提供中文繁體與簡體互轉的工具！"
+        },
+        {
+            "name": "Dictionary Panel",
+            "url": "https://github.com/kidwm/dictionary-panel",
+            "img": "https://addons.cdn.mozilla.net/static/img/addon-icons/dictionary-64.png",
+            "img-alt": "dictionary panel logo",
+            "description": "快速查詢單字的字典擴充套件！"
+        }
+    ],
     "js": []
 }
