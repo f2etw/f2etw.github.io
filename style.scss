@@ -361,9 +361,7 @@ a {
 	}
 
 	iframe {
-		margin: 10px 0 30px;
-		min-height: 400px;
-		width: 100%;
+		max-width: 100%;
 	}
 
 	#disqus_thread {
