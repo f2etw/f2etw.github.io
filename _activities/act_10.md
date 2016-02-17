@@ -29,16 +29,11 @@ date: 2014/07/16
 
 ### 活動錄影
 
-<p>
-<iframe width="560" height="315" src="//www.youtube.com/embed/igmZnIT19Tc?list=PLmwIWrPep6nmkm8h5MGJqaved_FDs9xyc" frameborder="0" allowfullscreen></iframe>
-</p>
-
+{% youtube igmZnIT19Tc?list=PLmwIWrPep6nmkm8h5MGJqaved_FDs9xyc %}
 
 ### 直播錄影紀錄
 
-<p>
-<iframe width="560" height="315" src="//www.youtube.com/embed/F-qO5sftxR0" frameborder="0" allowfullscreen></iframe>
-</p>
+{% youtube F-qO5sftxR0 %}
 
 本次活動有許多贊助以及協辦單位，也很謝謝下列廠商給予我們支持。
 
