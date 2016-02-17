@@ -19,7 +19,9 @@ date: 2013/12/05
 
 ## 活動錄影
 
-{% youtube GxsyisfDvqk?list=PLmwIWrPep6nm8dhlnmpaStOoW6koerKKh %}
+<p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/GxsyisfDvqk?list=PLmwIWrPep6nm8dhlnmpaStOoW6koerKKh" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ## 活動投影片
 

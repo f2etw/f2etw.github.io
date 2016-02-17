@@ -14,4 +14,4 @@ date: 2014/10/21
 
 Erica Liu講者內容有版權限制，不能公開。歡迎大家踴躍參與我們的活動阿。
 
-{% youtube uTkv71Se3Is?list=PLmP3eZx_aWyqDtRhaiQmnzszEtfSSeVwm %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uTkv71Se3Is?list=PLmP3eZx_aWyqDtRhaiQmnzszEtfSSeVwm" frameborder="0" allowfullscreen></iframe>

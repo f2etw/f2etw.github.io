@@ -21,4 +21,6 @@ date: 2014/09/25
 + Chen-Heng Chang
 + Raven Chen
 
-{% youtube cGn-AMNGWQM?list=PLmP3eZx_aWyq-r9su-QQg-mFGlYi-BESJ %}
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cGn-AMNGWQM?list=PLmP3eZx_aWyq-r9su-QQg-mFGlYi-BESJ" frameborder="0" allowfullscreen></iframe>
+</p>

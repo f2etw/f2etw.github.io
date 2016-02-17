@@ -21,7 +21,9 @@ date: 2014/08/29
 
 ### 活動錄影
 
-{% youtube P_sPWfiMwbk?list=PLmP3eZx_aWypYHATj22Lk8o4HhiMQQG_t %}
+<p>
+    <iframe width="560" height="315" src="//www.youtube.com/embed/P_sPWfiMwbk?list=PLmP3eZx_aWypYHATj22Lk8o4HhiMQQG_t" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ### 投影片
 
