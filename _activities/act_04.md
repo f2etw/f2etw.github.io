@@ -22,7 +22,9 @@ date: 2014/01/09
 
 以下是錄影內容，由於場地限制錄影效果不是很好，我們之後注意的。
 
-{% youtube YmRqX6vOR44?list=PLmwIWrPep6nlxz9RRu87ZO3R-wnCwt6hJ %}
+<p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/YmRqX6vOR44?list=PLmwIWrPep6nlxz9RRu87ZO3R-wnCwt6hJ" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ## 活動投影片
 

@@ -10,6 +10,9 @@ date: 2013/07/04
 
 以下是錄影檔，歡迎大家分享，也謝謝講者的分享以及大家的支持。
 
-{% youtube sM7Vex4rvoA %}
-
-{% youtube uahJ2MyTk3M %}
+<p>
+<iframe width="420" height="315" src="//www.youtube.com/embed/sM7Vex4rvoA" frameborder="0" allowfullscreen></iframe>
+</p>
+<p>
+<iframe width="420" height="315" src="//www.youtube.com/embed/uahJ2MyTk3M" frameborder="0" allowfullscreen></iframe>
+</p>

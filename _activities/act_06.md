@@ -35,7 +35,9 @@ date: 2014/03/19
 
 ## 活動影片:
 
-{% youtube E-1RlRaBGr4?list=PLmwIWrPep6nljBx4SMfWCVrIuGqlZgXiA %}
+<p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/E-1RlRaBGr4?list=PLmwIWrPep6nljBx4SMfWCVrIuGqlZgXiA" frameborder="0" allowfullscreen></iframe>
+</p>
 
 ## 活動投影片
 

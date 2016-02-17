@@ -47,6 +47,10 @@ CLKao 所提供的額外 LiveScript 資訊: [D3.js with LiveScript](http://blog.
 
 以下是聚會錄影跟講者陳奕豪所提供的影片:
 
-{% youtube WQjbmpHDGVw %}
+<p>
+<iframe width="420" height="315" src="//www.youtube.com/embed/WQjbmpHDGVw" frameborder="0" allowfullscreen></iframe>
+</p>
 
-{% youtube a3xGz5FjoeI %}
+<p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/a3xGz5FjoeI" frameborder="0" allowfullscreen></iframe>
+</p>
