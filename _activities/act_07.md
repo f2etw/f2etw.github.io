@@ -25,9 +25,7 @@ date: 2014/04/23
 ## 活動影片
 (不包含制服地圖)
 
-<p>
-<iframe width="560" height="315" src="//www.youtube.com/embed/vYSa8aHbIzc?list=PLmwIWrPep6nnddnDQh8OffN_gECipFFUu" frameborder="0" allowfullscreen></iframe>
-</p>
+{% youtube vYSa8aHbIzc?list=PLmwIWrPep6nnddnDQh8OffN_gECipFFUu %}
 
 ## 活動投影片
 <p>

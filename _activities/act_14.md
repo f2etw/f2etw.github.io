@@ -16,6 +16,6 @@ date: 2014/11/27
 
 + 吳怡穎Win (YouMeb) - Hubot 機器人
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o0vtlnlwl-Q?list=PLmP3eZx_aWyoE8D6bACzb6aw5EpEC7wRl" frameborder="0" allowfullscreen></iframe>
+{% youtube o0vtlnlwl-Q?list=PLmP3eZx_aWyoE8D6bACzb6aw5EpEC7wRl %}
 
 補述: 本次Logo攝影者為 Kevin Zhuang@f2e 在布拉格(Prague)拍攝的天文鐘(Astronomical Clock)，目前已經運轉了600多年，是世界第三老的天文鐘。

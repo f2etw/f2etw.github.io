@@ -23,9 +23,7 @@ date: 2014/05/26
 
 ## 活動錄影
 
-<p>
-<iframe width="560" height="315" src="//www.youtube.com/embed/0kjCHMDJjw0?list=PLmwIWrPep6nmRWRYYvlagwatpcXHE-lse" frameborder="0" allowfullscreen></iframe>
-</p>
+{% youtube 0kjCHMDJjw0?list=PLmwIWrPep6nmRWRYYvlagwatpcXHE-lse %}
 
 ## 投影片
 (不包含前端社團的形形色色)
