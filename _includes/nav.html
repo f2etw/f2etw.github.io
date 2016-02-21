@@ -1,30 +1,29 @@
-<nav>
-	<input type="checkbox" id="nav-trigger" />
-	<label for="nav-trigger">
-		<img src="/images/list.svg" alt="menu-icon" style="height:20px; width:20px;">
-	</label>
+<nav class="nav" id="navigation">
+  <a href="#navigation" class="nav__trigger"></a>
 
-	<ul id="navigation">
-		<li class="{% if page.title == "Home" %}current{% endif %}">
-			<a href="/">最新消息</a>
+	<ul class="navigation ul-reset">
+		<li class="navigation__item {% if page.title == "Home" %}current{% endif %}">
+			<a class="navigation__item__link" href="/">最新消息</a>
 		</li>
-		<li class="{% if page.title == "活動紀錄" %}current{% endif %}">
-			<a href="/activity.html">活動紀錄</a>
+		<li class="navigation__item {% if page.title == "活動紀錄" %}current{% endif %}">
+			<a class="navigation__item__link" href="/activity.html">活動紀錄</a>
 		</li>
-		<li class="{% if page.title == "關於我們" %}current{% endif %}">
-			<a href="/about.html">關於我們</a>
+		<li class="navigation__item {% if page.title == "關於我們" %}current{% endif %}">
+			<a class="navigation__item__link" href="/about.html">關於我們</a>
 		</li>
-		<li class="{% if page.title == "社群串連" %}current{% endif %}">
-			<a href="/community.html">社群串連</a>
+		<li class="navigation__item {% if page.title == "社群串連" %}current{% endif %}">
+			<a class="navigation__item__link" href="/community.html">社群串連</a>
 		</li>
-		<li class="{% if page.title == "徵才職缺" %}current{% endif %}">
-			<a href="/jobs.html">徵才職缺</a>
+		<li class="navigation__item {% if page.title == "徵才職缺" %}current{% endif %}">
+			<a class="navigation__item__link" href="/jobs.html">徵才職缺</a>
 		</li>
-		<li class="{% if page.title == "熱情貢獻" %}current{% endif %}">
-			<a href="/contribute.html">熱情貢獻</a>
+		<li class="navigation__item {% if page.title == "熱情貢獻" %}current{% endif %}">
+			<a class="navigation__item__link" href="/contribute.html">熱情貢獻</a>
 		</li>
-		<li class="{% if page.title == "收支記錄" %}current{% endif %}">
-			<a href="/records.html">收支報告</a>
+		<li class="navigation__item {% if page.title == "收支記錄" %}current{% endif %}">
+			<a class="navigation__item__link" href="/records.html">收支報告</a>
 		</li>
 	</ul>
+
+  <a href="###" class="nav__label--reset"></a>
 </nav>

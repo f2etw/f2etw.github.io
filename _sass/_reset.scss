@@ -1,0 +1,43 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $font-color;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  border: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+a {
+  color: inherit;
+
+  &:hover {
+    opacity: .85;
+  }
+}
+
+h1,
+h2 {
+  border-bottom: 1px solid;
+  color: darken($main-color, 10%);
+}
+
+h3 {
+  color: darken($main-color, 20%);
+}

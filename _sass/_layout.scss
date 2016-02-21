@@ -1,245 +1,26 @@
-#nav-trigger {
-    display: none;
+body {
+  background-color: $main-bgc;
 }
 
-@media screen and (min-width: 827px) {
-    nav > label  {
-        display: none;
+.workspace {
+  max-width: 60rem;
+  min-height: 30rem;
+  margin: 0 auto;
+  background-color: $white-bgc;
+
+  > * {
+    padding: 2rem 5%;
+
+    @include bp('m+') {
+      padding: 2rem;
     }
+  }
 }
 
-@media screen and (max-width: 827px) {
-
-    body {
-        max-width: 100%;
-
-        > header {
-            padding-top: 175px;
-            background-position: top center;
-            z-index: 1;
-
-            #navigation {
-                display: none;
-            }
-
-            nav {
-                height:auto;
-                min-height: 2.5em;
-                width: 100%;
-                background: $main-color;
-
-                label {
-                    display: block;
-                    text-align: right;
-
-                    img {
-                        margin: .5em 1em;
-                    }
-                }
-
-                input:checked ~ ul#navigation {
-                    display: block;
-                    background-color: #BFEA7A;
-                    line-height: 1.5em;
-                    box-shadow: 0 2px 2px rgba(0,0,0,.2);
-
-                    li {
-                        display: inline-block;
-                        margin: 0;
-                        width: 100%;
-
-                        &.current {
-                            background-color: #BFEA7A;
-
-                            a::before  {
-                                position: absolute;
-                                top: .75rem;
-                                left: 6.5rem;
-                                display: inline;
-                                content: "";
-                                border: 3.5px solid $footer-color;
-                                border-radius: 50%;
-                            }
-                        }
-
-                        a {
-                            display: block;
-                            padding: .25em 1em;
-                            color: #127158;
-
-                            &:hover {
-                                color: #0E5B47;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .home {
-        width: 100%;
-
-        h2 {
-            padding: 1em 0;
-            width: 90%;
-        }
-
-        ul {
-            padding: 0;
-            width: 90%;
-
-            &#fb_posts {
-                padding: 0;
-                width: 90%;
-
-                li:first-child {
-                    padding: 0 5%;
-                    width: 90%;
-                }
-            }
-        }
-    }
-
-    .activity {
-        width: 80%;
-        z-index: -1;
-
-        li:first-child a {
-            padding: 1em 1em;
-        }
-    }
-
-    #post {
-        padding: 0 0 5%;
-
-        header p, p {
-            margin: 0 5% 30px;
-            width: 90%;
-        }
-
-        ul {
-            padding: 0;
-            list-style-type: none;
-        }
-
-        img, iframe {
-            display: block;
-            width: 100%;
-        }
-    }
-
-    .intro {
-        width: 100%;
-
-        p {
-            display: block;
-            padding: 0 5% 1.5em;
-            width: 90%;
-            min-width: 0;
-
-            &:first-child {
-                text-indent: 0;
-            }
-        }
-    }
-
-    .member {
-        width: 100%;
-
-        ul {
-            padding: 0;
-
-            li {
-                padding: 5% 0;
-                width: 250px;
-
-                a {
-                    padding: 0;
-                }
-            }
-        }
-    }
-
-    #member_intro {
-        padding: 5%;
-        width: 80%;
-
-        header div p {
-            margin: 1em auto;
-            text-align: center;
-        }
-    }
-
-    .community {
-        width: 90%;
-
-        li {
-            a {
-                display: block;
-                width: 100%;
-
-                >div, .title {
-                    width: 100%;
-                }
-
-                p {
-                    display: block;
-                    width: 90%;
-                }
-            }
-        }
-    }
-
-    #messions {
-        width: 90%;
-
-        h3 {
-            margin-left: 0;
-        }
-
-        p {
-            margin: 0 1rem;
-        }
-
-        ul.project-list li {
-            width: 90%;
-        }
-    }
-
-    #record {
-      padding: 20px 1%;
-      width: 98%;
-
-    	table {
-        min-width: 0px;
-
-    		&.sum {
-          width: 100%;
-    		}
-
-    		tr td {
-            padding: 1em 0;
-            vertical-align: center;
-            overflow: hidden;
-        }
-
-        .name {
-          width: 28%;
-        }
-    	}
-    }
-
-}
-
-@media screen and (max-width: 340px) {
-    .home ul#fb_posts li {
-        max-width: 300px;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    body > header {
-        padding-top: 90px;
-    }
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  color: $white;
+  background-color: $footer-color;
 }

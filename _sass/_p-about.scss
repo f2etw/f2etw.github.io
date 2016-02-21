@@ -1,0 +1,8 @@
+.intro {
+  margin: 0 auto;
+  line-height: 2;
+
+  @include bp('m+') {
+    max-width: 80%;
+  }
+}

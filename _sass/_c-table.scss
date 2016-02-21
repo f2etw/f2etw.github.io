@@ -1,0 +1,33 @@
+table {
+  width: 90%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: 1.5em;
+  // background-color: rgba($second-color, .3);
+}
+
+th {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.sum {
+  margin-bottom: 4em;
+
+  td {
+      border-top: 1px solid #999;
+  }
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+tr:hover,
+td:hover {
+  background-color: rgba($main-color, .1);
+}

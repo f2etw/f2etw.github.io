@@ -1,0 +1,95 @@
+.header {
+  font-size: 1.2em;
+  line-height: 2.5rem;
+  color: $white;
+  background-color: $main-color;
+
+  &::before {
+    content: '';
+    display: block;
+    padding-top: 9rem;
+    background: #ddd url('/images/banner.jpg') no-repeat 50% / cover;
+
+    @include bp('s+') {
+      background-size: contain;
+    }
+  }
+}
+
+.nav {
+}
+
+.nav__trigger {
+  display: block;
+  height: 2.5rem;
+  background: url('/images/list.svg') no-repeat calc(100% - .5rem) 50%;
+  background-size: 1.25rem;
+  cursor: pointer;
+
+  @include bp('m+') {
+    display: none;
+  }
+}
+
+.nav__label--reset {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+  background-color: rgba($black, .3);
+
+  &:hover {
+    opacity: inherit;
+  }
+
+  .nav:target & {
+    display: block;
+  }
+
+  @include bp('m+') {
+    display: none !important;
+  }
+}
+
+.navigation {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: none;
+  text-align: center;
+  background-color: $main-color;
+
+  .nav:target & {
+    display: block;
+    box-shadow: 0 8px 10px -8px $font-color;
+  }
+
+  @include bp('m+') {
+    position: static;
+    display: block;
+    background-color: transparent;
+  }
+}
+
+.navigation__item {
+  position: relative;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+
+  &.current {
+    background-image: linear-gradient(rgba($white,.3), rgba($white,.3));
+  }
+
+  @include bp('m+') {
+    display: inline-block;
+  }
+}
+
+.navigation__item__link {
+  display: block;
+  text-decoration: none;
+}

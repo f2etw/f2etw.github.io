@@ -2,23 +2,26 @@
 title: 熱情貢獻
 ---
 
-<div id="messions">
-
+<div>
 	{% if site.data.project.general != empty %}
 	<h2>網站列表</h2>
-	<ul>
+	<ul class="contribute text-center ul-reset">
 		{% for project in site.data.project.general %}
-	    <li>
-			<a href="{{ project.url }}">
-				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
-				<div class="info">
-					<strong>{{ project.name }}</strong>
-					{{ project.description }}
-				</div>
+    <li class="member">
+			<a class="member__link" href="{{ project.url }}">
+				<img class="member__avatar" src="{{ project.img }}" alt="{{ project.alt }}" width="100" height="100">
+				<span class="member__info">
+					<strong class="member__name">{{ project.name }}</strong>
+					<span class="member__title">{{ project.description }}</span>
+				</span>
 			</a>
-	    </li>
-	    {% endfor %}
+		</li>
+    {% endfor %}
+		<li class="member m--empty"></li>
+		<li class="member m--empty"></li>
+
 	</ul>
+
 	{% endif %}
 
 	{% if site.data.project.linux != empty %}
@@ -26,14 +29,12 @@ title: 熱情貢獻
 		<img src="https://avatars3.githubusercontent.com/u/4004919?v=3&s=50" alt="Linux Taiwan logo">
 		Linux 相關網站
 	</h3>
-	<ul class="project-list">
+	<ul class="contribute-linux text-center ul-reset">
 		{% for project in site.data.project.linux %}
-	    <li>
-			<a href="{{ project.url }}">
-				<div class="info" style="background:{{ project.bgcolor }};">
-					<strong style="color: {{ project.text-color }};">{{ project.name }}</strong>
-				</div>
-			</a>
+	    <li class="contribute-linux__item">
+				<a class="contribute-linux__link" href="{{ project.url }}" style="background:{{ project.bgcolor }};color: {{ project.text-color }};">
+					{{ project.name }}
+				</a>
 	    </li>
 	    {% endfor %}
 	</ul>
@@ -44,18 +45,20 @@ title: 熱情貢獻
 	<p>
 		歡迎推薦專案進入這份清單！
 	</p>
-	<ul>
+	<ul class="contribute text-center ul-reset">
 		{% for project in site.data.project.addon %}
-	    <li>
-			<a href="{{ project.url }}">
-				<img src="{{ project.img }}" alt="{{ project.img-alt }}">
-				<div class="info">
-					<strong>{{ project.name }}</strong>
-					{{ project.description }}
-				</div>
-			</a>
-	    </li>
+	    <li class="member">
+				<a class="member__link" href="{{ project.url }}">
+					<img class="member__avatar" src="{{ project.img }}" alt="{{ project.alt }}" width="100" height="100">
+					<span class="member__info">
+						<strong class="member__name">{{ project.name }}</strong>
+						<span class="member__title">{{ project.description }}</span>
+					</span>
+				</a>
+			</li>
 	    {% endfor %}
+			<li class="member m--empty"></li>
+			<li class="member m--empty"></li>
 	</ul>
 	{% endif %}
 

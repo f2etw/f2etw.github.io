@@ -10,7 +10,7 @@ title: 收支記錄
 {% assign sorted_record = (site.data.records | sort: {{record_hash[0]}}) %}
 {% for record_hash in sorted_record reversed %}
     {% assign record = record_hash[1] %}
-    <table>
+    <table class="text-center">
         <caption>{{ record.title }}</caption>
         <tr>
             <th class="name">名稱</th>
@@ -32,7 +32,7 @@ title: 收支記錄
         {% endfor %}
     </table>
 
-    <table class="sum">
+    <table class="sum text-center">
         <tr>
             <td><span>本次總額</span>：{{ record.total }}</td>
             <td><span>前次餘額</span>：{{ record.property }}</td>

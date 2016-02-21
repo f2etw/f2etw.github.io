@@ -1,0 +1,32 @@
+.contribute {
+  .member {
+    width: 18rem;
+  }
+
+  .member__avatar {
+    box-shadow: none;
+  }
+}
+
+///
+.contribute-linux {
+}
+
+.contribute-linux__item {
+  display: inline-block;
+  margin: 0 1em 2em;
+  width: 100%;
+
+
+  @include bp('m+') {
+    max-width: 35%;
+  }
+}
+
+.contribute-linux__link {
+  display: block;
+  padding: 1em;
+  font-weight: 900;
+  font-size: 1.5em;
+  text-decoration: none;
+}

@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-<article id="member_intro">
+<article class="member-card text-center">
 	<header>
-		<img src="{{ page.avatar }}" alt="member's photo">
+		<img class="member-card__avatar bd-round" src="{{ page.avatar }}" alt="photo of {{page.name}}">
 		<div>
 			<h1>{{ page.name }}</h1>
 			<p>{{ page.title }}</p>
 		</div>
 	</header>
-	<div>
+
+	<div class="member-card__intro">
 		{{ content }}
 	</div>
 </article>

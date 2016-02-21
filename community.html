@@ -2,58 +2,17 @@
 title: 社群串連
 ---
 
-
-<ul class="community">
+<ul class="community text-center ul-reset">
     {% for community in site.data.community %}
-    <li>
-        <a id="{{ community.id }}" href="{{ community.url }}">
-            <div style="background-image:url('{{ community.img }}');">
-                <div class="title" id="{{ community.name }}-title">{{ community.name }}</div>
-            </div>
-            <p id="{{ community.name }}-description">{{ community.description }}</p>
+    <li class="community__item">
+        <a class="community__link" href="https://www.facebook.com/groups/{{ community.id }}">
+            <span class="community__cover" style="background-image: url('{{ community.cover.source }}');">
+                <span class="community__name">{{ community.name }}</span>
+            </span>
+            <span class="community__desc">{{ community.description }}</span>
         </a>
     </li>
     {% endfor %}
+
+    <li class="community__item m--empty"></li>
 </ul>
-
-<script>
-
-var groups=[
-    {% for com in site.data.community %}
-        {{ com.id }},
-    {% endfor %}
-];
-
-var content = [];
-
-for(var a in groups) {
-  fetch('https://graph.facebook.com/' + groups[a] + '?access_token=1385521591772831|lMcuWxJls6aEK-IwR0Z-_AQVMV4').then(function(response) {
-    return response.json();
-  })
-  .then(function(posts){
-    content.push(posts);
-    if(content.length === groups.length)
-    return content
-  })
-  .then(function(posts) {
-
-        if(content.length !== groups.length)
-          return
-
-        if(content.length == 5) {
-            for(var c in content) {
-
-                if(content[c].name !== "")
-                    document.getElementById(content[c].name+"-title").innerHTML = content[c].name;
-
-                if(content[c].description !== undefined) {
-                    if(content[c].description.length > 124)
-                        content[c].description = content[c].description.slice(0,123) + "…";
-
-                    document.getElementById(content[c].name+"-description").innerHTML = content[c].description;
-                }
-            }
-        }
-    });
-}
-</script>
