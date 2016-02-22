@@ -1,0 +1,26 @@
+body {
+  background-color: $main-bgc;
+}
+
+.workspace {
+  max-width: 60rem;
+  min-height: 30rem;
+  margin: 0 auto;
+  background-color: $white-bgc;
+
+  > * {
+    padding: 2rem 5%;
+
+    @include bp('m+') {
+      padding: 2rem;
+    }
+  }
+}
+
+footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  color: $white;
+  background-color: $footer-color;
+}

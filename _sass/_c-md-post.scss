@@ -1,0 +1,23 @@
+.md-post {
+}
+
+.md-content {
+  padding: 2em 0;
+
+  @include bp('m+') {
+    padding: 2em;
+  }
+
+  img {
+    max-width: 100%;
+
+    @include bp('m+') {
+      margin-left: 5%;
+      max-width: 90%;
+    }
+  }
+
+  a {
+    color: $main-color;
+  }
+}

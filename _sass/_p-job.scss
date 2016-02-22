@@ -1,0 +1,42 @@
+.jobs {
+}
+
+.job {
+  margin-bottom: 1.5em;
+}
+
+.job__link {
+  font-weight: 900;
+}
+
+.job__createtime {
+  display: block;
+  font-size: 80%;
+  opacity: .5;
+
+  @include bp('m+') {
+    margin-left: 5%;
+  }
+}
+
+.job__tags {
+  margin-left: 10%;
+  font-size: 90%;
+  opacity: .1;
+
+  .job:hover & {
+    opacity: .75;
+  }
+}
+
+.job__tags__item {
+  display: inline-block;
+  margin-right: .25em;
+  margin-bottom: .25em;
+  padding: .1em .5em;
+
+  span {
+    color: $white;
+    mix-blend-mode: difference;
+  }
+}

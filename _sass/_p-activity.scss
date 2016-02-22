@@ -1,0 +1,42 @@
+.activity {
+  margin: 0 auto;
+  padding-bottom: 3em;
+
+  @include bp('m+') {
+    width: 90%;
+  }
+}
+
+.activity-item {
+}
+
+.activity-link {
+  display: block;
+  padding: .75em 0;
+  border-bottom: 1px solid rgba($black,.05);
+  text-decoration: none;
+  color: rgba($black, .7);
+
+  @include bp('m+') {
+    padding: .75em 1.5rem;
+  }
+
+  .activity-item:last-of-type & {
+    border-bottom: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    background-color: rgba($white, .3);
+  }
+}
+
+.activity-time {
+  display: inline-block;
+  padding-left: .5em;
+  padding-right: .5em;
+  margin-right: .5em;
+  line-height: 1;
+  background-image: linear-gradient(transparent 50%, rgba($second-color, .5) 75%);
+  font-weight: 900;
+}

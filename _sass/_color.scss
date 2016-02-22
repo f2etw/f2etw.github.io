@@ -1,9 +1,13 @@
 $white: #fff;
-$white-bgc: rgba(255,255,255,.55);
-$white-bgc-hover: rgba(255,255,255,.7);
+$white-bgc: rgba($white,.55);
+$white-bgc-hover: rgba($white,.7);
+
+$black: #000;
+
 $main-color: #3bb225;
 $main-bgc: #D4F1A6;
 $main-bgc-dark: darken($main-bgc, 10%);
+$second-color: #bfea7a;
 $font-color: #343434;
 $font-color-hover: #343434;
 $footer-color: #127158;

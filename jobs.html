@@ -2,24 +2,34 @@
 title: 徵才職缺
 ---
 
-<ul id="jobs">
-    <li>
-        <a href="https://github.com/f2etw/jobs/issues">
-            如果你也想要徵才/求職，歡迎張貼！
-        </a>
-    </li>
+<div>
+    <h3 class="text-center">
+        <a href="https://github.com/f2etw/jobs/issues">如果你也想要徵才/求職，歡迎張貼！</a>
+    </h3>
+
+    <hr>
+
     <noscript>
-        <li>
-            <div>
-                <h3>您的瀏覽器可能不支援「顯示職缺」的功能</h3>
-                <p style="font-size:1em;">
-                    請使用最新版的 Firefox 或是 Chrome 以便獲得最佳體驗。
-                    或者，您可以點擊上方標題前往 GitHub 查看當前職缺。
-                </p>
-            </div>
-        </li>
+        <div>
+            <h3>您的瀏覽器可能不支援「顯示職缺」的功能</h3>
+            <p style="font-size:1em;">
+                請使用最新版的 Firefox 或是 Chrome 以便獲得最佳體驗。
+                或者，您可以點擊上方標題前往 GitHub 查看當前職缺。
+            </p>
+        </div>
     </noscript>
-</ul>
+
+    <ul class="jobs js-jobs posts">
+            <a class="job__link" href="https://facebook.com/10153285570810982"></a>
+            <time class="job__createtime"></time>
+            <ul class="job__tags ul-reset">
+                <li class="job__tags__item"></li>
+            </ul>
+        </li>
+    </ul>
+
+</div>
+
 
 <script>
     fetch('https://api.github.com/repos/f2etw/jobs/issues').then(function(response) {
@@ -31,21 +41,18 @@ title: 徵才職缺
         jobs.forEach(function(job, index, array) {
             if (job.pull_request !== undefined){return;}
             content += `
-                <li>
-                    <a href="${job.html_url}">
-                        <h3>${job.title}</h3>
-                        <p>from ${job.created_at}</p>
-                        <ul class="labels">
+                <li class="job">
+                    <a class="job__link" href="${job.html_url}">${job.title}</a>
+                    <time class="job__createtime">${job.created_at}</time>
+                    <ul class="job__tags ul-reset">
                         ${job.labels.map(
                             function(label){
-                                return `<li style="background:#${label.color};">${label.name}</li>`
+                                return `<li class="job__tags__item" style="background:linear-gradient(#${label.color}, #${label.color});"><span>${label.name}</span></li>`
                             }).join("\n")}
-                        </ul>
-                    </a>
+                    </ul>
                 </li>
             `;
         });
-
         return content;
 
     })
@@ -53,6 +60,6 @@ title: 徵才職缺
       return "<p>請點選上方連結以觀看徵才訊息！</p>";
     })
     .then(function (content) {
-        document.getElementById('jobs').innerHTML += content;
+        document.querySelector('.js-jobs').innerHTML += content;
     });
 </script>

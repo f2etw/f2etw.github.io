@@ -1,0 +1,55 @@
+.community {
+}
+
+.community__item {
+  display: inline-block;
+  width: 95%;
+  margin: 0 .5em 1em;
+  vertical-align: top;
+  text-align: left;
+
+  @include bp('m+') {
+    max-width: 40%;
+  }
+}
+
+.community__link {
+  display: block;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+.community__cover {
+  position: relative;
+  display: block;
+  padding-bottom: 32%;
+  background: $white no-repeat 50% / cover;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(transparent 40%, rgba($black, .5));
+  }
+}
+
+.community__name {
+  position: absolute;
+  right: 2.5%;
+  bottom: 5%;
+  z-index: 1;
+  font-weight: 900;
+  color: $white;
+}
+
+.community__desc:not(:empty) {
+  display: block;
+  margin-left: .5em;
+  padding-top: .5em;
+  padding-left: .5em;
+  border-left: .25em solid rgba($black, .1);
+  opacity: .85;
+}

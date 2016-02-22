@@ -1,0 +1,86 @@
+.members-wrap {
+  background-color: $main-color;
+}
+
+.members {
+  color: $main-bgc;
+}
+
+.member {
+  display: inline-block;
+  width: 16rem;
+  max-width: 100%;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  vertical-align: top;
+}
+
+.member__link {
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.member__avatar {
+  width: 6.5rem;
+  height: 6.5rem;
+  padding: .2rem;
+  box-shadow: 0 0 0 1px;
+}
+
+.member__info {
+  display: block;
+}
+
+.member__name {
+}
+
+.member__title {
+  display: block;
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: .5em;
+  padding-top: .5em;
+  border-top: 1px solid;
+}
+
+/// member-card
+
+.member-card {
+
+  a {
+    color: $main-color;
+  }
+
+  ul {
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+.member-card__avatar {
+  width: 100px;
+  height: 100px;
+  @include round;
+}
+
+.member-card__intro {
+  margin: 0 auto;
+
+  @include bp('m+') {
+    max-width: 40rem;
+  }
+
+  h2 {
+    color: inherit;
+    border: none;
+  }
+
+  p {
+    @include bp('m+') {
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    margin-bottom: 2.5em;
+  }
+}

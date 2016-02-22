@@ -3,10 +3,12 @@ title: 活動紀錄
 ---
 
 {% if site.activities != empty %}
-<ul class="activity">
+<ul class="activity ul-reset">
 	{% for activity in site.activities reversed %}
-		<li>
-			<a href="{{ activity.url}}">[{{ activity.date }}] {{ activity.title }}</a>
+		<li class="activity-item">
+			<a class="activity-link" href="{{ activity.url }}">
+        <span class="activity-time">[{{ activity.date | date: "%Y-%m-%d" }}]</span>
+        {{ activity.title }}</a>
 		</li>
 	{% endfor %}
 </ul>

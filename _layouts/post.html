@@ -2,38 +2,45 @@
 layout: default
 ---
 
-<div id="fb-root"></div>
-<script>
-	(function(d, s, id) {
-		var js, fjs = d.getElementsByTagName(s)[0];
-		if (d.getElementById(id)) return;
-		js = d.createElement(s); js.id = id;
-		js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3&appId=764801763582382";
-		fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));
-</script>
-
-<article id="post">
-	<header>
+<article class="md-post">
+	<header class="text-center">
 		<h1>{{ page.title }}</h1>
-		<time>[ {{ page.date | date: "%Y / %m / %d" }} ]</time>
-		<div class="fb-like" data-href="http://www.f2e.tw{{ page.url }}" data-width="100%" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+		<div class="text-right clearfix">
+			<time class="left">[ {{ page.date | date: "%Y / %m / %d" }} ]</time>
+			<div class="fb-like" data-href="http://www.f2e.tw{{ page.url }}" data-width="100%" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+		</div>
 	</header>
-	<div>
+
+	<div class="md-content">
 		{{ content }}
 	</div>
+
 	<div id="disqus_thread">
 		<noscript>請啟用 JavaScript 以查看留言<a href="https://disqus.com/?ref_noscript" rel="nofollow">（使用 Disqus）。</a></noscript>
 	</div>
+
+	<script>
+	(function () {
+		var oldLoad = window.onload;
+		window.onload = function() {
+			if (typeof oldLoad === 'function') { oldLoad(); }
+
+			(function(dsq) {
+				var disqus_shortname = 'f2etw';
+				dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})(document.createElement('script'));
+
+			(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3&appId=764801763582382";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		};
+	})();
+	</script>
 </article>
 
-<script type="text/javascript">
-    var disqus_shortname = 'f2etw';
-    (function() {
-        var dsq = document.createElement('script');
-		dsq.type = 'text/javascript';
-		dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>

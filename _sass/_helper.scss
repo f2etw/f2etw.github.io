@@ -1,0 +1,60 @@
+// mixins
+
+@mixin bp($size: 's+') {
+  $_bp: $bp-s;
+  @if $size == 's+' {
+    $_bp: $bp-s;
+  } @else if  $size == 'm+' {
+    $_bp: $bp-m;
+  } @else {
+    $_bp: $bp-l;
+  }
+  @media (min-width: #{$_bp}) {
+    @content;
+  }
+}
+
+@mixin round($bdrs: 100em) {
+  border-radius: $bdrs;
+}
+
+
+/// helpers
+
+.ul-reset {
+  margin: 0;
+  padding-left: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.bd-round {
+  @include round;
+}
+
+.text-left {text-align: left; }
+.text-right {text-align: right; }
+.text-center {text-align: center; }
+
+.clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+.left {float: left; }
+.right {float: right;}

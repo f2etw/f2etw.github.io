@@ -15,28 +15,28 @@
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			{% if contents or file %}
 			{% include '../_includes/nav.html' %}
 			{% else %}
 			{% include nav.html %}
 			{% endif %}
 		</header>
-		<main>
+		<main class="workspace">
 			{{ content | safe }}{{ contents | safe }}
 		</main>
 		<footer>
-			F2E Taiwan Community.
+			<a href="https://fb.com/groups/f2etw">F2E Taiwan Community.</a>
 		</footer>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
+
 		  ga('create', 'UA-64084300-1', 'auto');
 		  ga('send', 'pageview');
-		
+
 		</script>
 	</body>
 </html>
