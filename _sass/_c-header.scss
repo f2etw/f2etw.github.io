@@ -77,8 +77,7 @@
 
 .navigation__item {
   position: relative;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
+  padding: 0;
 
   &.current {
     background-image: linear-gradient(rgba($white,.3), rgba($white,.3));
@@ -92,4 +91,5 @@
 .navigation__item__link {
   display: block;
   text-decoration: none;
+  padding: 0 15%;
 }
