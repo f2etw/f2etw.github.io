@@ -1,0 +1,9 @@
+- name: "Twitter hashtag: #f2etw"
+  url: "https://twitter.com/hashtag/f2etw"
+  color: "#1da1f2"
+  desc: "Twitter 上關於 #f2etw 的貼文"
+
+- name: "Facebook hashtag: #f2etw"
+  url: "https://www.facebook.com/search/latest/?q=%23f2etw"
+  color: "#3b5998"
+  desc: "Facebook 上關於 #f2etw 的貼文"

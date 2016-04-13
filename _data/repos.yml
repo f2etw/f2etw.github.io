@@ -1,0 +1,19 @@
+- name: weekly-collection
+  url: "http://www.f2e.tw/weekly-collection/"
+  color: "#666"
+  desc: "固定每週彙整社團裡熱門文十篇，以做為社團趨勢"
+
+- name: jobs
+  url: "https://github.com/f2etw/jobs/issues"
+  color: "#966"
+  desc: "利用該專案的 GitHub issue system，以作為前端界求才 & 求職的另一個曝光機會"
+
+- name: f2e-notes
+  url: "https://github.com/f2etw/f2e-notes/issues"
+  color: "#669"
+  desc: "利用該專案的 GitHub issue system，以作為前端共筆查詢 & 貢獻系統"
+
+- name: TubeTogether
+  url: "https://github.com/f2etw/TubeTogether"
+  color: "#696"
+  desc: "透過同時觀賞 YouTube 影片，並搭配 gitter 群聊討論，可創造一個線上同時觀看技術研討會影片的簡易環境。"
