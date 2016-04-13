@@ -1,0 +1,42 @@
+---
+title: 社團相關專案
+---
+
+<div>
+	<h2>社團相關專案</h2>
+
+	<ul class="community text-center ul-reset">
+		{% for repo in site.data.repos %}
+		<li class="community__item">
+			<div class="community__link">
+				<a class="community__cover" href="{{ repo.url }}" style="background-color: {{ repo.color  }};">
+					<span class="community__name">{{ repo.name }}</span>
+				</a>
+				<span class="community__desc">
+					{{ repo.desc }}
+				</span>
+			</div>
+		</li>
+		{% endfor %}
+		<li class="community__item m--empty"></li>
+	</ul>
+
+	<h2>社團相關連結</h2>
+
+	<ul class="community text-center ul-reset">
+		{% for link in site.data.links %}
+		<li class="community__item">
+			<div class="community__link">
+				<a class="community__cover" href="{{ link.url }}" style="background-color: {{ link.color  }};">
+					<span class="community__name">{{ link.name }}</span>
+				</a>
+				<span class="community__desc">
+					{{ link.desc }}
+				</span>
+			</div>
+		</li>
+		{% endfor %}
+		<li class="community__item m--empty"></li>
+	</ul>
+
+</div>
