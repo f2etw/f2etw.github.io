@@ -6,6 +6,8 @@ site: http://kvzhuang.net/
 avatar: //zh-tw.gravatar.com/userimage/38692526/197bf4464c6c6b7c20c12be8d373fddb.png?size=200
 ---
 
+{% include personal-info.html %}
+
 ## 簡介
 
 歡迎大家加入我們!
