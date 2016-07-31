@@ -1,0 +1,80 @@
+/*
+ source: http://unlimited.kptaipei.tw/docs/
+ ref: http://lea.verou.me/2012/04/background-attachment-local/
+ demo by @Lea Verou
+ http://dabblet.com/gist/2462915
+ */
+
+$white: #fff!default;
+$black: #000!default;
+
+%scroll-shadow--vertical {
+	background-image:
+		/* Shadow covers */
+		linear-gradient($white 30%, rgba($white, 0)),
+		linear-gradient(rgba($white, 0), $white 70%),
+
+		/* Shadows */
+		radial-gradient(farthest-side at 50% 0, rgba($black, .15), rgba($black, 0)),
+		radial-gradient(farthest-side at 50% 100%, rgba($black, .15), rgba($black, 0));
+	background-repeat: no-repeat;
+	background-color: $white;
+
+	/* set size in mixin
+	background-size */
+
+	/* Opera doesn't support this in the shorthand */
+	background-attachment:
+		local,
+		local,
+		scroll,
+		scroll;
+
+	background-position:
+		50%   0%,
+		50% 100%,
+		50%   0%,
+		50% 100%;
+}
+
+@mixin scroll-shadow--vertical($scroll-shadow-bgc: $white, $scroll-shadow-color: $black, $scroll-shadow-size: 10px) {
+
+	@if ($scroll-shadow-bgc == $white) and ($scroll-shadow-color == $black) {
+		@extend %scroll-shadow--vertical;
+	} @else {
+		background-image:
+			/* Shadow covers */
+			linear-gradient($scroll-shadow-bgc 30%, rgba($scroll-shadow-bgc, 0)),
+			linear-gradient(rgba($scroll-shadow-bgc, 0), $scroll-shadow-bgc 70%),
+
+			/* Shadows */
+			radial-gradient(farthest-side at 50% 0, rgba($scroll-shadow-color, .15), rgba($scroll-shadow-color, 0)),
+			radial-gradient(farthest-side at 50% 100%, rgba($scroll-shadow-color, .15), rgba($scroll-shadow-color, 0));
+		background-color: $scroll-shadow-bgc;
+	}
+
+	background-size:
+		100% ($scroll-shadow-size)*3,
+		100% ($scroll-shadow-size)*3,
+		100% ($scroll-shadow-size),
+		100% ($scroll-shadow-size);
+}
+
+
+@mixin scroll-shadow--horizen($scroll-shadow-bgc: $white, $scroll-shadow-color: $black, $scroll-shadow-size: 10px) {
+
+	background:
+		/* Shadow covers */
+		linear-gradient(90deg, $scroll-shadow-bgc 30%, rgba($scroll-shadow-bgc, 0)),
+		linear-gradient(90deg, rgba($scroll-shadow-bgc, 0), $scroll-shadow-bgc 70%) 100% 0,
+
+		/* Shadows */
+		radial-gradient(farthest-side at 0 50%, rgba($scroll-shadow-color, .2), rgba($scroll-shadow-color, 0)),
+		radial-gradient(farthest-side at 100% 50%, rgba($scroll-shadow-color, .2), rgba($scroll-shadow-color, 0)) 100% 0;
+	background-repeat: no-repeat;
+	background-color: $scroll-shadow-bgc;
+	background-size: ($scroll-shadow-size * 3) 100%, ($scroll-shadow-size * 3) 100%, $scroll-shadow-size 100%, $scroll-shadow-size 100%;
+
+	/* Opera doesn't support this in the shorthand */
+	background-attachment: local, local, scroll, scroll;
+}
