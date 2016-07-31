@@ -1,0 +1,118 @@
+---
+title: 2015 開發者忘年會
+data:
+    - name: 現場購票
+      category: 票務
+      unitPrice: 1500
+      number: 1
+      total: 1500
+      note:
+
+    - name: 紙膠帶捐款
+      category: 票務
+      unitPrice: 1624
+      number: 1
+      total: 1624
+      note:
+
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 61746
+      number: 1
+      total: 61746
+      note:
+
+    - name: 撥款入帳甄才
+      category: 票務
+      unitPrice: 4306
+      number: 1
+      total: 4306
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -21000
+      number: 1
+      total: -21000
+      note:
+
+    - name: 外燴
+      category: 雜項
+      unitPrice: -24500
+      number: 1
+      total: -24500
+      note:
+
+    - name: 第一次Pizza
+      category: 雜項
+      unitPrice: -1788
+      number: 1
+      total: -1788
+      note:
+
+    - name: 第二次Pizza
+      category: 雜項
+      unitPrice: -3034
+      number: 1
+      total: -3034
+      note:
+
+    - name: 肯德基
+      category: 雜項
+      unitPrice: -2745
+      number: 1
+      total: -2745
+      note:
+
+    - name: 調酒
+      category: 雜項
+      unitPrice: -10000
+      number: 1
+      total: -10000
+      note:
+
+    - name: 紅酒
+      category: 雜項
+      unitPrice: -1500
+      number: 1
+      total: -1500
+      note:
+
+    - name: 糖果
+      category: 雜項
+      unitPrice: -394
+      number: 1
+      total: -394
+      note:
+
+    - name: 技能貼紙
+      category: 雜項
+      unitPrice: -4760
+      number: 1
+      total: -4760
+      note:
+
+    - name: 紙卡
+      category: 雜項
+      unitPrice: -117
+      number: 1
+      total: -117
+      note:
+
+    - name: 立牌紙張
+      category: 雜項
+      unitPrice: -15
+      number: 1
+      total: -15
+      note:
+
+    - name: 列印
+      category: 雜項
+      unitPrice: -142
+      number: 1
+      total: -142
+      note:
+
+total: -936
+property: 14584
+balance: 13648

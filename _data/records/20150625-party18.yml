@@ -1,0 +1,41 @@
+---
+title: party 18
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 8020
+      number: 1
+      total: 8020
+      note:
+
+    - name: 現場購票
+      category: 票務
+      unitPrice: 200
+      number: 6
+      total: 1200
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -5000
+      number: 1
+      total: -5000
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: -1600
+      number: 1
+      total: -1600
+      note:
+
+    - name: 粽子
+      category: 雜項
+      unitPrice: -2350
+      number: 1
+      total: -2350
+      note:
+
+total: 270
+property: 28948
+balance: 29218

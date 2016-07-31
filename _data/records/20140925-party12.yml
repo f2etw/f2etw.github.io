@@ -1,0 +1,41 @@
+---
+title: party 12
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 13776
+      number: 1
+      total: 13776
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -5000
+      number: 1
+      total: -5000
+      note:
+
+    - name: 餐點
+      category: 雜項
+      unitPrice: -3000
+      number: 1
+      total: -3000
+      note:
+
+    - name: 月餅
+      category: 雜項
+      unitPrice: -1350
+      number: 1
+      total: -1350
+      note:
+
+    - name: 還代墊紙膠帶費用
+      category: 雜項
+      unitPrice: -24917
+      number: 1
+      total: -24917
+      note:
+
+total: 20491
+property: 35575
+balance: 15084

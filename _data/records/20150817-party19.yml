@@ -1,0 +1,27 @@
+---
+title: party 19
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 19240
+      number: 1
+      total: 19240
+      note: 未扣除手續費
+
+    - name: 現場購票
+      category: 雜項
+      unitPrice: 250
+      number: 3
+      total: 750
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: -21000
+      number: 1
+      total: -21000
+      note:
+
+total: -1010
+property: 29218
+balance: 28208
