@@ -58,3 +58,10 @@
 }
 .left {float: left; }
 .right {float: right;}
+
+.scrollbox {
+  max-width: 100%;
+  overflow: auto;
+  margin-bottom: 3em;
+  @include scroll-shadow--horizen(lighten($main-bgc, 15%), lighten($black, 30%));
+}
