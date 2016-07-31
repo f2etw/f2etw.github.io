@@ -10,8 +10,10 @@ title: 收支記錄
 {% assign sorted_record = (site.data.records | sort: {{record_hash[0]}}) %}
 {% for record_hash in sorted_record reversed %}
     {% assign record = record_hash[1] %}
+    <h3 class="text-center" id="record-{{ forloop.rindex0 }}">{{ record.title }} <a href="#record-{{ forloop.rindex0 }}"><sup>⚓</sup></a></h3>
+    <div class="scrollbox">
     <table class="text-center">
-        <caption>{{ record.title }}</caption>
+    	<thead>
         <tr>
             <th class="name">名稱</th>
             <th>分類</th>
@@ -20,7 +22,18 @@ title: 收支記錄
             <th>總額</th>
             <th>備註</th>
         </tr>
+    	</thead>
+
+	    <tfoot class="sum text-center">
+        <tr>
+            <td colspan="2"><span>本次總額</span>：{{ record.total }}</td>
+            <td colspan="2"><span>前次餘額</span>：{{ record.property }}</td>
+            <td colspan="2"><span>收支現況</span>：{{ record.balance }}</td>
+        </tr>
+	    </tfoot>
+
         {% for item in record.data %}
+        <tbody>
         <tr>
             <td class="name">{{ item.name }}</td>
             <td>{{ item.category }}</td>
@@ -29,15 +42,9 @@ title: 收支記錄
             <td>{{ item.total }}</td>
             <td>{{ item.note }}</td>
         </tr>
+        </tbody>
         {% endfor %}
     </table>
-
-    <table class="sum text-center">
-        <tr>
-            <td><span>本次總額</span>：{{ record.total }}</td>
-            <td><span>前次餘額</span>：{{ record.property }}</td>
-            <td><span>收支現況</span>：{{ record.balance }}</td>
-        </tr>
-    </table>
+    </div>
     {% endfor %}
 </div>
