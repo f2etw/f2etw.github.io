@@ -1,0 +1,27 @@
+---
+title: party 17
+data:
+    - name: 場地費
+      category: 雜項
+      unitPrice: -5400
+      number: 1
+      total: -5400
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: -1600
+      number: 2
+      total: -3200
+      note:
+
+    - name: 講師費（短講）
+      category: 雜項
+      unitPrice: -500
+      number: 2
+      total: -1000
+      note:
+
+total: -9600
+property: 38548
+balance: 28948
