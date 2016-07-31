@@ -1,7 +1,8 @@
 table {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   border-collapse: collapse;
+  word-break: break-word;
 }
 
 caption {
@@ -9,22 +10,27 @@ caption {
   // background-color: rgba($second-color, .3);
 }
 
-th {
+thead,
+tfoot {
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
+  background-image: linear-gradient(rgba($black, .05), rgba($black, .05));
 }
 
 .sum {
   margin-bottom: 4em;
 
   td {
-      border-top: 1px solid #999;
+    border-top: 1px solid #999;
   }
 }
+
 
 th,
 td {
   padding: 1em;
+  padding: 1em 1vw;
+  min-width: 75px;
 }
 
 tr:hover,
