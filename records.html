@@ -5,46 +5,46 @@ title: 收支記錄
 
 
 <div id="record">
-    <h1>{{ page.title }}</h1>
+	<h1>{{ page.title }}</h1>
 
 {% assign sorted_record = (site.data.records | sort: {{record_hash[0]}}) %}
 {% for record_hash in sorted_record reversed %}
-    {% assign record = record_hash[1] %}
-    <h3 class="text-center" id="record-{{ forloop.rindex0 }}">{{ record.title }} <a href="#record-{{ forloop.rindex0 }}"><sup>⚓</sup></a></h3>
-    <div class="scrollbox">
-    <table class="text-center">
-    	<thead>
-        <tr>
-            <th class="name">名稱</th>
-            <th>分類</th>
-            <th>單價</th>
-            <th>數量</th>
-            <th>總額</th>
-            <th>備註</th>
-        </tr>
-    	</thead>
+	{% assign record = record_hash[1] %}
+	<h3 class="text-center" id="record-{{ forloop.rindex0 }}">{{ record.title }} <a href="#record-{{ forloop.rindex0 }}"><sup>⚓</sup></a></h3>
+	<div class="scrollbox">
+		<table class="text-center">
+			<thead>
+				<tr>
+					<th class="name">名稱</th>
+					<th>分類</th>
+					<th>單價</th>
+					<th>數量</th>
+					<th>總額</th>
+					<th>備註</th>
+				</tr>
+			</thead>
 
-	    <tfoot class="sum text-center">
-        <tr>
-            <td colspan="2"><span>本次總額</span>：{{ record.total }}</td>
-            <td colspan="2"><span>前次餘額</span>：{{ record.property }}</td>
-            <td colspan="2"><span>收支現況</span>：{{ record.balance }}</td>
-        </tr>
-	    </tfoot>
+			<tfoot class="sum text-center">
+				<tr>
+					<td colspan="2"><span>本次總額</span>：{{ record.total }}</td>
+					<td colspan="2"><span>前次餘額</span>：{{ record.property }}</td>
+					<td colspan="2"><span>收支現況</span>：{{ record.balance }}</td>
+				</tr>
+			</tfoot>
 
-        {% for item in record.data %}
-        <tbody>
-        <tr>
-            <td class="name">{{ item.name }}</td>
-            <td>{{ item.category }}</td>
-            <td>{{ item.unitPrice }}</td>
-            <td>{{ item.number }}</td>
-            <td>{{ item.total }}</td>
-            <td>{{ item.note }}</td>
-        </tr>
-        </tbody>
-        {% endfor %}
-    </table>
-    </div>
-    {% endfor %}
+			<tbody>
+			{% for item in record.data %}
+				<tr>
+					<td class="name">{{ item.name }}</td>
+					<td>{{ item.category }}</td>
+					<td>{{ item.unitPrice }}</td>
+					<td>{{ item.number }}</td>
+					<td>{{ item.total }}</td>
+					<td>{{ item.note }}</td>
+				</tr>
+			{% endfor %}
+			</tbody>
+		</table>
+	</div>
+	{% endfor %}
 </div>
