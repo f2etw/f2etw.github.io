@@ -1,0 +1,48 @@
+---
+title: party 24
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 6210
+      number: 1
+      total: 6210
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: 0
+      number: 1
+      total: 0
+      note:
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 0
+      number: 1
+      total: -1409
+      note:
+
+    - name: 飲料
+      category: 雜項
+      unitPrice: 0
+      number: 1
+      total: -197
+      note:
+
+    - name: 紙杯
+      category: 雜項
+      unitPrice: 0
+      number: 1
+      total: -112
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: 0
+      number: 2
+      total: 0
+      note:
+
+total: 4492
+property: 65490
+balance: 69982

@@ -1,12 +1,12 @@
 ---
-title: party 20
+title: party 21
 data:
     - name: 撥款入帳金額
       category: 票務
-      unitPrice: 6410
+      unitPrice: 4600
       number: 1
-      total: 6410
-      note: 
+      total: 4600
+      note:
 
     - name: 場地費
       category: 雜項
@@ -22,6 +22,6 @@ data:
       total: 0
       note:
 
-total: 6410
-property: 28208
-balance: 34618
+total: 4600
+property: 50110
+balance: 54710

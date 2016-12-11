@@ -1,0 +1,27 @@
+---
+title: party 20
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 2400
+      number: 1
+      total: 2400
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: 0
+      number: 1
+      total: 0
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: 0
+      number: 2
+      total: 0
+      note:
+
+total: 2400
+property: 47710
+balance: 50100
