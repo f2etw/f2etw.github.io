@@ -50,6 +50,6 @@ data:
       total: -4500
       note:
 
-total: 
-# property: 65490
-# balance: 69982
+total: -100
+property: 0
+balance: -100
