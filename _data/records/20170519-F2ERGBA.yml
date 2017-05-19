@@ -24,16 +24,16 @@ data:
 
     - name: 短缺
       category: 
-      unitPrice: 251
+      unitPrice: 201
       number: 1
-      total: -251
+      total: -201
       note: 
 
     - name: 飲料
       category: 雜項
-      unitPrice:
-      number: 
-      total: 
+      unitPrice: 50
+      number: 1
+      total: 50
       note:
 
     - name: 紙杯
