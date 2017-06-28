@@ -1,0 +1,55 @@
+---
+title: F2E&RGBA 2017-06
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 200
+      number: 23
+      total: 4600
+      note:
+
+    - name: 場地費
+      category: 雜項
+      unitPrice: 0
+      number: 1
+      total: 0
+      note:
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 2348
+      number: 1
+      total: -2348
+      note:
+
+    - name: 短缺
+      category: 
+      unitPrice: 0
+      number: 1
+      total: 0
+      note: 
+
+    - name: 飲料
+      category: 雜項
+      unitPrice: 0
+      number: 1
+      total: 0
+      note:
+
+    - name: 紙杯
+      category: 雜項
+      unitPrice: 0
+      number: 0
+      total: 0
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: 1500
+      number: 1
+      total: -1500
+      note:
+
+total: 752
+property: 6660
+balance: 7412
