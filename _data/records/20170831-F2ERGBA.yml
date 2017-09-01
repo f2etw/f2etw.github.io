@@ -1,0 +1,41 @@
+---
+title: F2E&RGBA 2017-07
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 200
+      number: 34
+      total: 6800
+      note:
+
+    - name: KKTIX
+      category: 手續費
+      unitPrice: 0
+      number: 1
+      total: -414
+      note:
+
+    - name: 發票 5% 稅
+      category: 稅
+      unitPrice: 0
+      number: 1
+      total: -320
+      note:
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 2099
+      number: 1
+      total: -2099
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: 1500
+      number: 2
+      total: -3000
+      note:
+
+total: 967
+property: 7163
+balance: 8130
