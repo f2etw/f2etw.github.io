@@ -19,7 +19,7 @@ data:
       category: 稅
       unitPrice: 0
       number: 1
-      total: -320
+      total: -340
       note:
 
     - name: 食物pizza
