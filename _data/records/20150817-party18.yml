@@ -8,6 +8,20 @@ data:
       total: 19240
       note: 未扣除手續費
 
+    - name: 你知我知手續費
+      category: 手續費
+      unitPrice: 1155
+      number: 1
+      total: -1155
+      note: 支付於你知我知
+
+    - name: 稅
+      category: 稅
+      unitPrice: 916
+      number: 1
+      total: -916
+      note: 野薑工作室代繳
+
     - name: 現場購票
       category: 雜項
       unitPrice: 250
