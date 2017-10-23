@@ -1,5 +1,5 @@
 ---
-order: 5
+order: 9
 title: 龍套君
 name: Rplus Chen (R+)
 site: http://github.com/Rplus

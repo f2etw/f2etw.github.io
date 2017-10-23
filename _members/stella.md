@@ -1,6 +1,6 @@
 ---
-order: 11
-title: 活動幹部兼聯絡人
+order: 13
+title: 活動幹部
 name: Stella Chen
 site:
 avatar: https://images.plurk.com/2M7W4YjCMFRAyMo5YEdCcM.jpg
