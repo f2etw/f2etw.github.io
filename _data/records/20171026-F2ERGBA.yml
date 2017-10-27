@@ -1,0 +1,55 @@
+---
+title: F2E&RGBA 2017-10
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 230
+      number: 32
+      total: 7360
+      note:
+
+    - name: KKTIX
+      category: 代收手續費
+      unitPrice: 0
+      number: 1
+      total: -403
+      note:
+
+    - name: KKTIX
+      category: 入帳手續費
+      unitPrice: 0
+      number: 1
+      total: -30
+      note:
+
+    - name: 發票 5% 稅
+      category: 稅
+      unitPrice: 12
+      number: 1
+      total: -368
+      note:
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 1898
+      number: 1
+      total: -1898
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: 1500
+      number: 1
+      total: -1500
+      note:
+
+    - name: 講師費 Evan 捐出
+      category: 雜項
+      unitPrice: 1500
+      number: 1
+      total: 
+      note:
+
+total: 3161
+property: 8160
+balance: 11321
