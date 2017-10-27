@@ -4,8 +4,15 @@ data:
     - name: 撥款入帳金額
       category: 票務
       unitPrice: 230
-      number: 32
-      total: 7360
+      number: 31
+      total: 7130
+      note:
+        
+    - name: 現場收入
+      category: 票務
+      unitPrice: 230
+      number: 1
+      total: 230
       note:
 
     - name: KKTIX
