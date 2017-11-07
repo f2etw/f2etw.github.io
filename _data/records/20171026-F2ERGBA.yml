@@ -7,7 +7,7 @@ data:
       number: 31
       total: 7130
       note:
-        
+
     - name: 現場收入
       category: 票務
       unitPrice: 230
@@ -31,10 +31,10 @@ data:
 
     - name: 發票 5% 稅
       category: 稅
-      unitPrice: 12
+      unitPrice: 11
       number: 1
-      total: -368
-      note:
+      total: -348
+      note: (230*32-403)*5%
 
     - name: 食物pizza
       category: 雜項
@@ -57,6 +57,6 @@ data:
       total: 
       note:
 
-total: 3161
+total: 3177
 property: 8160
-balance: 11321
+balance: 11337
