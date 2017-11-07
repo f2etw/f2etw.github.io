@@ -12,15 +12,22 @@ data:
       category: 手續費
       unitPrice: 0
       number: 1
-      total: -402
+      total: -372
+      note:
+
+   - name: KKTIX
+      category: 入帳手續費
+      unitPrice: 0
+      number: 1
+      total: -30
       note:
 
     - name: 發票 5% 稅
       category: 稅
       unitPrice: 0
       number: 1
-      total: -290
-      note:
+      total: -291
+      note: (200*31 - 372)*5%
 
     - name: 食物pizza
       category: 雜項
