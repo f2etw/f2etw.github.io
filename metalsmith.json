@@ -3,7 +3,7 @@
     "metalsmith-markdown": {},
     "metalsmith-sass": {
       "outputStyle": "expanded",
-      "includePaths": ["src/_sass"]
+      "includePaths": ["_sass"]
     },
     "metalsmith-templates": {
       "engine": "swig",
