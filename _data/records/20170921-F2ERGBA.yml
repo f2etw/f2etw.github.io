@@ -15,7 +15,7 @@ data:
       total: -372
       note:
 
-   - name: KKTIX
+    - name: KKTIX
       category: 入帳手續費
       unitPrice: 0
       number: 1
