@@ -4,7 +4,7 @@
   "description": "the website of f2e Taiwan community",
   "main": "build.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "grunt build && gulp build",
     "postinstall": "cp .githooks/* .git/hooks/. && chmod +x .git/hooks/*"
   },
   "repository": {
