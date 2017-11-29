@@ -1,0 +1,72 @@
+---
+title: F2E&RGBA 2017-11
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 230
+      number: 38
+      total: 8740
+      note:
+
+    - name: 現場收入
+      category: 票務
+      unitPrice: 230
+      number: 2
+      total: 460
+      note:
+
+    - name: 現場未收入
+      category: 票務
+      unitPrice: 230
+      number: 1
+      total: 230
+      note: 先由Ginger代墊韋傑下次見面拿給 Ginger
+
+
+    - name: KKTIX
+      category: 代收手續費
+      unitPrice: 0
+      number: 1
+      total: -494
+      note:
+
+    - name: KKTIX
+      category: 入帳手續費
+      unitPrice: 0
+      number: 1
+      total: -15
+      note: IDE 手續費優惠
+
+    - name: 發票 5% 稅
+      category: 稅
+      unitPrice: 11
+      number: 38
+      total: -418
+      note: 230*38*5%
+
+    - name: KKTIX 抵稅
+      category: 稅
+      unitPrice: 494
+      number: 1
+      total: +25
+      note: kktix 發票可扣抵
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 2399
+      number: 1
+      total: -2399
+      note:
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: 1500
+      number: 2
+      total: -3000
+      note:
+
+
+
+total: 3129
+property: 11337
+balance: 14466
