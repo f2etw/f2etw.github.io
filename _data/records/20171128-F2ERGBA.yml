@@ -48,7 +48,7 @@ data:
       category: 稅
       unitPrice: 494
       number: 1
-      total: +25
+      total: +24
       note: kktix 發票可扣抵
 
     - name: 食物pizza
