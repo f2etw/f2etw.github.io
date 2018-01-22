@@ -1,0 +1,72 @@
+---
+title: F2E&RGBA 2018-01
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 230
+      number: 32
+      total: 7360
+      note:
+
+    - name: 現場收入
+      category: 票務
+      unitPrice: 230
+      number: 2
+      total: 460
+      note:
+
+
+    - name: KKTIX
+      category: 代收手續費
+      unitPrice: 0
+      number: 1
+      total: -416
+      note:
+
+    - name: KKTIX
+      category: 入帳手續費
+      unitPrice: 0
+      number: 1
+      total: -15
+      note: IDE 手續費優惠
+
+    - name: 發票 5% 稅
+      category: 稅
+      unitPrice: 11
+      number: 32
+      total: -352
+      note: 230*32*5%
+
+    - name: KKTIX 抵稅
+      category: 稅
+      unitPrice: 21
+      number: 1
+      total: +21
+      note: kktix 發票可扣抵 416*5%
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 1839
+      number: 1
+      total: -1839
+      note:
+
+    - name: 食物pizza 轉帳手續費
+      category: 雜項
+      unitPrice: 15
+      number: 1
+      total: -15
+      note: 現場 CJ 代墊，後由 F2E 帳戶轉帳
+
+    - name: 講師費（主講）
+      category: 雜項
+      unitPrice: 1500
+      number: 2
+      total: -3000
+      note:
+
+
+
+total: 2204
+property: 16917
+balance: 19121
