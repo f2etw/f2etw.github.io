@@ -33,9 +33,9 @@ data:
     - name: 發票 5% 稅
       category: 稅
       unitPrice: 11
-      number: 32
-      total: -352
-      note: 230*32*5%
+      number: 31
+      total: -341
+      note: 230*31*5%
 
     - name: KKTIX 抵稅
       category: 稅
@@ -70,9 +70,9 @@ data:
       unitPrice: 217
       number: 1
       total: -217
-      note: 230-13(KK手續費)
+      note: 230-13(KK手續費 13 元)
 
 
-total: 2204
+total: 1998
 property: 16917
-balance: 19121
+balance: 18915
