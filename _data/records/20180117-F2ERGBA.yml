@@ -65,6 +65,12 @@ data:
       total: -3000
       note:
 
+    - name: 退費
+      category: 票務
+      unitPrice: 217
+      number: 1
+      total: -217
+      note: 230-13(KK手續費)
 
 
 total: 2204
