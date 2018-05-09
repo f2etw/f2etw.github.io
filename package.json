@@ -5,7 +5,8 @@
   "main": "build.js",
   "scripts": {
     "start": "grunt build && gulp build",
-    "postinstall": "cp .githooks/* .git/hooks/. && chmod +x .git/hooks/*"
+	"postinstall": "cp .githooks/* .git/hooks/. && chmod +x .git/hooks/*",
+	"lint:yaml": "yamllint _data/**/*.yml"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,8 @@
     "metalsmith-markdown": "~0.2.1",
     "metalsmith-sass": "^1.4.0",
     "metalsmith-templates": "~0.6.0",
-    "swig": "~1.4.2"
+    "swig": "~1.4.2",
+    "yaml-lint": "^1.2.3"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

@@ -4,6 +4,7 @@ rvm:
 install: gem install github-pages
 before_script: npm install
 script:
+  - npm run lint:yaml
   - jekyll build
   - npm start
 #  - diff -r _site build

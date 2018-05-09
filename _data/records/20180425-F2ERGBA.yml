@@ -33,7 +33,7 @@ data:
       category: 稅
       unitPrice: 11
       number: 19
-      total: - 209
+      total: -209
       note: 230*19*5%
 
     - name: KKTIX 抵稅
