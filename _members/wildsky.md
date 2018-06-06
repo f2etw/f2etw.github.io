@@ -2,7 +2,7 @@
 order: 14
 title: 網站維護者
 name: Wildsky
-site: http://wildsky.cc
+site: http://wildskyf.github.io
 avatar: //graph.facebook.com/100000157150997/picture?width=100&height=100
 ---
 
@@ -15,4 +15,4 @@ avatar: //graph.facebook.com/100000157150997/picture?width=100&height=100
 ## 聯絡資訊
 
 + Email: poppin.wildsky at gmail.com
-+ Blog: [http://blog.wildsky.cc](http://blog.wildsky.cc)
++ Blog: [http://blog.wildskyf.net](http://blog.wildskyf.net)
