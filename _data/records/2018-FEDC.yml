@@ -1,11 +1,323 @@
 ---
-title: 由 F2E&RGBA 餘款支付 FEDC 費用
-data:
-    - name: Linkdein 費用
-      category: 雜支
-      unitPrice: 1890
+title: FEDC 清冊 (預計再和預算表查核一次)
+
+
+#---------贊助收入-----------  
+    - name: 撥款入帳金額
+      category: 贊助
+      unitPrice: 20000
       number: 1
-      total: 1890
+      total: 20000
+      note: 沛星互動科技股份有限公司
+
+    - name: 撥款入帳金額
+      category: 贊助
+      unitPrice: 50000
+      number: 1
+      total: 50000
+      note: 集界科技股份有限公司
+
+    - name: 撥款入帳金額
+      category: 贊助
+      unitPrice: 50000
+      number: 1
+      total: 50000
+      note: 波利馬資訊科技股份有限公司
+
+    - name: 撥款入帳金額
+      category: 贊助
+      unitPrice: 100000
+      number: 1
+      total: 100000
+      note: 狄卡科技股份有限公司
+
+    - name: 撥款入帳金額
+      category: 贊助
+      unitPrice: 100000
+      number: 1
+      total: 100000
+      note: 優像數位媒體科技股份有限公司
+
+    - name: 撥款入帳金額
+      category: 贊助
+      unitPrice: 120000
+      number: 1
+      total: 120000
+      note: 新加坡商鈦坦科技股份有限公司
+
+#---------票務收入-----------   
+     - name: 票務 主議程
+      category: 票務
+      unitPrice: 1080700
+      number: 1
+      total: 1080700
+      note: 主議程
+
+    - name: 票務 workshop
+      category: 票務
+      unitPrice: 54000
+      number: 1
+      total: 54000
+      note: Front-edn Workshop
+
+    - name: 票務 workshop
+      category: 票務
+      unitPrice: 83000
+      number: 1
+      total: 83000
+      note: Design Workshop
+
+    - name: 票務 workshop
+      category: 票務
+      unitPrice: 550
+      number: 1
+      total: 550
+      note: 工作人員 workshop
+
+#---------KKTIX OCF 服務-----------  
+    - name:  KKTIX 服務
+      category: 手續費 
+      unitPrice: -60855
+      number: 1
+      total: -60855
+      note: 5%
+
+    - name: OCF 服務
+      category: 手續費
+      unitPrice: -159175
+      number: 1
+      total: -60855
+      note: 10%
+
+#---------退票-----------  
+    - name: 退票
+      category:  
+      unitPrice: -66500
+      number: 1
+      total: -66500
+      note: 
+#---------場地費-----------    
+    - name: 場地費訂金
+      category:  場地費
+      unitPrice: -43350
+      number: 1
+      total: -43350
+      note: 1/23
+
+    - name: 場地費尾款
+      category:  場地費
+      unitPrice: -338556
+      number: 1
+      total: -338556
+      note: 7/20
+#---------人事-----------
+    - name: 國外講師費
+      category:  講師費
+      unitPrice: -277000
+      number: 1
+      total: -277000
+      note: 含機票、簽證
+
+    - name: 國內講師費
+      category:  講師費
+      unitPrice: -78000
+      number: 1
+      total: -78000
+      note: 
+
+     - name: 論壇主持費
+      category:  講師費
+      unitPrice: -12000
+      number: 1
+      total: -12000
+      note:
+
+    - name: 前端工作坊講師費
+      category:  講師費
+      unitPrice: -18000
+      number: 1
+      total: -18000
+      note: 7/10
+
+    - name: 論壇講者費
+      category:  講師費
+      unitPrice: -24000
+      number: 1
+      total: -24000
+      note: 7/10
+
+    - name: 口譯費
+      category: 口譯
+      unitPrice: -58000
+      number: 1
+      total:  -58000
+      note: 7/10
+#---------設計美宣-----------
+    - name: 會眾手環及徽章印製費
+      category: 設計美宣
+      unitPrice: -23468
+      number: 1
+      total:  -23468
+      note: 5/25
+
+    - name: 工人衣服印製費
+      category: 設計美宣
+      unitPrice: -20790
+      number: 1
+      total:  -20790
+      note: 5/29
+
+
+    - name: 提袋
+      category: 設計美宣
+      unitPrice: -13860
+      number: 1
+      total:  -13860
+      note: 
+    - name: 彩色印刷
+      category: 設計美宣
+      unitPrice: -2260
+      number: 1
+      total:  -2260
+      note: 
+    - name: 背板輸出
+      category: 設計美宣
+      unitPrice: -43210
+      number: 1
+      total:  -43210
+      note: 
+#---------電力/網路/設備------------
+
+    - name: 電力/網路
+      category: 場務
+      unitPrice: -105000
+      number: 1
+      total:  -105000
+      note: 廠商可立可
+
+    - name: 無線電租借費
+      category: 場務
+      unitPrice: -6300
+      number: 1
+      total:   -6300
+      note: 
+#---------食物------------
+    - name: 工人早餐
+      category: 食物
+      unitPrice: -7790
+      number: 1
+      total:  -7790
+      note: 7/10
+
+    - name: 工人午餐
+      category: 食物
+      unitPrice: -2026
+      number: 1
+      total:  --2026
+      note: 7/11 工作坊
+
+
+
+    - name: 工作坊點心
+      category: 食物
+      unitPrice: -4399
+      number: 1
+      total:  -4399
+      note: 7/10
+
+    - name: 講者晚宴
+      category: 食物
+      unitPrice: -16280
+      number: 1
+      total:  -16280
+      note: 7/10
+
+    - name: 慶功宴
+      category: 食物
+      unitPrice: -55000
+      number: 1
+      total:  -55000
+      note: 7/10
+
+    - name: 講者伴手禮
+      category: 食物
+      unitPrice: -4800
+      number: 1
+      total:  -4800
+      note: 7/10
+
+    - name: 生日蛋糕
+      category: 食物
+      unitPrice: -1195
+      number: 1
+      total:  -1195
+      note: 7/10
+#---------交通------------
+    - name: 交通
+      category: 交通
+      unitPrice: -400
+      number: 1
+      total:  -400
+      note: 7/10
+
+    - name: 慶功宴交通車
+      category: 交通
+      unitPrice: -4015
+      number: 1
+      total:  -4015
+      note: 7/10
+
+    - name: 接機費用
+      category: 交通
+      unitPrice: -5500
+      number: 1
+      total:  -5500
+      note: 7/10
+
+#---------住宿------------
+
+    - name: 講者住宿
+      category: 住宿
+      unitPrice: -37169
+      number: 1
+      total:  -37169
+      note: 7/10
+
+    - name: 工人住宿
+      category: 住宿
+      unitPrice: -1120
+      number: 1
+      total:  -1120
+      note: 7/10
+
+
+#---------行政雜項------------
+    - name: 會眾保險
+      category: 行政雜支
+      unitPrice: -3500
+      number: 1
+      total:  -3500
+      note: 7/10
+
+    - name: 換匯手續費
+      category: 行政雜支
+      unitPrice: -813
+      number: 1
+      total:  -813
+      note: 7/10
+
+    - name: 文具
+      category: 行政雜支
+      unitPrice: -4733
+      number: 1
+      total:  -4733
+      note: 工作坊 / 現場文具支出
+
+    - name: Linkdein 費用
+      category: 行政雜支
+      unitPrice: -1890
+      number: 1
+      total: -1890
       note: 由萬砡君代墊 (已還款)
 
     
@@ -13,6 +325,6 @@ data:
 
 
 
-total: 1890
+total: 0
 property: 0
-balance: 1890
+balance: 預計再和預算表查核一次
