@@ -1,8 +1,8 @@
 ---
 title: FEDC 清冊 (預計再和預算表查核一次)
 
-
-#---------贊助收入-----------  
+data:
+#---------贊助收入-----------
     - name: 撥款入帳金額
       category: 贊助
       unitPrice: 20000
@@ -45,8 +45,8 @@ title: FEDC 清冊 (預計再和預算表查核一次)
       total: 120000
       note: 新加坡商鈦坦科技股份有限公司
 
-#---------票務收入-----------   
-     - name: 票務 主議程
+#---------票務收入-----------
+    - name: 票務 主議程
       category: 票務
       unitPrice: 1080700
       number: 1
@@ -74,9 +74,9 @@ title: FEDC 清冊 (預計再和預算表查核一次)
       total: 550
       note: 工作人員 workshop
 
-#---------KKTIX OCF 服務-----------  
-    - name:  KKTIX 服務
-      category: 手續費 
+#---------KKTIX OCF 服務-----------
+    - name: KKTIX 服務
+      category: 手續費
       unitPrice: -60855
       number: 1
       total: -60855
@@ -89,14 +89,14 @@ title: FEDC 清冊 (預計再和預算表查核一次)
       total: -60855
       note: 10%
 
-#---------退票-----------  
+#---------退票-----------
     - name: 退票
-      category:  
+      category:
       unitPrice: -66500
       number: 1
       total: -66500
-      note: 
-#---------場地費-----------    
+      note:
+#---------場地費-----------
     - name: 場地費訂金
       category:  場地費
       unitPrice: -43350
@@ -123,9 +123,9 @@ title: FEDC 清冊 (預計再和預算表查核一次)
       unitPrice: -78000
       number: 1
       total: -78000
-      note: 
+      note:
 
-     - name: 論壇主持費
+    - name: 論壇主持費
       category:  講師費
       unitPrice: -12000
       number: 1
@@ -173,19 +173,19 @@ title: FEDC 清冊 (預計再和預算表查核一次)
       unitPrice: -13860
       number: 1
       total:  -13860
-      note: 
+      note:
     - name: 彩色印刷
       category: 設計美宣
       unitPrice: -2260
       number: 1
       total:  -2260
-      note: 
+      note:
     - name: 背板輸出
       category: 設計美宣
       unitPrice: -43210
       number: 1
       total:  -43210
-      note: 
+      note:
 #---------電力/網路/設備------------
 
     - name: 電力/網路
@@ -200,7 +200,7 @@ title: FEDC 清冊 (預計再和預算表查核一次)
       unitPrice: -6300
       number: 1
       total:   -6300
-      note: 
+      note:
 #---------食物------------
     - name: 工人早餐
       category: 食物
@@ -320,7 +320,7 @@ title: FEDC 清冊 (預計再和預算表查核一次)
       total: -1890
       note: 由萬砡君代墊 (已還款)
 
-    
+
 
 
 
