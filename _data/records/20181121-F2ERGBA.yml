@@ -1,0 +1,37 @@
+---
+title: F2E&RGBA 2018-11
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 230
+      number: 39
+      total: 8970
+      note:
+
+    - name: 場地費
+      category: 場地費
+      unitPrice: 50
+      number: 39
+      total: -1950
+      note:
+
+    - name: 講師費
+      category: 講師費
+      unitPrice: 1500
+      number: 2
+      total: -3000
+      note:
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 3050
+      number: 1
+      total: -3050
+      note:
+
+
+
+
+total: 970
+property: 
+balance:
