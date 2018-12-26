@@ -8,6 +8,13 @@ data:
       total: 10120
       note:
 
+    - name: 現場收入
+      category: 票務
+      unitPrice: 230
+      number: 1
+      total: 230
+      note:
+
     - name: 退票
       category: 票務
       unitPrice: 215
@@ -50,7 +57,7 @@ data:
       category: 場地費
       unitPrice: 100 
       number: 38
-      total: -3800
+      total: -3900
       note: 
 
     - name: 講師費
@@ -70,6 +77,6 @@ data:
 
 
 
-total: -1588
+total: -1458
 property: 
 balance:
