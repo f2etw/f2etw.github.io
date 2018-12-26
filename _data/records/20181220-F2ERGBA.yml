@@ -73,10 +73,15 @@ data:
       number: 1
       total: -3050
       note:
+    - name: 轉帳手續費
+      category: 手續費
+      unitPrice: 15
+      number: 1
+      total: -15
+      note: 轉帳給馬志瑋
 
 
 
-
-total: -1458
+total: -1473
 property: 
 balance:
