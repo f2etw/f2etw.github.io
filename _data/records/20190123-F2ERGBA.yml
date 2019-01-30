@@ -1,0 +1,107 @@
+---
+title: F2E&RGBA 2019-01
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 230
+      number: 46
+      total: 10580
+      note: 因為設定錯誤，有 9 位是現場收費
+
+    - name: 現場收入
+      category: 票務
+      unitPrice: 230 
+      number: 10
+      total: 2400
+      note: 可能少找 100 元給會眾/有 9 位是現場收費 / 1 位是現場報名&收費
+
+    - name: 退票
+      category: 票務
+      unitPrice: 215
+      number: 6
+      total: -1290
+      note:
+
+
+    - name: KKTIX
+      category: KK 代收手續費
+      unitPrice: -598
+      number: 
+      total: -572
+      note:
+
+    - name: KKTIX
+      category: 轉帳手續費
+      unitPrice: -15
+      number: 
+      total: -15
+      note: IDE 手續費優惠
+
+    - name: KKTIX 抵稅
+      category: 税
+      unitPrice: 30
+      number: 
+      total: 30
+      note: 598*5%
+
+
+    - name: 發票 5% 税 
+      category: 税
+      unitPrice: 11
+      number: 55
+      total:  -605
+      note: 213*5%*55
+
+
+    - name: 場地費
+      category: 場地費冷氣前
+      unitPrice: 750
+      number: 1
+      total: -750
+      note: 
+
+    - name: 講師費
+      category: 講師費
+      unitPrice: 1500
+      number: 2
+      total: -3000
+      note:
+
+
+    - name: 轉帳手續費
+      category: 講師費
+      unitPrice: 15
+      number: 2
+      total: -30
+      note:
+
+
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 4650
+      number: 1
+      total: -4650
+      note:
+
+    - name: 轉帳手續費
+      category: 手續費
+      unitPrice: 15
+      number: 1
+      total: -15
+      note: 轉帳給馬志瑋 pizza 錢
+
+
+     - name: 垃圾袋清潔用品杯子
+      category: 雜項
+      unitPrice: 130
+      number: 1
+      total: -130
+      note: Lura 現場已領取
+
+
+
+
+total: 1953
+property: 
+balance:
