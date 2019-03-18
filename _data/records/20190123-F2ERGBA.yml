@@ -92,7 +92,7 @@ data:
       note: 轉帳給馬志瑋 pizza 錢
 
 
-     - name: 垃圾袋清潔用品杯子
+    - name: 垃圾袋清潔用品杯子
       category: 雜項
       unitPrice: 130
       number: 1
