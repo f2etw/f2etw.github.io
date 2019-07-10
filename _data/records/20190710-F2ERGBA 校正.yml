@@ -1,0 +1,20 @@
+---
+title: F2E&RGBA 2019-07-10
+data:
+    - name: 校正
+      category: 四捨五入的誤差
+      unitPrice: -42
+      number: -1
+      total: -42
+      note: 對齊實際銀行數字
+
+    
+
+
+
+
+
+
+total: -42
+property: 150490
+balance: 150448
