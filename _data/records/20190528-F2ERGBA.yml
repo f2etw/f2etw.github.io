@@ -1,0 +1,88 @@
+---
+title: F2E&RGBA 2019-05-28
+data:
+    - name: 撥款入帳金額
+      category: 票務
+      unitPrice: 230
+      number: 32
+      total: 7360
+      note: 
+
+    - name: 退票
+      category: 票務
+      unitPrice: -202
+      number: 3
+      total: -606
+      note: 三人退票
+
+
+    - name: KKTIX
+      category: KK 代收手續費
+      unitPrice: -416
+      number: 
+      total: -416
+      note:
+
+    - name: KKTIX
+      category: 轉帳手續費
+      unitPrice: -15
+      number: 
+      total: -15
+      note: IDE 手續費優惠
+
+    - name: KKTIX 抵稅
+      category: 税
+      unitPrice: 21
+      number: 
+      total: 21
+      note: 416*5%
+
+
+    - name: 發票 5% 税 
+      category: 税
+      unitPrice: 12
+      number: 29
+      total:  -348
+      note: 230*5%*29
+
+
+
+    - name: 講師費
+      category: 講師費
+      unitPrice: 1500
+      number: 2
+      total: -3000
+      note:
+
+
+    - name: 轉帳手續費
+      category: 講師費
+      unitPrice: 15
+      number: 2
+      total: -15
+      note: -30
+
+
+
+    - name: 食物pizza
+      category: 雜項
+      unitPrice: 3400
+      number: 1
+      total: -3400
+      note:
+
+    - name: 轉帳手續費
+      category: 手續費
+      unitPrice: 15
+      number: 1
+      total: -15
+      note: 轉帳給馬志瑋
+
+
+
+
+
+
+total: -449
+property: 
+balance:
