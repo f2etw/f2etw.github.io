@@ -320,11 +320,17 @@ data:
       total: -1890
       note: 由萬砡君代墊 (已還款)
 
+  - name: 現場支出
+      category: 行政雜支
+      unitPrice: -25000
+      number: 1
+      total: -25000
+      note: 對帳後調整
 
 
 
 
 
-total: 153024
+total: 128024
 property: 16917
-balance: 159941
+balance: 144941
