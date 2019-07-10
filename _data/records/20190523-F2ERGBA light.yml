@@ -40,10 +40,10 @@ data:
 
     - name: 發票 5% 税 
       category: 税
-      unitPrice: 8
+      unitPrice: 7
       number: 25
-      total:  -200
-      note: 150*5%*25
+      total:  -175
+      note: 141*5%*25
 
 
 
@@ -83,6 +83,6 @@ data:
 
 
 
-total: -95
+total: -70
 property: 
-balance:
+balance: 
