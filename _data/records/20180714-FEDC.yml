@@ -320,7 +320,7 @@ data:
       total: -1890
       note: 由萬砡君代墊 (已還款)
 
-  - name: 現場支出
+    - name: 現場支出
       category: 行政雜支
       unitPrice: -25000
       number: 1
