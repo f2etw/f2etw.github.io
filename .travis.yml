@@ -1,6 +1,4 @@
 language: ruby
-rvm:
-  - 2.2
 install: gem install github-pages -v 175
 before_script: npm install
 script:
