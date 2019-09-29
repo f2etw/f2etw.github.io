@@ -5,8 +5,9 @@
   "main": "build.js",
   "scripts": {
     "start": "grunt build && gulp build",
-	"postinstall": "cp .githooks/* .git/hooks/. && chmod +x .git/hooks/*",
-	"lint:yaml": "yamllint _data/**/*.yml"
+    "postinstall": "cp .githooks/* .git/hooks/. && chmod +x .git/hooks/*",
+    "record:gsheet": "node tools/record_generator/gsheet2record.js",
+    "lint:yaml": "yamllint _data/**/*.yml"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
     "url": "https://github.com/f2etw/f2etw.github.io/issues"
   },
   "dependencies": {
+    "googleapis": "^39.2.0",
+    "js-yaml": "^3.13.1",
     "metalsmith": "~1.0.1",
     "metalsmith-collections": "^0.6.0",
     "metalsmith-markdown": "~0.2.1",
