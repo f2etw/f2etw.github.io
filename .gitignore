@@ -4,3 +4,8 @@ build
 _site
 .sass-cache
 export
+
+# (tools) record_generator
+_record.yml
+google-credentials.json
+google-sheet-token.json
