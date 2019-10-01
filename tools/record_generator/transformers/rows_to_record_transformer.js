@@ -20,13 +20,13 @@ class RowsToRecordTransformer {
 					record.title = row.name;
 					break;
 				case 'P':
-					record.property = row.balance;
+					record.property = this.toIntOrEmpty(row.balance);
 					break;
 				case 'T':
-					record.total = row.total;
+					record.total = this.toIntOrEmpty(row.total);
 					break;
 				case 'B':
-					record.balance = row.balance;
+					record.balance = this.toIntOrEmpty(row.balance);
 					break;
 				case 'D':
 					if (row.name) {
@@ -45,11 +45,19 @@ class RowsToRecordTransformer {
 		return {
 			name: row.name,
 			category: row.category,
-			unitPrice: row.unitPrice,
-			number: row.number,
+			unitPrice: this.toIntOrEmpty(row.unitPrice),
+			number: this.toIntOrEmpty(row.number),
 			note: row.note,
-			total: row.total,
+			total: this.toIntOrEmpty(row.total),
 		};
+	}
+
+	toIntOrEmpty(str) {
+		const s = str.trim().replace(',','');
+		if (!s) {
+			return '';
+		}
+		return parseInt(s);
 	}
 }
 
