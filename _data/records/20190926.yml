@@ -1,0 +1,76 @@
+---
+title: F2E&RGBA 2019-09-30
+data:
+    -
+        name: 撥款入帳金額
+        category: 票務
+        unitPrice: 230
+        number: 36
+        note: ''
+        total: 8280
+    -
+        name: KKTIX
+        category: KK 代收手續費
+        unitPrice: -468
+        number: 1
+        note: ''
+        total: -468
+    -
+        name: KKTIX
+        category: 入帳手續費
+        unitPrice: -15
+        number: 1
+        note: IDE 手續費優惠
+        total: -15
+    -
+        name: KKTIX
+        category: 税
+        unitPrice: 23
+        number: 1
+        note: 468*5%
+        total: 23
+    -
+        name: 發票 5% 税
+        category: 税
+        unitPrice: -11
+        number: 36
+        note: 213*5%*36
+        total: -396
+    -
+        name: 講師費
+        category: 講師費
+        unitPrice: -1500
+        number: 2
+        note: ''
+        total: -3000
+    -
+        name: 轉帳手續費
+        category: 講師費
+        unitPrice: -15
+        number: 1
+        note: ''
+        total: -15
+    -
+        name: 食物 Pizza
+        category: 食物
+        unitPrice: -3400
+        number: 1
+        note: ''
+        total: -3400
+    -
+        name: 轉帳手續費
+        category: 食物 Pizza
+        unitPrice: -15
+        number: 1
+        note: ''
+        total: -15
+    -
+        name: 退費
+        category: 退費
+        unitPrice: -202
+        number: 2
+        note: ''
+        total: -404
+total: 590
+property: 152246
+balance: 152836
