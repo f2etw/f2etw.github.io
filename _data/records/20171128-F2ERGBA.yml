@@ -15,12 +15,12 @@ data:
       total: 460
       note:
 
-    - name: 現場未收入
+    - name: 現場收入
       category: 票務
       unitPrice: 230
       number: 1
       total: 230
-      note: 先由Ginger代墊韋傑下次見面拿給 Ginger
+      note: 
 
 
     - name: KKTIX
