@@ -1,0 +1,69 @@
+---
+title: F2E&JS.TW 2019-11-01
+data:
+    -
+        name: 撥款入帳金額
+        category: 票務
+        unitPrice: 200
+        number: 65
+        note: ''
+        total: 13000
+    -
+        name: KKTIX
+        category: KK 代收手續費
+        unitPrice: -792
+        number: 1
+        note: ''
+        total: -792
+    -
+        name: KKTIX
+        category: 入帳手續費
+        unitPrice: -30
+        number: 1
+        note: ''
+        total: -30
+    -
+        name: KKTIX
+        category: 税
+        unitPrice: 40
+        number: 1
+        note: 792*5%
+        total: 40
+    -
+        name: 發票 5% 税
+        category: 税
+        unitPrice: -10
+        number: 65
+        note: 190*5%*65
+        total: -650
+    -
+        name: 講師費
+        category: 講師費
+        unitPrice: ''
+        number: 2
+        note: ''
+        total: 0
+    -
+        name: 轉帳手續費
+        category: 講師費
+        unitPrice: 0
+        number: 1
+        note: ''
+        total: 0
+    -
+        name: 食物 Pizza
+        category: 食物
+        unitPrice: -3400
+        number: 1
+        note: ''
+        total: -3400
+    -
+        name: 轉帳手續費
+        category: 食物 Pizza
+        unitPrice: -15
+        number: 1
+        note: ''
+        total: -15
+total: 8153
+property: 153584
+balance: 161737
