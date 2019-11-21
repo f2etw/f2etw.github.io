@@ -2,7 +2,7 @@
 title: F2E&RGBA 2019-07-10
 data:
     - name: 校正
-      category: 四捨五入的誤差
+      category: 對齊實際銀行數字
       unitPrice: +200
       number: 1
       total: +200
