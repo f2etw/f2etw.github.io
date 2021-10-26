@@ -1,0 +1,48 @@
+---
+title: F2E&JS.TW 2021-09-26
+data:
+    -
+        name: 撥款入帳金額
+        category: 票務
+        unitPrice: 100
+        number: 50
+        note: ''
+        total: 5000
+    -
+        name: KKTIX
+        category: KK 代收手續費
+        unitPrice: -300
+        number: 1
+        note: ''
+        total: -300
+    -
+        name: KKTIX
+        category: 入帳手續費
+        unitPrice: -30
+        number: 1
+        note: ''
+        total: -30
+    -
+        name: 講師費
+        category: 講師費
+        unitPrice: -1500
+        number: 1
+        note: ''
+        total: -1500
+    -
+        name: Discord server 費用
+        category: 場地費
+        unitPrice: -1024
+        number: 1
+        note: ''
+        total: -1024
+    -
+        name: Discord 付款手續費
+        category: 手續費
+        unitPrice: -15
+        number: 1
+        note: ''
+        total: -15
+total: 2131
+property: 143535
+balance: 145666
